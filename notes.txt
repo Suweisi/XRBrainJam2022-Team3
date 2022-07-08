@@ -1,0 +1,22 @@
+high level code plan: 
+
+- drag and drop system 
+    - outline shader to make it visible that you can drag 
+    - tap to change into drag state (itll follow the camera)
+    - scale the object in some way so you can see everything
+
+- plane tracking research stuff
+    - look into how to seperate the floor from wall planes in the easiest way  
+        - a. make one plane bigger -> force experience to be in the boxed in space (through use of wall colliders acting as a bound)
+        - b. take in all the floor planes one by one and add them to a list (repeat with wall planes)
+    - surface
+
+- event manager (that guides users through the phases of the game)
+    - potential idea: 
+        - event manager with a list of game objects that are imperative to the event 
+        - each game object in the list has eventFinished variable attached to it, if the game object meets its end condition it sets eventFinished = true and the next event is started until all events are exhausted
+
+
+notes: 
+- draggable models are under a parent -> parent is target 
+    - can manipulate the parent target object 
