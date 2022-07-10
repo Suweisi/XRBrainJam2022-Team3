@@ -8,7 +8,9 @@ public class Destination : MonoBehaviour
 
     //take this thing's pos and make a radius around it 
     [SerializeField]
-    GameObject destinationObj; 
+    GameObject[] destinationObjs; 
+    [SerializeField]
+    GameObject destinationManager; 
     
     //how far stuff is away for it to be considered done
 
@@ -22,9 +24,12 @@ public class Destination : MonoBehaviour
     TMP_Text debugText; 
 
     void Update() {
-        if (Vector3.Distance(gameObject.transform.position, destinationObj.transform.position) < .1) {
-            debugText.text = gameObject.name + " disappear homie"; 
-            gameObject.SetActive(false); 
+
+        foreach(var destinationObj in destinationObjs) {
+            if (Vector3.Distance(gameObject.transform.position, destinationObj.transform.position) < .1) {
+                debugText.text = gameObject.name + " disappear homie"; 
+                gameObject.SetActive(false); 
+            }
         }
     }
 }
