@@ -16,7 +16,13 @@ public class DragDropBehavior : MonoBehaviour
 
     void Awake() {
         arrayOfDraggableObjects = GameObject.FindGameObjectsWithTag("dragObject"); 
-        Debug.Log(arrayOfDraggableObjects[0].name); 
+        foreach(var go in arrayOfDraggableObjects) {
+            if (go.transform.GetChild(0) == null) {
+                Debug.Log("error with: " + go.name); 
+            } else {
+                Debug.Log(go.name +  "is good"); 
+            }
+        } 
     }
 
 
@@ -27,12 +33,12 @@ public class DragDropBehavior : MonoBehaviour
             var pref = go.transform.GetChild(0);
             var dragPrimProperties = pref.GetComponent<DragPrimProperties>(); 
             if (Vector3.Distance(arCamera.transform.position, pref.transform.position) < dragStateDistance) {
-                //dragPrimProperties.draggableStateActivated = true; 
+                dragPrimProperties.draggableStateActivated = true; 
                 if (dragPrimProperties.rend.sharedMaterial != draggable) {
                     dragPrimProperties.rend.sharedMaterial = draggable;
                 } 
             } else {
-                //dragPrimProperties.draggableStateActivated = false; 
+                dragPrimProperties.draggableStateActivated = false; 
                 if (dragPrimProperties.rend.sharedMaterial != normal) {
                     dragPrimProperties.rend.sharedMaterial = normal;
                 }

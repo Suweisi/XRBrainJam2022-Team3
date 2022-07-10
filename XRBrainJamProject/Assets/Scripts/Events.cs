@@ -8,16 +8,26 @@ public class Events : MonoBehaviour
 
     [System.NonSerialized]
     public int eventCounter = 0; 
+    int sizeOfList; 
+
+    void Awake() {
+        gameObjectEventList[eventCounter].SetActive(true); 
+        sizeOfList = gameObjectEventList.Count; 
+    }
 
     void Update() {
-        Debug.Log(eventCounter); 
-        var currentEvent = gameObjectEventList[eventCounter]; 
-        Debug.Log(currentEvent); 
+        //Debug.Log(eventCounter); 
+        var currentEvent = gameObjectEventList[eventCounter];  
         var currentEventTransitioner = currentEvent.GetComponent<EventTransitioner>(); 
-        Debug.Log(currentEventTransitioner); 
+        if (eventCounter + 1 == sizeOfList) {
+            return; 
+        }
         if (currentEventTransitioner.endConditionReached) {
-            gameObjectEventList[eventCounter++].SetActive(true); 
-            eventCounter++; 
+            if (gameObjectEventList[eventCounter + 1] != null) {
+                var nextEventIndex = eventCounter + 1; 
+                gameObjectEventList[nextEventIndex].SetActive(true); 
+                eventCounter+=1; 
+            }
         }
     }
     
