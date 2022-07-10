@@ -7,13 +7,14 @@ public class StartVariables : MonoBehaviour
     Camera arCam; 
 
     public Vector3 startPosition;
-    public bool endCondition;  
+    public bool endCondition; 
+    EventTransitioner eventTransitioner;  
     void Awake() {
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>(); 
+        eventTransitioner = GetComponent<EventTransitioner>(); 
     }
 
     void Start() {
-        startPosition = arCam.transform.position;
-        endCondition = true; 
+        eventTransitioner.endConditionReached = true; 
     }
 }
