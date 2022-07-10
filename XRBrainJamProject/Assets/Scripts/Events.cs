@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Events : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public List<GameObject> gameObjectEventList = new List<GameObject>(); 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    [System.NonSerialized]
+    public int eventCounter = 0; 
+
+    void Update() {
+        Debug.Log(eventCounter); 
+        var currentEvent = gameObjectEventList[eventCounter]; 
+        Debug.Log(currentEvent); 
+        var currentEventTransitioner = currentEvent.GetComponent<EventTransitioner>(); 
+        Debug.Log(currentEventTransitioner); 
+        if (currentEventTransitioner.endConditionReached) {
+            gameObjectEventList[eventCounter++].SetActive(true); 
+            eventCounter++; 
+        }
     }
+    
 }
