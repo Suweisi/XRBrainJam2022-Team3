@@ -1,14 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro; 
 
 public class DragPrimProperties : MonoBehaviour
 {   
     Camera arCamera; 
     [System.NonSerialized]
-    public bool draggableStateActivated;
+    bool draggableStateActivated = false;
     [System.NonSerialized]
-    public Renderer rend;
+    Renderer rend;
+    [SerializeField]
+    Material normalMat;
+    [SerializeField] 
+    Material movingMat; 
 
     bool lastFrameBool; 
     [SerializeField]
@@ -18,6 +23,8 @@ public class DragPrimProperties : MonoBehaviour
     [SerializeField]
     float distFromCamera; 
     bool moveState; 
+    [SerializeField]
+    TMP_Text debugText; 
     
 
     void Awake() {
@@ -31,30 +38,58 @@ public class DragPrimProperties : MonoBehaviour
         if (lastFrameBool!=draggableStateActivated) {
             if (draggableStateActivated) {
                 gameObject.transform.localScale = moveScale; 
+                rend.sharedMaterial = movingMat;
             } else {
                 gameObject.transform.localScale = normalScale; 
+                rend.sharedMaterial = normalMat; 
             }
         }
 
+        if (Vector3.Distance(arCamera.transform.position, gameObject.transform.position) < 1.5) {
+            draggableStateActivated = true; 
+             
+        } else {
+            draggableStateActivated = false; 
+        }
 
-        if (draggableStateActivated && Input.touchCount > 0) {
-            RaycastHit hit; 
-            Ray ray = arCamera.ScreenPointToRay(Input.GetTouch(0).position);
-            if (!moveState && Input.GetTouch(0).phase == TouchPhase.Began) {
-                if (Physics.Raycast(ray, out hit)) {
-                    if (hit.collider.gameObject == gameObject) {
-                        Debug.Log(hit.collider.gameObject.name); 
-                        moveState = true; 
+        if (Input.touchCount > 0) {
+            if (draggableStateActivated) {
+                RaycastHit hit; 
+                Ray ray = arCamera.ScreenPointToRay(Input.GetTouch(0).position);
+                if (!moveState && Input.GetTouch(0).phase == TouchPhase.Began) {
+                    if (Physics.Raycast(ray, out hit)) {
+                        if (hit.collider.gameObject == gameObject) {
+                            debugText.text += (" just hit: " + hit.collider.gameObject.name); 
+                            moveState = true; 
+                        }
                     }
                 }
-                moveState = true; 
             } else if (moveState && Input.GetTouch(0).phase == TouchPhase.Began) {
                 moveState = false; 
             }
+
         }
+
+        // if (draggableStateActivated && Input.touchCount > 0) {
+        //     RaycastHit hit; 
+        //     Ray ray = arCamera.ScreenPointToRay(Input.GetTouch(0).position);
+        //     if (!moveState && Input.GetTouch(0).phase == TouchPhase.Began) {
+        //         if (Physics.Raycast(ray, out hit)) {
+        //             if (hit.collider.gameObject == gameObject) {
+        //                 Debug.Log(hit.collider.gameObject.name); 
+        //                 moveState = true; 
+        //             }
+        //         }
+        //         moveState = true; 
+        //     } else if (moveState && Input.GetTouch(0).phase == TouchPhase.Began) {
+        //         moveState = false; 
+        //     }
+        //}
 
         if (moveState) {
             MoveObjectWithCam(); 
+        } else { 
+
         }
        
        

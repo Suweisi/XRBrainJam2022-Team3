@@ -9,7 +9,7 @@ public class SetInitializer : MonoBehaviour
     GameObject planeManager; 
     float yGroundVal; 
     void Awake() {
-        yGroundVal = planeManager.GetComponent<PlaneContainer>().yGroundValue; 
+        yGroundVal = planeManager.GetComponent<PlaneContainer>().yGroundValue;  
         gameObject.transform.position = new Vector3(0f, yGroundVal, 0f); 
     }
 }

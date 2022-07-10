@@ -64,17 +64,25 @@ public class PlaneContainer : MonoBehaviour
         planeCounter = 0; 
         prim1.GetComponent<Rigidbody>().detectCollisions = true;  
         eventTransitioner = GetComponent<EventTransitioner>(); 
+        setInit = false; 
     }
 
     void Start() {
         Debug.Log(floorPlaneObject); 
     }
 
+    bool setInit; 
+    bool dragInit; 
     void Update() { 
+
+        // if (setInit & !dragInit) {
+        //     dragManager.SetActive(true); 
+        //     dragInit = true; 
+        // }
         
         //get ground plane - extend the box collider to be big af
         if (planeCounter == 0 && Input.touchCount > 0) {
-            debugText.text = "select ground plane..."; 
+            //debugText.text = "select ground plane..."; 
             RaycastHit hit;     
             Ray ray = arCam.ScreenPointToRay(Input.GetTouch(0).position); 
             if (m_RaycastManager.Raycast(Input.GetTouch(0).position, m_Hits))  {
@@ -90,15 +98,15 @@ public class PlaneContainer : MonoBehaviour
             }
         } 
         if (planeCounter == 1) {
-                debugText.text = "step 2"; 
+                //debugText.text = "step 2"; 
                 floorPlaneObject.transform.position = new Vector3(0f, yGroundValue, 0f); 
                 floorPlaneObject.gameObject.SetActive(true);
                 SetObjectsActive(); 
-                TurnOffPlanes(); 
-                planeCounter++; 
+                TurnOffPlanes();
                 eventTransitioner.endConditionReached = true; 
-                dragManager.SetActive(true); 
-                set.SetActive(true); 
+                set.SetActive(true);
+                setInit = true;  
+                planeCounter++; 
             }
         //debugText.text = "floor y val: " + floorPlaneObject.transform.position.y.ToString();  
     }

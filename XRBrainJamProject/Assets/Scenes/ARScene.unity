@@ -292,6 +292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  normalMat: {fileID: 0}
+  movingMat: {fileID: 0}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.8, y: 0.8, z: 0.8}
   distFromCamera: 2
@@ -1241,7 +1243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3716725fb60b0d46b600a5fef394602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planeManager: {fileID: 0}
+  planeManager: {fileID: 1173318909}
 --- !u!1 &1088452751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,7 +1624,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1368874961
 Transform:
   m_ObjectHideFlags: 0
@@ -1824,7 +1826,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 345192957047023302, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 462999800849012885, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 626509171221938582, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1949,6 +1961,11 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3553954160487501914, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4491341560294157920, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: m_UseGravity
@@ -2029,6 +2046,16 @@ PrefabInstance:
       propertyPath: distFromCamera
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4836902416852242204, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836902416931190646, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: m_Name
@@ -2094,6 +2121,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4836902417315491323, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836902417315657308, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: movingMat
+      value: 
+      objectReference: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
+    - target: {fileID: 4836902417315657308, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: normalMat
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
     - target: {fileID: 4836902417315657308, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: moveScale.x
@@ -2128,16 +2170,71 @@ PrefabInstance:
         type: 3}
       propertyPath: distFromCamera
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836902417468861583, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4836902417719890365, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4836902417719890365, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836902418276074760, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4836902418330558583, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836902418544473037, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836902418960908576, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5531757128734958080, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686988742993165370, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5755961851400415770, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7072301567946043062, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7425505973104330005, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126514808672407740, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8998826432345772472, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
@@ -2174,7 +2271,8 @@ PrefabInstance:
       propertyPath: distFromCamera
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4836902418544473039, guid: dea88764918e0ce4398f740e65c19652, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dea88764918e0ce4398f740e65c19652, type: 3}
 --- !u!1 &1659859597
 GameObject:
@@ -2432,6 +2530,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  normalMat: {fileID: 0}
+  movingMat: {fileID: 0}
   normalScale: {x: 0, y: 0, z: 0}
   moveScale: {x: 0, y: 0, z: 0}
   distFromCamera: 0
