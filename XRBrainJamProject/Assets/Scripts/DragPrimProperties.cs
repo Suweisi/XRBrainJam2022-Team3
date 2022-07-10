@@ -70,28 +70,9 @@ public class DragPrimProperties : MonoBehaviour
 
         }
 
-        // if (draggableStateActivated && Input.touchCount > 0) {
-        //     RaycastHit hit; 
-        //     Ray ray = arCamera.ScreenPointToRay(Input.GetTouch(0).position);
-        //     if (!moveState && Input.GetTouch(0).phase == TouchPhase.Began) {
-        //         if (Physics.Raycast(ray, out hit)) {
-        //             if (hit.collider.gameObject == gameObject) {
-        //                 Debug.Log(hit.collider.gameObject.name); 
-        //                 moveState = true; 
-        //             }
-        //         }
-        //         moveState = true; 
-        //     } else if (moveState && Input.GetTouch(0).phase == TouchPhase.Began) {
-        //         moveState = false; 
-        //     }
-        //}
-
         if (moveState) {
             MoveObjectWithCam(); 
-        } else { 
-
         }
-       
        
        lastFrameBool = draggableStateActivated; 
     }
