@@ -166,211 +166,235 @@ extern void StartVariables_Awake_m7D35680666EFE6D5FF81D4D64D80DA8431329A46 (void
 extern void StartVariables_Start_m5FF575F1615286AC400B0610747B8D8816CBED4A (void);
 // 0x0000004D System.Void StartVariables::.ctor()
 extern void StartVariables__ctor_m63274EAFB42728A31736224635446135BC0DD6E3 (void);
-// 0x0000004E System.Void SojaExiles.ClosetopencloseDoor::Start()
+// 0x0000004E System.Void LogoUIBehavior::Awake()
+extern void LogoUIBehavior_Awake_m20F2CA0F51A25D384DCD86E1715E742EF3277595 (void);
+// 0x0000004F System.Void LogoUIBehavior::Update()
+extern void LogoUIBehavior_Update_m00133FEF26CFF9691A08299C57A47A91D27074A6 (void);
+// 0x00000050 System.Collections.IEnumerator LogoUIBehavior::AlphaFade()
+extern void LogoUIBehavior_AlphaFade_m6C52E73B072CDAFB937B7DCD17FC8F369BEC18A9 (void);
+// 0x00000051 System.Void LogoUIBehavior::.ctor()
+extern void LogoUIBehavior__ctor_mF37C7C09513E65B36691912C96B0C505084B8125 (void);
+// 0x00000052 System.Void LogoUIBehavior/<AlphaFade>d__7::.ctor(System.Int32)
+extern void U3CAlphaFadeU3Ed__7__ctor_mF355FC2D1DC0237B7C2BA8A1D1C1ECBD9E3D2911 (void);
+// 0x00000053 System.Void LogoUIBehavior/<AlphaFade>d__7::System.IDisposable.Dispose()
+extern void U3CAlphaFadeU3Ed__7_System_IDisposable_Dispose_mC448D0380FFAB41E257AACF060CB7703A8BC9BF8 (void);
+// 0x00000054 System.Boolean LogoUIBehavior/<AlphaFade>d__7::MoveNext()
+extern void U3CAlphaFadeU3Ed__7_MoveNext_mCF76B131DDA69CA37AEAE383D53BF3CBD80DCDDC (void);
+// 0x00000055 System.Object LogoUIBehavior/<AlphaFade>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CAlphaFadeU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD2BD399B686CC2B3865867C8C5F86E0D5720570A (void);
+// 0x00000056 System.Void LogoUIBehavior/<AlphaFade>d__7::System.Collections.IEnumerator.Reset()
+extern void U3CAlphaFadeU3Ed__7_System_Collections_IEnumerator_Reset_mEE95951EFC9D66AD6A037B099382E1BF6793FB80 (void);
+// 0x00000057 System.Object LogoUIBehavior/<AlphaFade>d__7::System.Collections.IEnumerator.get_Current()
+extern void U3CAlphaFadeU3Ed__7_System_Collections_IEnumerator_get_Current_mE53AF5534718E04E64D52FCB5A8A0039976306CC (void);
+// 0x00000058 System.Void PanelIntroBehavior::Awake()
+extern void PanelIntroBehavior_Awake_mA539EED11000DE6BF58898661AEA878B247DFA82 (void);
+// 0x00000059 System.Void PanelIntroBehavior::.ctor()
+extern void PanelIntroBehavior__ctor_m8DC2AB41739926F1DF7025EF16CEA89B1BF86F7D (void);
+// 0x0000005A System.Void SojaExiles.ClosetopencloseDoor::Start()
 extern void ClosetopencloseDoor_Start_mA2F0D9A67524E1E3B8A692CEB7141CF60F9E28DD (void);
-// 0x0000004F System.Void SojaExiles.ClosetopencloseDoor::OnMouseOver()
+// 0x0000005B System.Void SojaExiles.ClosetopencloseDoor::OnMouseOver()
 extern void ClosetopencloseDoor_OnMouseOver_mA90BDB1B09EC0BFE1CF58A4DEC03774387766137 (void);
-// 0x00000050 System.Collections.IEnumerator SojaExiles.ClosetopencloseDoor::opening()
+// 0x0000005C System.Collections.IEnumerator SojaExiles.ClosetopencloseDoor::opening()
 extern void ClosetopencloseDoor_opening_mCCB59361E9B9BE64C31F83B5538ABEC467E2EBED (void);
-// 0x00000051 System.Collections.IEnumerator SojaExiles.ClosetopencloseDoor::closing()
+// 0x0000005D System.Collections.IEnumerator SojaExiles.ClosetopencloseDoor::closing()
 extern void ClosetopencloseDoor_closing_m693CA9189EA4752DF4D0FC1B0ECC8B98371469DC (void);
-// 0x00000052 System.Void SojaExiles.ClosetopencloseDoor::.ctor()
+// 0x0000005E System.Void SojaExiles.ClosetopencloseDoor::.ctor()
 extern void ClosetopencloseDoor__ctor_mA8A05329D50B75331545175F96A663E5C0A409D8 (void);
-// 0x00000053 System.Void SojaExiles.ClosetopencloseDoor/<opening>d__5::.ctor(System.Int32)
+// 0x0000005F System.Void SojaExiles.ClosetopencloseDoor/<opening>d__5::.ctor(System.Int32)
 extern void U3CopeningU3Ed__5__ctor_m9C55463BA32967EE04B10D3D450B95B65F6BF9C5 (void);
-// 0x00000054 System.Void SojaExiles.ClosetopencloseDoor/<opening>d__5::System.IDisposable.Dispose()
+// 0x00000060 System.Void SojaExiles.ClosetopencloseDoor/<opening>d__5::System.IDisposable.Dispose()
 extern void U3CopeningU3Ed__5_System_IDisposable_Dispose_m083D16767A8F523B77E57F90362D6A54C4E59E6C (void);
-// 0x00000055 System.Boolean SojaExiles.ClosetopencloseDoor/<opening>d__5::MoveNext()
+// 0x00000061 System.Boolean SojaExiles.ClosetopencloseDoor/<opening>d__5::MoveNext()
 extern void U3CopeningU3Ed__5_MoveNext_mE1D67BAB412117D3CFB71E27F5AAFE65908E26A3 (void);
-// 0x00000056 System.Object SojaExiles.ClosetopencloseDoor/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000062 System.Object SojaExiles.ClosetopencloseDoor/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBE2022A5A1CCBC0CFD2D4C54B959DF7FC25EE83A (void);
-// 0x00000057 System.Void SojaExiles.ClosetopencloseDoor/<opening>d__5::System.Collections.IEnumerator.Reset()
+// 0x00000063 System.Void SojaExiles.ClosetopencloseDoor/<opening>d__5::System.Collections.IEnumerator.Reset()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m94177105AF9597696ABEFDAEC612A96F40E35B6D (void);
-// 0x00000058 System.Object SojaExiles.ClosetopencloseDoor/<opening>d__5::System.Collections.IEnumerator.get_Current()
+// 0x00000064 System.Object SojaExiles.ClosetopencloseDoor/<opening>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_mAC9BDF2BB89116E173AA37D383D96D6642DEAF7F (void);
-// 0x00000059 System.Void SojaExiles.ClosetopencloseDoor/<closing>d__6::.ctor(System.Int32)
+// 0x00000065 System.Void SojaExiles.ClosetopencloseDoor/<closing>d__6::.ctor(System.Int32)
 extern void U3CclosingU3Ed__6__ctor_mF031D197E478F27BD550CCDDCAF87A5D97723B8C (void);
-// 0x0000005A System.Void SojaExiles.ClosetopencloseDoor/<closing>d__6::System.IDisposable.Dispose()
+// 0x00000066 System.Void SojaExiles.ClosetopencloseDoor/<closing>d__6::System.IDisposable.Dispose()
 extern void U3CclosingU3Ed__6_System_IDisposable_Dispose_m6D3E8763004DB73555521AD825F51E514C274EE7 (void);
-// 0x0000005B System.Boolean SojaExiles.ClosetopencloseDoor/<closing>d__6::MoveNext()
+// 0x00000067 System.Boolean SojaExiles.ClosetopencloseDoor/<closing>d__6::MoveNext()
 extern void U3CclosingU3Ed__6_MoveNext_m8AF87E846FE9AA57721473921FBC9EC35AA47511 (void);
-// 0x0000005C System.Object SojaExiles.ClosetopencloseDoor/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000068 System.Object SojaExiles.ClosetopencloseDoor/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6EB8FC2C70DDECB917509AA28A8C661C0ABDE066 (void);
-// 0x0000005D System.Void SojaExiles.ClosetopencloseDoor/<closing>d__6::System.Collections.IEnumerator.Reset()
+// 0x00000069 System.Void SojaExiles.ClosetopencloseDoor/<closing>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m31C3AE5A139C3C7C67115720F2ADC7A8D8EA7AE0 (void);
-// 0x0000005E System.Object SojaExiles.ClosetopencloseDoor/<closing>d__6::System.Collections.IEnumerator.get_Current()
+// 0x0000006A System.Object SojaExiles.ClosetopencloseDoor/<closing>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m96853EA0B0D2E63442FC988292110895A2D0A726 (void);
-// 0x0000005F System.Void SojaExiles.OvenFlip::Start()
+// 0x0000006B System.Void SojaExiles.OvenFlip::Start()
 extern void OvenFlip_Start_mAC836D7DC3811DEBAD95FEF85FA6A84379DADB1C (void);
-// 0x00000060 System.Void SojaExiles.OvenFlip::OnMouseOver()
+// 0x0000006C System.Void SojaExiles.OvenFlip::OnMouseOver()
 extern void OvenFlip_OnMouseOver_m99AD2C8221290AB8D197FCAF31EC944C4C498BC8 (void);
-// 0x00000061 System.Collections.IEnumerator SojaExiles.OvenFlip::opening()
+// 0x0000006D System.Collections.IEnumerator SojaExiles.OvenFlip::opening()
 extern void OvenFlip_opening_m4D63EB404C03DE4BCF46B423100562B5D01A7284 (void);
-// 0x00000062 System.Collections.IEnumerator SojaExiles.OvenFlip::closing()
+// 0x0000006E System.Collections.IEnumerator SojaExiles.OvenFlip::closing()
 extern void OvenFlip_closing_mFFFAC2E79979871EFF5A3A333261EE7096C00A7B (void);
-// 0x00000063 System.Void SojaExiles.OvenFlip::.ctor()
+// 0x0000006F System.Void SojaExiles.OvenFlip::.ctor()
 extern void OvenFlip__ctor_m5DE5EC8EF9736FDD59E0B401834982687B853704 (void);
-// 0x00000064 System.Void SojaExiles.OvenFlip/<opening>d__5::.ctor(System.Int32)
+// 0x00000070 System.Void SojaExiles.OvenFlip/<opening>d__5::.ctor(System.Int32)
 extern void U3CopeningU3Ed__5__ctor_m4549A3256E9D6A501409E9BD0FA71DF690A7BBFE (void);
-// 0x00000065 System.Void SojaExiles.OvenFlip/<opening>d__5::System.IDisposable.Dispose()
+// 0x00000071 System.Void SojaExiles.OvenFlip/<opening>d__5::System.IDisposable.Dispose()
 extern void U3CopeningU3Ed__5_System_IDisposable_Dispose_mFB6CBDFB0DB44FBFF3AFA73E8273819ACD1DA7F0 (void);
-// 0x00000066 System.Boolean SojaExiles.OvenFlip/<opening>d__5::MoveNext()
+// 0x00000072 System.Boolean SojaExiles.OvenFlip/<opening>d__5::MoveNext()
 extern void U3CopeningU3Ed__5_MoveNext_m42CFA014B20FE1F53403E07513A51747D57102A7 (void);
-// 0x00000067 System.Object SojaExiles.OvenFlip/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000073 System.Object SojaExiles.OvenFlip/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD7C8C7ED76291DA7E0A860D412A7F2E8BD04BE8F (void);
-// 0x00000068 System.Void SojaExiles.OvenFlip/<opening>d__5::System.Collections.IEnumerator.Reset()
+// 0x00000074 System.Void SojaExiles.OvenFlip/<opening>d__5::System.Collections.IEnumerator.Reset()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m32B10BD387958767CADF558C026070CC17F315C6 (void);
-// 0x00000069 System.Object SojaExiles.OvenFlip/<opening>d__5::System.Collections.IEnumerator.get_Current()
+// 0x00000075 System.Object SojaExiles.OvenFlip/<opening>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_mBE51856006F3D3EF6E1DEB92E1957C63B263627C (void);
-// 0x0000006A System.Void SojaExiles.OvenFlip/<closing>d__6::.ctor(System.Int32)
+// 0x00000076 System.Void SojaExiles.OvenFlip/<closing>d__6::.ctor(System.Int32)
 extern void U3CclosingU3Ed__6__ctor_m98C2F1E9CAB35F73DA4DB5CCC3255FD1016BF7AD (void);
-// 0x0000006B System.Void SojaExiles.OvenFlip/<closing>d__6::System.IDisposable.Dispose()
+// 0x00000077 System.Void SojaExiles.OvenFlip/<closing>d__6::System.IDisposable.Dispose()
 extern void U3CclosingU3Ed__6_System_IDisposable_Dispose_mBE68E8082F7FDC85289E5DCABAB3256A90CC3A90 (void);
-// 0x0000006C System.Boolean SojaExiles.OvenFlip/<closing>d__6::MoveNext()
+// 0x00000078 System.Boolean SojaExiles.OvenFlip/<closing>d__6::MoveNext()
 extern void U3CclosingU3Ed__6_MoveNext_m4EFB3C000F51AC0722848B3806149A2C9DCEB3F7 (void);
-// 0x0000006D System.Object SojaExiles.OvenFlip/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000079 System.Object SojaExiles.OvenFlip/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA25D85E93B177A273F1F61AFE306D06A867201A9 (void);
-// 0x0000006E System.Void SojaExiles.OvenFlip/<closing>d__6::System.Collections.IEnumerator.Reset()
+// 0x0000007A System.Void SojaExiles.OvenFlip/<closing>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mAB0C23610C406D3AD6F34CDAAC18CDEEDB8C80F9 (void);
-// 0x0000006F System.Object SojaExiles.OvenFlip/<closing>d__6::System.Collections.IEnumerator.get_Current()
+// 0x0000007B System.Object SojaExiles.OvenFlip/<closing>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m25480345B2DB03142ACCD26AAD7013439BDF33F1 (void);
-// 0x00000070 System.Void SojaExiles.BRGlassDoor::Start()
+// 0x0000007C System.Void SojaExiles.BRGlassDoor::Start()
 extern void BRGlassDoor_Start_mE2BD8AFD640A2131F4744180FC3D8439A3C52D87 (void);
-// 0x00000071 System.Void SojaExiles.BRGlassDoor::OnMouseOver()
+// 0x0000007D System.Void SojaExiles.BRGlassDoor::OnMouseOver()
 extern void BRGlassDoor_OnMouseOver_m12C9CD156694569523445DCB6C30D63EB80A9669 (void);
-// 0x00000072 System.Collections.IEnumerator SojaExiles.BRGlassDoor::opening()
+// 0x0000007E System.Collections.IEnumerator SojaExiles.BRGlassDoor::opening()
 extern void BRGlassDoor_opening_mB0A21B09E90B78200ACAEC42098B070DE61135CB (void);
-// 0x00000073 System.Collections.IEnumerator SojaExiles.BRGlassDoor::closing()
+// 0x0000007F System.Collections.IEnumerator SojaExiles.BRGlassDoor::closing()
 extern void BRGlassDoor_closing_mB78DDF10217FB25263CC472E46E20FDE0A43FB7E (void);
-// 0x00000074 System.Void SojaExiles.BRGlassDoor::.ctor()
+// 0x00000080 System.Void SojaExiles.BRGlassDoor::.ctor()
 extern void BRGlassDoor__ctor_m730BBA2B0B35B018E232B24AD321C416219B5BBC (void);
-// 0x00000075 System.Void SojaExiles.BRGlassDoor/<opening>d__5::.ctor(System.Int32)
+// 0x00000081 System.Void SojaExiles.BRGlassDoor/<opening>d__5::.ctor(System.Int32)
 extern void U3CopeningU3Ed__5__ctor_m9A91DBEC9AE38ECFCFEFE848E9BCCCDDE984EBBC (void);
-// 0x00000076 System.Void SojaExiles.BRGlassDoor/<opening>d__5::System.IDisposable.Dispose()
+// 0x00000082 System.Void SojaExiles.BRGlassDoor/<opening>d__5::System.IDisposable.Dispose()
 extern void U3CopeningU3Ed__5_System_IDisposable_Dispose_mEDB05978827289F85ED5E0CBE436D7D6D132F5C0 (void);
-// 0x00000077 System.Boolean SojaExiles.BRGlassDoor/<opening>d__5::MoveNext()
+// 0x00000083 System.Boolean SojaExiles.BRGlassDoor/<opening>d__5::MoveNext()
 extern void U3CopeningU3Ed__5_MoveNext_m0D0C370892F8ADB7B5319A7DE97FA656E5D03A0F (void);
-// 0x00000078 System.Object SojaExiles.BRGlassDoor/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000084 System.Object SojaExiles.BRGlassDoor/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAE751719089E1B3747C87D569CE6B6DBF5D898C7 (void);
-// 0x00000079 System.Void SojaExiles.BRGlassDoor/<opening>d__5::System.Collections.IEnumerator.Reset()
+// 0x00000085 System.Void SojaExiles.BRGlassDoor/<opening>d__5::System.Collections.IEnumerator.Reset()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mC9D552A1F31691A3BA354F9269AA6C349BC741C6 (void);
-// 0x0000007A System.Object SojaExiles.BRGlassDoor/<opening>d__5::System.Collections.IEnumerator.get_Current()
+// 0x00000086 System.Object SojaExiles.BRGlassDoor/<opening>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_mA6975A46BBCA6104B471DC3B61AF9B051019B76B (void);
-// 0x0000007B System.Void SojaExiles.BRGlassDoor/<closing>d__6::.ctor(System.Int32)
+// 0x00000087 System.Void SojaExiles.BRGlassDoor/<closing>d__6::.ctor(System.Int32)
 extern void U3CclosingU3Ed__6__ctor_m7A2296381199B11893EB62F419CDA6C3015A4554 (void);
-// 0x0000007C System.Void SojaExiles.BRGlassDoor/<closing>d__6::System.IDisposable.Dispose()
+// 0x00000088 System.Void SojaExiles.BRGlassDoor/<closing>d__6::System.IDisposable.Dispose()
 extern void U3CclosingU3Ed__6_System_IDisposable_Dispose_mA3D9BDBF906B73F438D1417E2143F8CBE41B8634 (void);
-// 0x0000007D System.Boolean SojaExiles.BRGlassDoor/<closing>d__6::MoveNext()
+// 0x00000089 System.Boolean SojaExiles.BRGlassDoor/<closing>d__6::MoveNext()
 extern void U3CclosingU3Ed__6_MoveNext_mBA213787986625B1BA80C7544D80415A4FE077B3 (void);
-// 0x0000007E System.Object SojaExiles.BRGlassDoor/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000008A System.Object SojaExiles.BRGlassDoor/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m7DD9BC9A28B905CB479E99EC65698B9A2B5F0F3F (void);
-// 0x0000007F System.Void SojaExiles.BRGlassDoor/<closing>d__6::System.Collections.IEnumerator.Reset()
+// 0x0000008B System.Void SojaExiles.BRGlassDoor/<closing>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m53ABE4EF226D2D0F19F388E7CFD1C1DDF11D82A1 (void);
-// 0x00000080 System.Object SojaExiles.BRGlassDoor/<closing>d__6::System.Collections.IEnumerator.get_Current()
+// 0x0000008C System.Object SojaExiles.BRGlassDoor/<closing>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m31A320B53E488E3073ED7FDB3D2406F0ED791E4C (void);
-// 0x00000081 System.Void SojaExiles.opencloseSlide::Start()
+// 0x0000008D System.Void SojaExiles.opencloseSlide::Start()
 extern void opencloseSlide_Start_mC228D6FB02D720A704215BBD49784CEEDF7C71A3 (void);
-// 0x00000082 System.Void SojaExiles.opencloseSlide::OnMouseOver()
+// 0x0000008E System.Void SojaExiles.opencloseSlide::OnMouseOver()
 extern void opencloseSlide_OnMouseOver_mD1B47BFD08C22DE4BB6185E7E5A1BE5E7F13964B (void);
-// 0x00000083 System.Collections.IEnumerator SojaExiles.opencloseSlide::opening()
+// 0x0000008F System.Collections.IEnumerator SojaExiles.opencloseSlide::opening()
 extern void opencloseSlide_opening_m47FC8493081996B0E48ED96DB3F562696AA93614 (void);
-// 0x00000084 System.Collections.IEnumerator SojaExiles.opencloseSlide::closing()
+// 0x00000090 System.Collections.IEnumerator SojaExiles.opencloseSlide::closing()
 extern void opencloseSlide_closing_m8DEE923721DC4625E4357A6359EAB1402AFD6774 (void);
-// 0x00000085 System.Void SojaExiles.opencloseSlide::.ctor()
+// 0x00000091 System.Void SojaExiles.opencloseSlide::.ctor()
 extern void opencloseSlide__ctor_m52C9D34F2EFF457BA5DF0C8BBAAB5B00129C68C0 (void);
-// 0x00000086 System.Void SojaExiles.opencloseSlide/<opening>d__5::.ctor(System.Int32)
+// 0x00000092 System.Void SojaExiles.opencloseSlide/<opening>d__5::.ctor(System.Int32)
 extern void U3CopeningU3Ed__5__ctor_m31FE550591AEC36986D4E2A136D0CB9E7A8E26A8 (void);
-// 0x00000087 System.Void SojaExiles.opencloseSlide/<opening>d__5::System.IDisposable.Dispose()
+// 0x00000093 System.Void SojaExiles.opencloseSlide/<opening>d__5::System.IDisposable.Dispose()
 extern void U3CopeningU3Ed__5_System_IDisposable_Dispose_mA3E07C2B6926F97A3CD81AAD627B4B748CA2A37B (void);
-// 0x00000088 System.Boolean SojaExiles.opencloseSlide/<opening>d__5::MoveNext()
+// 0x00000094 System.Boolean SojaExiles.opencloseSlide/<opening>d__5::MoveNext()
 extern void U3CopeningU3Ed__5_MoveNext_m6244B302C033B0CA66FF6D64F6884162A87C9A67 (void);
-// 0x00000089 System.Object SojaExiles.opencloseSlide/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000095 System.Object SojaExiles.opencloseSlide/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m373A594F26868FDEE0A64E00A46B28D9BEE3CA99 (void);
-// 0x0000008A System.Void SojaExiles.opencloseSlide/<opening>d__5::System.Collections.IEnumerator.Reset()
+// 0x00000096 System.Void SojaExiles.opencloseSlide/<opening>d__5::System.Collections.IEnumerator.Reset()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m7B303F20E2062A906064DF392A6FD4F9A2BA7A80 (void);
-// 0x0000008B System.Object SojaExiles.opencloseSlide/<opening>d__5::System.Collections.IEnumerator.get_Current()
+// 0x00000097 System.Object SojaExiles.opencloseSlide/<opening>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m9AA5850EB20415474AE58C32A7A98C3E72FEA450 (void);
-// 0x0000008C System.Void SojaExiles.opencloseSlide/<closing>d__6::.ctor(System.Int32)
+// 0x00000098 System.Void SojaExiles.opencloseSlide/<closing>d__6::.ctor(System.Int32)
 extern void U3CclosingU3Ed__6__ctor_m3444068EAD3D5E7195932635017C12C34FA05E28 (void);
-// 0x0000008D System.Void SojaExiles.opencloseSlide/<closing>d__6::System.IDisposable.Dispose()
+// 0x00000099 System.Void SojaExiles.opencloseSlide/<closing>d__6::System.IDisposable.Dispose()
 extern void U3CclosingU3Ed__6_System_IDisposable_Dispose_mCE55FEF3DEF3053EA43A4B02441D79CBB8FAC7E4 (void);
-// 0x0000008E System.Boolean SojaExiles.opencloseSlide/<closing>d__6::MoveNext()
+// 0x0000009A System.Boolean SojaExiles.opencloseSlide/<closing>d__6::MoveNext()
 extern void U3CclosingU3Ed__6_MoveNext_m7C44A3E30227C047A97A72840589F9D3815302F6 (void);
-// 0x0000008F System.Object SojaExiles.opencloseSlide/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000009B System.Object SojaExiles.opencloseSlide/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD3EA00412DBB2D39F91137CBF9824B80C3426BCD (void);
-// 0x00000090 System.Void SojaExiles.opencloseSlide/<closing>d__6::System.Collections.IEnumerator.Reset()
+// 0x0000009C System.Void SojaExiles.opencloseSlide/<closing>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mCE61C75F93991C0B66FA1B60A8EE32B02C828474 (void);
-// 0x00000091 System.Object SojaExiles.opencloseSlide/<closing>d__6::System.Collections.IEnumerator.get_Current()
+// 0x0000009D System.Object SojaExiles.opencloseSlide/<closing>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m43357B528FDF4D2BBADD4DB9CD01599099D66450 (void);
-// 0x00000092 System.Void SojaExiles.opencloseWindowApt::Start()
+// 0x0000009E System.Void SojaExiles.opencloseWindowApt::Start()
 extern void opencloseWindowApt_Start_m711E0C71C984C1CFBEA9CEFFE1DD44CC3F4E4BFA (void);
-// 0x00000093 System.Void SojaExiles.opencloseWindowApt::OnMouseOver()
+// 0x0000009F System.Void SojaExiles.opencloseWindowApt::OnMouseOver()
 extern void opencloseWindowApt_OnMouseOver_m7E1995888E1497179C7632CC1C27E3ADBF6AF1C5 (void);
-// 0x00000094 System.Collections.IEnumerator SojaExiles.opencloseWindowApt::opening()
+// 0x000000A0 System.Collections.IEnumerator SojaExiles.opencloseWindowApt::opening()
 extern void opencloseWindowApt_opening_m85E23C40A14EFC0CAD211FDD78258BCFF6DB7DA3 (void);
-// 0x00000095 System.Collections.IEnumerator SojaExiles.opencloseWindowApt::closing()
+// 0x000000A1 System.Collections.IEnumerator SojaExiles.opencloseWindowApt::closing()
 extern void opencloseWindowApt_closing_m4E9D018834298C311630432B7925727564712739 (void);
-// 0x00000096 System.Void SojaExiles.opencloseWindowApt::.ctor()
+// 0x000000A2 System.Void SojaExiles.opencloseWindowApt::.ctor()
 extern void opencloseWindowApt__ctor_m48B57EEA9D569E7355130E35698EC7F44DD1090B (void);
-// 0x00000097 System.Void SojaExiles.opencloseWindowApt/<opening>d__5::.ctor(System.Int32)
+// 0x000000A3 System.Void SojaExiles.opencloseWindowApt/<opening>d__5::.ctor(System.Int32)
 extern void U3CopeningU3Ed__5__ctor_mE973B548CA738B4796495D69F8C68B8F4F242689 (void);
-// 0x00000098 System.Void SojaExiles.opencloseWindowApt/<opening>d__5::System.IDisposable.Dispose()
+// 0x000000A4 System.Void SojaExiles.opencloseWindowApt/<opening>d__5::System.IDisposable.Dispose()
 extern void U3CopeningU3Ed__5_System_IDisposable_Dispose_m5F8080DBD8FCF2E7606A13AF330D3ED37C619431 (void);
-// 0x00000099 System.Boolean SojaExiles.opencloseWindowApt/<opening>d__5::MoveNext()
+// 0x000000A5 System.Boolean SojaExiles.opencloseWindowApt/<opening>d__5::MoveNext()
 extern void U3CopeningU3Ed__5_MoveNext_m80589764E8CA6CD1C9DF1AB3C1D2737D7740E32A (void);
-// 0x0000009A System.Object SojaExiles.opencloseWindowApt/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000000A6 System.Object SojaExiles.opencloseWindowApt/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m0A39466408B86F4AC24DD479B9329E12AB19D4F4 (void);
-// 0x0000009B System.Void SojaExiles.opencloseWindowApt/<opening>d__5::System.Collections.IEnumerator.Reset()
+// 0x000000A7 System.Void SojaExiles.opencloseWindowApt/<opening>d__5::System.Collections.IEnumerator.Reset()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_mE20CB6CC97F692A15040D4285B0C2500F8F54B04 (void);
-// 0x0000009C System.Object SojaExiles.opencloseWindowApt/<opening>d__5::System.Collections.IEnumerator.get_Current()
+// 0x000000A8 System.Object SojaExiles.opencloseWindowApt/<opening>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m3DE01436935C448D77071449C638932F859F4E05 (void);
-// 0x0000009D System.Void SojaExiles.opencloseWindowApt/<closing>d__6::.ctor(System.Int32)
+// 0x000000A9 System.Void SojaExiles.opencloseWindowApt/<closing>d__6::.ctor(System.Int32)
 extern void U3CclosingU3Ed__6__ctor_mE13EFFA9F101642331BEB3BB992561CD77745E85 (void);
-// 0x0000009E System.Void SojaExiles.opencloseWindowApt/<closing>d__6::System.IDisposable.Dispose()
+// 0x000000AA System.Void SojaExiles.opencloseWindowApt/<closing>d__6::System.IDisposable.Dispose()
 extern void U3CclosingU3Ed__6_System_IDisposable_Dispose_mCC8718BD2320ADCB069B322B2AF898728CD7E098 (void);
-// 0x0000009F System.Boolean SojaExiles.opencloseWindowApt/<closing>d__6::MoveNext()
+// 0x000000AB System.Boolean SojaExiles.opencloseWindowApt/<closing>d__6::MoveNext()
 extern void U3CclosingU3Ed__6_MoveNext_mB2D9372C13E5C1B376378B14E3B5D9DE6E21D717 (void);
-// 0x000000A0 System.Object SojaExiles.opencloseWindowApt/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000000AC System.Object SojaExiles.opencloseWindowApt/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m20B70DF415DC989A0772C1C32F22E9029381A187 (void);
-// 0x000000A1 System.Void SojaExiles.opencloseWindowApt/<closing>d__6::System.Collections.IEnumerator.Reset()
+// 0x000000AD System.Void SojaExiles.opencloseWindowApt/<closing>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_mF61208B891A997E6A73B16273AC4FE6C9BE18FEB (void);
-// 0x000000A2 System.Object SojaExiles.opencloseWindowApt/<closing>d__6::System.Collections.IEnumerator.get_Current()
+// 0x000000AE System.Object SojaExiles.opencloseWindowApt/<closing>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m285288DF2308E1E6D3F97F5C760D9BCBA10CE5A4 (void);
-// 0x000000A3 System.Void SojaExiles.Drawer_Pull_Zopp::Start()
+// 0x000000AF System.Void SojaExiles.Drawer_Pull_Zopp::Start()
 extern void Drawer_Pull_Zopp_Start_mD3E864FCFB7B448A7C5C507C784D4CE12E7ACC8B (void);
-// 0x000000A4 System.Void SojaExiles.Drawer_Pull_Zopp::OnMouseOver()
+// 0x000000B0 System.Void SojaExiles.Drawer_Pull_Zopp::OnMouseOver()
 extern void Drawer_Pull_Zopp_OnMouseOver_mE11FE3E15CE0E91153631ACBF47827468F7CDCD1 (void);
-// 0x000000A5 System.Collections.IEnumerator SojaExiles.Drawer_Pull_Zopp::opening()
+// 0x000000B1 System.Collections.IEnumerator SojaExiles.Drawer_Pull_Zopp::opening()
 extern void Drawer_Pull_Zopp_opening_m5DC756C7B89FEC9BD23F027F0B2556E0F97B0637 (void);
-// 0x000000A6 System.Collections.IEnumerator SojaExiles.Drawer_Pull_Zopp::closing()
+// 0x000000B2 System.Collections.IEnumerator SojaExiles.Drawer_Pull_Zopp::closing()
 extern void Drawer_Pull_Zopp_closing_m811B6637FD1011F2AC8801F985969221D93230CD (void);
-// 0x000000A7 System.Void SojaExiles.Drawer_Pull_Zopp::.ctor()
+// 0x000000B3 System.Void SojaExiles.Drawer_Pull_Zopp::.ctor()
 extern void Drawer_Pull_Zopp__ctor_m57562FED1B2CF09BED1C1ADA9985BE784D09CDAC (void);
-// 0x000000A8 System.Void SojaExiles.Drawer_Pull_Zopp/<opening>d__5::.ctor(System.Int32)
+// 0x000000B4 System.Void SojaExiles.Drawer_Pull_Zopp/<opening>d__5::.ctor(System.Int32)
 extern void U3CopeningU3Ed__5__ctor_m0A37D87F0FD1D00598CC3230365C0B6ABD4A4F99 (void);
-// 0x000000A9 System.Void SojaExiles.Drawer_Pull_Zopp/<opening>d__5::System.IDisposable.Dispose()
+// 0x000000B5 System.Void SojaExiles.Drawer_Pull_Zopp/<opening>d__5::System.IDisposable.Dispose()
 extern void U3CopeningU3Ed__5_System_IDisposable_Dispose_m7DD90BB099D3A459C674AF6208FFB56D267E00BE (void);
-// 0x000000AA System.Boolean SojaExiles.Drawer_Pull_Zopp/<opening>d__5::MoveNext()
+// 0x000000B6 System.Boolean SojaExiles.Drawer_Pull_Zopp/<opening>d__5::MoveNext()
 extern void U3CopeningU3Ed__5_MoveNext_mC275C73ACFE5CF9E1161EB6F42038A6FBB374020 (void);
-// 0x000000AB System.Object SojaExiles.Drawer_Pull_Zopp/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000000B7 System.Object SojaExiles.Drawer_Pull_Zopp/<opening>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mF572BE2105D77273F4B5ACEB7460119F526B3E4E (void);
-// 0x000000AC System.Void SojaExiles.Drawer_Pull_Zopp/<opening>d__5::System.Collections.IEnumerator.Reset()
+// 0x000000B8 System.Void SojaExiles.Drawer_Pull_Zopp/<opening>d__5::System.Collections.IEnumerator.Reset()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m11E7AD90FC73C8ADF5BD97168F770620FBED8AFF (void);
-// 0x000000AD System.Object SojaExiles.Drawer_Pull_Zopp/<opening>d__5::System.Collections.IEnumerator.get_Current()
+// 0x000000B9 System.Object SojaExiles.Drawer_Pull_Zopp/<opening>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_mD53393D32A7F2A2D153587A8F94D4816ED6C3969 (void);
-// 0x000000AE System.Void SojaExiles.Drawer_Pull_Zopp/<closing>d__6::.ctor(System.Int32)
+// 0x000000BA System.Void SojaExiles.Drawer_Pull_Zopp/<closing>d__6::.ctor(System.Int32)
 extern void U3CclosingU3Ed__6__ctor_m18FBDADB7054F71B990EAB5502D80941C38B30A2 (void);
-// 0x000000AF System.Void SojaExiles.Drawer_Pull_Zopp/<closing>d__6::System.IDisposable.Dispose()
+// 0x000000BB System.Void SojaExiles.Drawer_Pull_Zopp/<closing>d__6::System.IDisposable.Dispose()
 extern void U3CclosingU3Ed__6_System_IDisposable_Dispose_m687392E531496829AF3E34F4A782D89BBC1BF804 (void);
-// 0x000000B0 System.Boolean SojaExiles.Drawer_Pull_Zopp/<closing>d__6::MoveNext()
+// 0x000000BC System.Boolean SojaExiles.Drawer_Pull_Zopp/<closing>d__6::MoveNext()
 extern void U3CclosingU3Ed__6_MoveNext_m32DFE1732CEB88593C1BDADC989C87BFE9A5947A (void);
-// 0x000000B1 System.Object SojaExiles.Drawer_Pull_Zopp/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000000BD System.Object SojaExiles.Drawer_Pull_Zopp/<closing>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3F648A860A28DE1F8A46B61252B30665D0226916 (void);
-// 0x000000B2 System.Void SojaExiles.Drawer_Pull_Zopp/<closing>d__6::System.Collections.IEnumerator.Reset()
+// 0x000000BE System.Void SojaExiles.Drawer_Pull_Zopp/<closing>d__6::System.Collections.IEnumerator.Reset()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m9A62DF96621F7D40E2CC7B827A2D8D3F2D8F529F (void);
-// 0x000000B3 System.Object SojaExiles.Drawer_Pull_Zopp/<closing>d__6::System.Collections.IEnumerator.get_Current()
+// 0x000000BF System.Object SojaExiles.Drawer_Pull_Zopp/<closing>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m379F4864DC183CF6E6A023A7749E32F2817D3C1F (void);
-static Il2CppMethodPointer s_methodPointers[179] = 
+static Il2CppMethodPointer s_methodPointers[191] = 
 {
 	AnchorCreator_get_AnchorPrefab_mBBAF7805E9D9F8D79408EE642D153BC76306B25A,
 	AnchorCreator_set_AnchorPrefab_m53CC9CC3022C713826B44536B48B462C8A1FACFF,
@@ -449,6 +473,18 @@ static Il2CppMethodPointer s_methodPointers[179] =
 	StartVariables_Awake_m7D35680666EFE6D5FF81D4D64D80DA8431329A46,
 	StartVariables_Start_m5FF575F1615286AC400B0610747B8D8816CBED4A,
 	StartVariables__ctor_m63274EAFB42728A31736224635446135BC0DD6E3,
+	LogoUIBehavior_Awake_m20F2CA0F51A25D384DCD86E1715E742EF3277595,
+	LogoUIBehavior_Update_m00133FEF26CFF9691A08299C57A47A91D27074A6,
+	LogoUIBehavior_AlphaFade_m6C52E73B072CDAFB937B7DCD17FC8F369BEC18A9,
+	LogoUIBehavior__ctor_mF37C7C09513E65B36691912C96B0C505084B8125,
+	U3CAlphaFadeU3Ed__7__ctor_mF355FC2D1DC0237B7C2BA8A1D1C1ECBD9E3D2911,
+	U3CAlphaFadeU3Ed__7_System_IDisposable_Dispose_mC448D0380FFAB41E257AACF060CB7703A8BC9BF8,
+	U3CAlphaFadeU3Ed__7_MoveNext_mCF76B131DDA69CA37AEAE383D53BF3CBD80DCDDC,
+	U3CAlphaFadeU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD2BD399B686CC2B3865867C8C5F86E0D5720570A,
+	U3CAlphaFadeU3Ed__7_System_Collections_IEnumerator_Reset_mEE95951EFC9D66AD6A037B099382E1BF6793FB80,
+	U3CAlphaFadeU3Ed__7_System_Collections_IEnumerator_get_Current_mE53AF5534718E04E64D52FCB5A8A0039976306CC,
+	PanelIntroBehavior_Awake_mA539EED11000DE6BF58898661AEA878B247DFA82,
+	PanelIntroBehavior__ctor_m8DC2AB41739926F1DF7025EF16CEA89B1BF86F7D,
 	ClosetopencloseDoor_Start_mA2F0D9A67524E1E3B8A692CEB7141CF60F9E28DD,
 	ClosetopencloseDoor_OnMouseOver_mA90BDB1B09EC0BFE1CF58A4DEC03774387766137,
 	ClosetopencloseDoor_opening_mCCB59361E9B9BE64C31F83B5538ABEC467E2EBED,
@@ -552,193 +588,205 @@ static Il2CppMethodPointer s_methodPointers[179] =
 	U3CclosingU3Ed__6_System_Collections_IEnumerator_Reset_m9A62DF96621F7D40E2CC7B827A2D8D3F2D8F529F,
 	U3CclosingU3Ed__6_System_Collections_IEnumerator_get_Current_m379F4864DC183CF6E6A023A7749E32F2817D3C1F,
 };
-static const int32_t s_InvokerIndices[179] = 
+static const int32_t s_InvokerIndices[191] = 
 {
-	5311,
-	4308,
-	5417,
-	5417,
-	5417,
-	5417,
-	8491,
-	5353,
-	4342,
-	5417,
-	5417,
-	5417,
-	4194,
-	4308,
-	5417,
-	8491,
-	5417,
-	5417,
-	5311,
-	5311,
-	5417,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	5417,
-	5417,
-	5311,
-	5311,
-	5417,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5417,
-	5311,
-	5311,
-	5417,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	5417,
-	5417,
-	5311,
-	5311,
-	5417,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	5417,
-	5417,
-	5311,
-	5311,
-	5417,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	5417,
-	5417,
-	5311,
-	5311,
-	5417,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	5417,
-	5417,
-	5311,
-	5311,
-	5417,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	5417,
-	5417,
-	5311,
-	5311,
-	5417,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
-	4282,
-	5417,
-	5222,
-	5311,
-	5417,
-	5311,
+	5317,
+	4313,
+	5423,
+	5423,
+	5423,
+	5423,
+	8500,
+	5359,
+	4348,
+	5423,
+	5423,
+	5423,
+	4199,
+	4313,
+	5423,
+	8500,
+	5423,
+	5423,
+	5317,
+	5317,
+	5423,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	5423,
+	5423,
+	5317,
+	5317,
+	5423,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5423,
+	5317,
+	5423,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	5423,
+	5423,
+	5423,
+	5423,
+	5317,
+	5317,
+	5423,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	5423,
+	5423,
+	5317,
+	5317,
+	5423,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	5423,
+	5423,
+	5317,
+	5317,
+	5423,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	5423,
+	5423,
+	5317,
+	5317,
+	5423,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	5423,
+	5423,
+	5317,
+	5317,
+	5423,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	5423,
+	5423,
+	5317,
+	5317,
+	5423,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
+	4287,
+	5423,
+	5228,
+	5317,
+	5423,
+	5317,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	179,
+	191,
 	s_methodPointers,
 	0,
 	NULL,

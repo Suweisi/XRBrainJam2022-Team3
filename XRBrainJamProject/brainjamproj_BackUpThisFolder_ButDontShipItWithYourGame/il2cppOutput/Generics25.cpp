@@ -95,6 +95,8 @@ struct Dictionary_2_tD68C40116E127FE79F9E7AF07820CFDDBF20A8C1;
 struct Dictionary_2_t674FB26C3A032F02B992D80E9076EF96E31D4AE0;
 // System.Collections.Generic.Dictionary`2<UnityEngine.XR.MeshId,UnityEngine.XR.MeshTransform>
 struct Dictionary_2_t8893AB42AB52DC97091F6E13B81392C19882DC47;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.LinkedListNode`1<System.Object>>
+struct Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B;
 // System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.Color32>
 struct Dictionary_2_t2EDFFA8C88267125923C377EC815E642568BCCAA;
 // System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
@@ -243,6 +245,8 @@ struct KeyCollection_t43102F04E62D9BA2A82FB1FA55DA5E3025031C6F;
 struct KeyCollection_tC005CED00EA8DDB3FE7998B42A9B6D803EE0373B;
 // System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.XR.MeshId,UnityEngine.XR.MeshTransform>
 struct KeyCollection_t88E04D7BA34C434E6FF6AFB0A301243A07B9E7F3;
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Collections.Generic.LinkedListNode`1<System.Object>>
+struct KeyCollection_tEFF11513B0DD94D25998A6B29566E3820181B2B1;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,UnityEngine.Color32>
 struct KeyCollection_t43B519AE49EC272CAF6E177CBCC5352F83DC44AE;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Int32>
@@ -301,6 +305,8 @@ struct LinkedList_1_t09F6FB09C766455615BBF59716D285304C49E0E7;
 struct LinkedPoolItem_1_tD677E54AEDFCA19642ADA7F09E665AC2A79625DF;
 // UnityEngine.UIElements.UIR.LinkedPool`1<System.Object>
 struct LinkedPool_1_t27505BB5E276B4361ACE769F2922D5FDC6742877;
+// cakeslice.LinkedSet`1<System.Object>
+struct LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E;
 // UnityEngine.UIElements.UQueryState`1/ListQueryMatcher`1<System.Object,System.Object>
 struct ListQueryMatcher_1_t4D10BEF648526B008BEB75C8576A7D1EBFD73A83;
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
@@ -379,6 +385,8 @@ struct ValueCollection_t96C31E0C36EF324B4BA86A8ED314F2AF342D6D6C;
 struct ValueCollection_t6D103A5FC6E2FD35E48BADA76B374E5AB8624937;
 // System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.XR.MeshId,UnityEngine.XR.MeshTransform>
 struct ValueCollection_tC4164EADF542C8FF6F5CDF7341DAB5C5820A28C1;
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Collections.Generic.LinkedListNode`1<System.Object>>
+struct ValueCollection_tBAB58EEC845CCB32A2D3E3B58673B71221AC1ECA;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,UnityEngine.Color32>
 struct ValueCollection_t247A18D119E08D284E8A914EAA60DC925CCC9F8C;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Int32>
@@ -453,6 +461,8 @@ struct EntryU5BU5D_t6FFF9155A8574DAE59AE5E53B83EB0E1FBFF79E4;
 struct EntryU5BU5D_tEACCC27CD439BFDCCD11B8C525607F127C5771DF;
 // System.Collections.Generic.Dictionary`2/Entry<UnityEngine.XR.MeshId,UnityEngine.XR.MeshTransform>[]
 struct EntryU5BU5D_t18C85069149599BA7CB4871104268CEB01482BAA;
+// System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Collections.Generic.LinkedListNode`1<System.Object>>[]
+struct EntryU5BU5D_t32881717D5D29198E75F7E19181AB23287562ECF;
 // System.Collections.Generic.Dictionary`2/Entry<System.Object,UnityEngine.Color32>[]
 struct EntryU5BU5D_tFE726D463F611E4E4A72D28490134171736CC1FF;
 // System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Int32>[]
@@ -1108,6 +1118,31 @@ struct Dictionary_2_t8893AB42AB52DC97091F6E13B81392C19882DC47  : public RuntimeO
 	KeyCollection_t88E04D7BA34C434E6FF6AFB0A301243A07B9E7F3* ____keys_7;
 	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
 	ValueCollection_tC4164EADF542C8FF6F5CDF7341DAB5C5820A28C1* ____values_8;
+	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
+	RuntimeObject* ____syncRoot_9;
+};
+
+// System.Collections.Generic.Dictionary`2<System.Object,System.Collections.Generic.LinkedListNode`1<System.Object>>
+struct Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B  : public RuntimeObject
+{
+	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
+	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
+	EntryU5BU5D_t32881717D5D29198E75F7E19181AB23287562ECF* ____entries_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_count
+	int32_t ____count_2;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
+	int32_t ____freeList_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
+	int32_t ____freeCount_4;
+	// System.Int32 System.Collections.Generic.Dictionary`2::_version
+	int32_t ____version_5;
+	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
+	RuntimeObject* ____comparer_6;
+	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
+	KeyCollection_tEFF11513B0DD94D25998A6B29566E3820181B2B1* ____keys_7;
+	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
+	ValueCollection_tBAB58EEC845CCB32A2D3E3B58673B71221AC1ECA* ____values_8;
 	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
 	RuntimeObject* ____syncRoot_9;
 };
@@ -2020,6 +2055,15 @@ struct LinkedPool_1_t27505BB5E276B4361ACE769F2922D5FDC6742877  : public RuntimeO
 	RuntimeObject* ___m_PoolFirst_3;
 	// System.Int32 UnityEngine.UIElements.UIR.LinkedPool`1::<Count>k__BackingField
 	int32_t ___U3CCountU3Ek__BackingField_4;
+};
+
+// cakeslice.LinkedSet`1<System.Object>
+struct LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E  : public RuntimeObject
+{
+	// System.Collections.Generic.LinkedList`1<T> cakeslice.LinkedSet`1::list
+	LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* ___list_0;
+	// System.Collections.Generic.Dictionary`2<T,System.Collections.Generic.LinkedListNode`1<T>> cakeslice.LinkedSet`1::dictionary
+	Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B* ___dictionary_1;
 };
 
 // System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.InputSystem.Utilities.JsonParser/JsonValue>>
@@ -32702,6 +32746,206 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedPool_1_Return_mB5D47773080BD9C79B3
 IL_003e:
 	{
 		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void cakeslice.LinkedSet`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedSet_1__ctor_m4A6FB6AC8AB164EC06321427E92960B427DB41BF_gshared (LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E* __this, const RuntimeMethod* method) 
+{
+	{
+		// public LinkedSet()
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		// list = new LinkedList<T>();
+		LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* L_0 = (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
+		NullCheck(L_0);
+		((  void (*) (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		__this->___list_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___list_0), (void*)L_0);
+		// dictionary = new Dictionary<T, LinkedListNode<T>>();
+		Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B* L_1 = (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
+		NullCheck(L_1);
+		((  void (*) (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 3)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 3));
+		__this->___dictionary_1 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___dictionary_1), (void*)L_1);
+		// }
+		return;
+	}
+}
+// System.Void cakeslice.LinkedSet`1<System.Object>::.ctor(System.Collections.Generic.IEqualityComparer`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedSet_1__ctor_m803266158F29764896EEE2E1B89FBA92613991E3_gshared (LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E* __this, RuntimeObject* ___comparer0, const RuntimeMethod* method) 
+{
+	{
+		// public LinkedSet(IEqualityComparer<T> comparer)
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		// list = new LinkedList<T>();
+		LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* L_0 = (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
+		NullCheck(L_0);
+		((  void (*) (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+		__this->___list_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___list_0), (void*)L_0);
+		// dictionary = new Dictionary<T, LinkedListNode<T>>(comparer);
+		RuntimeObject* L_1 = ___comparer0;
+		Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B* L_2 = (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
+		NullCheck(L_2);
+		((  void (*) (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(L_2, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		__this->___dictionary_1 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___dictionary_1), (void*)L_2);
+		// }
+		return;
+	}
+}
+// System.Boolean cakeslice.LinkedSet`1<System.Object>::Add(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LinkedSet_1_Add_m9F036B3DABE91F6B546712A374618A2EF40E7B53_gshared (LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E* __this, RuntimeObject* ___t0, const RuntimeMethod* method) 
+{
+	LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* V_0 = NULL;
+	{
+		// if (dictionary.ContainsKey(t))
+		Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B* L_0 = (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*)__this->___dictionary_1;
+		RuntimeObject* L_1 = ___t0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = ((  bool (*) (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
+		if (!L_2)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		// return false;
+		return (bool)0;
+	}
+
+IL_0010:
+	{
+		// LinkedListNode<T> node = list.AddLast(t);
+		LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* L_3 = (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*)__this->___list_0;
+		RuntimeObject* L_4 = ___t0;
+		NullCheck(L_3);
+		LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* L_5;
+		L_5 = ((  LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* (*) (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 6)))(L_3, L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
+		V_0 = L_5;
+		// dictionary.Add(t, node);
+		Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B* L_6 = (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*)__this->___dictionary_1;
+		RuntimeObject* L_7 = ___t0;
+		LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* L_8 = V_0;
+		NullCheck(L_6);
+		((  void (*) (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*, RuntimeObject*, LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(L_6, L_7, L_8, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
+		// return true;
+		return (bool)1;
+	}
+}
+// System.Boolean cakeslice.LinkedSet`1<System.Object>::Remove(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LinkedSet_1_Remove_m77C270A5B2086FC3C42815628567FBF763668354_gshared (LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E* __this, RuntimeObject* ___t0, const RuntimeMethod* method) 
+{
+	LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* V_0 = NULL;
+	{
+		// if (dictionary.TryGetValue(t, out node))
+		Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B* L_0 = (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*)__this->___dictionary_1;
+		RuntimeObject* L_1 = ___t0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = ((  bool (*) (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*, RuntimeObject*, LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C**, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_0, L_1, (&V_0), il2cpp_rgctx_method(method->klass->rgctx_data, 8));
+		if (!L_2)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		// dictionary.Remove(t);
+		Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B* L_3 = (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*)__this->___dictionary_1;
+		RuntimeObject* L_4 = ___t0;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = ((  bool (*) (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)))(L_3, L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 9));
+		// list.Remove(node);
+		LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* L_6 = (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*)__this->___list_0;
+		LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C* L_7 = V_0;
+		NullCheck(L_6);
+		((  void (*) (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*, LinkedListNode_1_t293BB098D459DDAE6A26977D0731A997186D1D4C*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 10)))(L_6, L_7, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
+		// return true;
+		return (bool)1;
+	}
+
+IL_002b:
+	{
+		// return false;
+		return (bool)0;
+	}
+}
+// System.Void cakeslice.LinkedSet`1<System.Object>::Clear()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedSet_1_Clear_m186F4FE73B90781BB5289A629DD4D8D9A7B856CD_gshared (LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E* __this, const RuntimeMethod* method) 
+{
+	{
+		// list.Clear();
+		LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* L_0 = (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*)__this->___list_0;
+		NullCheck(L_0);
+		((  void (*) (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
+		// dictionary.Clear();
+		Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B* L_1 = (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*)__this->___dictionary_1;
+		NullCheck(L_1);
+		((  void (*) (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 12)))(L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 12));
+		// }
+		return;
+	}
+}
+// System.Boolean cakeslice.LinkedSet`1<System.Object>::Contains(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LinkedSet_1_Contains_mC3B201F96E3DEE9DD1D8DB3031030A027A671170_gshared (LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E* __this, RuntimeObject* ___t0, const RuntimeMethod* method) 
+{
+	{
+		// => dictionary.ContainsKey(t);
+		Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B* L_0 = (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*)__this->___dictionary_1;
+		RuntimeObject* L_1 = ___t0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = ((  bool (*) (Dictionary_2_tBBF14087D8C764D91A37FA3FF32B62D07B5AA23B*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(L_0, L_1, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
+		return L_2;
+	}
+}
+// System.Int32 cakeslice.LinkedSet`1<System.Object>::get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LinkedSet_1_get_Count_m192A944AA92428F41653C5E1FA28C032B389EEE4_gshared (LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E* __this, const RuntimeMethod* method) 
+{
+	{
+		// => list.Count;
+		LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* L_0 = (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*)__this->___list_0;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = ((  int32_t (*) (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 13)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
+		return L_1;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<T> cakeslice.LinkedSet`1<System.Object>::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LinkedSet_1_GetEnumerator_m52A16989C564D578452A687988A8E557523FCC00_gshared (LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E* __this, const RuntimeMethod* method) 
+{
+	{
+		// => list.GetEnumerator();
+		LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* L_0 = (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*)__this->___list_0;
+		NullCheck(L_0);
+		Enumerator_tC25D6382B2C7E2606E12FC6637F714A98D52DE22 L_1;
+		L_1 = ((  Enumerator_tC25D6382B2C7E2606E12FC6637F714A98D52DE22 (*) (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 14)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		Enumerator_tC25D6382B2C7E2606E12FC6637F714A98D52DE22 L_2 = L_1;
+		RuntimeObject* L_3 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 15), &L_2);
+		return (RuntimeObject*)L_3;
+	}
+}
+// System.Collections.IEnumerator cakeslice.LinkedSet`1<System.Object>::System.Collections.IEnumerable.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LinkedSet_1_System_Collections_IEnumerable_GetEnumerator_mE0291ADC43C063EC6CC786CF79D9CA9043FD9A20_gshared (LinkedSet_1_tFF9BC9F537A89CCD206F1D0CF428E44B7FF7738E* __this, const RuntimeMethod* method) 
+{
+	{
+		// => list.GetEnumerator();
+		LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76* L_0 = (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*)__this->___list_0;
+		NullCheck(L_0);
+		Enumerator_tC25D6382B2C7E2606E12FC6637F714A98D52DE22 L_1;
+		L_1 = ((  Enumerator_tC25D6382B2C7E2606E12FC6637F714A98D52DE22 (*) (LinkedList_1_t49DC5CF34D4D642E6417F1245CDEC26A32F60C76*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 14)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		Enumerator_tC25D6382B2C7E2606E12FC6637F714A98D52DE22 L_2 = L_1;
+		RuntimeObject* L_3 = Box(il2cpp_rgctx_data(method->klass->rgctx_data, 15), &L_2);
+		return (RuntimeObject*)L_3;
 	}
 }
 #ifdef __clang__
