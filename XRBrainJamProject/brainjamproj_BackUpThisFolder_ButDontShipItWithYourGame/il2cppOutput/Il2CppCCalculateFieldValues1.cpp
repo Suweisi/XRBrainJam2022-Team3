@@ -17587,14 +17587,18 @@ struct DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D  : public Mono
 {
 	// UnityEngine.GameObject[] DragDropBehavior::arrayOfDraggableObjects
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___arrayOfDraggableObjects_4;
+	// System.Collections.Generic.List`1<UnityEngine.GameObject> DragDropBehavior::interactableObjects
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___interactableObjects_5;
 	// UnityEngine.GameObject DragDropBehavior::arCamera
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___arCamera_5;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___arCamera_6;
 	// UnityEngine.Material DragDropBehavior::normal
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___normal_6;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___normal_7;
 	// UnityEngine.Material DragDropBehavior::draggable
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___draggable_7;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___draggable_8;
 	// System.Single DragDropBehavior::dragStateDistance
-	float ___dragStateDistance_8;
+	float ___dragStateDistance_9;
+	// UnityEngine.GameObject DragDropBehavior::lastgo
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___lastgo_10;
 };
 
 // DragPrimProperties
@@ -17606,16 +17610,20 @@ struct DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098  : public Mo
 	bool ___draggableStateActivated_5;
 	// UnityEngine.Renderer DragPrimProperties::rend
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___rend_6;
+	// UnityEngine.Material DragPrimProperties::normalMat
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___normalMat_7;
+	// UnityEngine.Material DragPrimProperties::movingMat
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___movingMat_8;
 	// System.Boolean DragPrimProperties::lastFrameBool
-	bool ___lastFrameBool_7;
+	bool ___lastFrameBool_9;
 	// UnityEngine.Vector3 DragPrimProperties::normalScale
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___normalScale_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___normalScale_10;
 	// UnityEngine.Vector3 DragPrimProperties::moveScale
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___moveScale_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___moveScale_11;
 	// System.Single DragPrimProperties::distFromCamera
-	float ___distFromCamera_10;
+	float ___distFromCamera_12;
 	// System.Boolean DragPrimProperties::moveState
-	bool ___moveState_11;
+	bool ___moveState_13;
 };
 
 // SojaExiles.Drawer_Pull_Zopp
@@ -17794,6 +17802,10 @@ struct PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304  : public MonoBe
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___set_21;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Single> PlaneContainer::boundsDictionary
 	Dictionary_2_tFF5BAE20C79FF62D8212212465EDB4D26909FFE9* ___boundsDictionary_22;
+	// System.Boolean PlaneContainer::setInit
+	bool ___setInit_23;
+	// System.Boolean PlaneContainer::dragInit
+	bool ___dragInit_24;
 };
 
 // SetInitializer
@@ -22551,21 +22563,21 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4450[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4451[3] = 
 {
 	static_cast<int32_t>(offsetof(DepthExtraction_t1BD358DE1F456D6ACB26E85B3239C097B44EFD83, ___arCamera_4)),static_cast<int32_t>(offsetof(DepthExtraction_t1BD358DE1F456D6ACB26E85B3239C097B44EFD83, ___debugText_5)),static_cast<int32_t>(offsetof(DepthExtraction_t1BD358DE1F456D6ACB26E85B3239C097B44EFD83, ___occlusionManager_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4452[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4452[7] = 
 {
-	static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___arrayOfDraggableObjects_4)),static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___arCamera_5)),static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___normal_6)),static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___draggable_7)),static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___dragStateDistance_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4453[8] = 
+	static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___arrayOfDraggableObjects_4)),static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___interactableObjects_5)),static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___arCamera_6)),static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___normal_7)),static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___draggable_8)),static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___dragStateDistance_9)),static_cast<int32_t>(offsetof(DragDropBehavior_tEFA9CAC295E63A1C8E21F501A76F2A4014E1200D, ___lastgo_10)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4453[10] = 
 {
-	static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___arCamera_4)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___draggableStateActivated_5)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___rend_6)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___lastFrameBool_7)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___normalScale_8)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___moveScale_9)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___distFromCamera_10)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___moveState_11)),};
+	static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___arCamera_4)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___draggableStateActivated_5)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___rend_6)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___normalMat_7)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___movingMat_8)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___lastFrameBool_9)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___normalScale_10)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___moveScale_11)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___distFromCamera_12)),static_cast<int32_t>(offsetof(DragPrimProperties_tC8F67F88A163F9BF7BA17BCC8EEDC6F202013098, ___moveState_13)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4454[3] = 
 {
 	static_cast<int32_t>(offsetof(Events_t7187FDDF89D0C9A7BB9FD5B7517B878D7733F82F, ___gameObjectEventList_4)),static_cast<int32_t>(offsetof(Events_t7187FDDF89D0C9A7BB9FD5B7517B878D7733F82F, ___eventCounter_5)),static_cast<int32_t>(offsetof(Events_t7187FDDF89D0C9A7BB9FD5B7517B878D7733F82F, ___sizeOfList_6)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4455[1] = 
 {
 	static_cast<int32_t>(offsetof(EventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699, ___endConditionReached_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4456[19] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4456[21] = 
 {
-	static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___arCam_4)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___planeCounter_5)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___arSesssionOrigin_6)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___aRPlaneManager_7)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___floorPlane_8)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___cornerLocations_9)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___directionsText_10)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___m_RaycastManager_11)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___m_Hits_12)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___debugText_13)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___mapButton_14)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___mapButtonActive_15)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___floorPlaneObject_16)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___prim1_17)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___yGroundValue_18)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___eventTransitioner_19)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___dragManager_20)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___set_21)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___boundsDictionary_22)),};
+	static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___arCam_4)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___planeCounter_5)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___arSesssionOrigin_6)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___aRPlaneManager_7)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___floorPlane_8)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___cornerLocations_9)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___directionsText_10)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___m_RaycastManager_11)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___m_Hits_12)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___debugText_13)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___mapButton_14)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___mapButtonActive_15)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___floorPlaneObject_16)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___prim1_17)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___yGroundValue_18)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___eventTransitioner_19)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___dragManager_20)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___set_21)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___boundsDictionary_22)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___setInit_23)),static_cast<int32_t>(offsetof(PlaneContainer_t30BA823E8E7CA3104F1083D4B489D5A23CF58304, ___dragInit_24)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4457[2] = 
 {
 	static_cast<int32_t>(offsetof(SetInitializer_t8AC9A23D6B6C0572EDB1D5D42B1467CA5046D8EE, ___planeManager_4)),static_cast<int32_t>(offsetof(SetInitializer_t8AC9A23D6B6C0572EDB1D5D42B1467CA5046D8EE, ___yGroundVal_5)),};
