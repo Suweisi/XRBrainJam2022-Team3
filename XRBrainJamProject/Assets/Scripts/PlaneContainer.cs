@@ -39,6 +39,8 @@ public class PlaneContainer : MonoBehaviour
     EventTransitioner eventTransitioner; 
     [SerializeField]
     GameObject dragManager; 
+    [SerializeField]
+    GameObject set; 
 
     void SetObjectsActive() {
         prim1.GetComponent<Rigidbody>().useGravity = true; 
@@ -96,6 +98,7 @@ public class PlaneContainer : MonoBehaviour
                 planeCounter++; 
                 eventTransitioner.endConditionReached = true; 
                 dragManager.SetActive(true); 
+                set.SetActive(true); 
             }
         //debugText.text = "floor y val: " + floorPlaneObject.transform.position.y.ToString();  
     }
