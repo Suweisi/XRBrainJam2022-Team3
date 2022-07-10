@@ -7345,9 +7345,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CAlphaFadeU3Ed__7_MoveNext_mCF76B131DD
 IL_0017:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
-		// for (float i = 1; i >= 0; i -= Time.deltaTime) {
+		// for (float i = 1; i >= 0; i -= Time.deltaTime * .8f) {
 		__this->___U3CiU3E5__2_3 = (1.0f);
-		goto IL_0079;
+		goto IL_007f;
 	}
 
 IL_002b:
@@ -7372,16 +7372,16 @@ IL_002b:
 IL_0060:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
-		// for (float i = 1; i >= 0; i -= Time.deltaTime) {
+		// for (float i = 1; i >= 0; i -= Time.deltaTime * .8f) {
 		float L_8 = __this->___U3CiU3E5__2_3;
 		float L_9;
 		L_9 = Time_get_deltaTime_m7AB6BFA101D83E1D8F2EF3D5A128AEE9DDBF1A6D(NULL);
-		__this->___U3CiU3E5__2_3 = ((float)il2cpp_codegen_subtract(L_8, L_9));
+		__this->___U3CiU3E5__2_3 = ((float)il2cpp_codegen_subtract(L_8, ((float)il2cpp_codegen_multiply(L_9, (0.800000012f)))));
 	}
 
-IL_0079:
+IL_007f:
 	{
-		// for (float i = 1; i >= 0; i -= Time.deltaTime) {
+		// for (float i = 1; i >= 0; i -= Time.deltaTime * .8f) {
 		float L_10 = __this->___U3CiU3E5__2_3;
 		if ((((float)L_10) >= ((float)(0.0f))))
 		{
@@ -7394,7 +7394,7 @@ IL_0079:
 		NullCheck(L_11);
 		L_11->___teststring_8 = _stringLiteral4DCBD10A19AEFCB08C333F598C7964A22F9C4D0D;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___teststring_8), (void*)_stringLiteral4DCBD10A19AEFCB08C333F598C7964A22F9C4D0D);
-		// }
+		// 
 		return (bool)0;
 	}
 }
