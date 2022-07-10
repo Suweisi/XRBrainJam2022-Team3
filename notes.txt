@@ -20,3 +20,10 @@ high level code plan:
 notes: 
 - draggable models are under a parent -> parent is target 
     - can manipulate the parent target object 
+
+
+NEXT STEPS: 
+- https://math.stackexchange.com/questions/2157931/how-to-check-if-a-point-is-inside-a-square-2d-plane
+    - use this to bound stuff on the plane
+- event system
+- destination for each drag and drop primitive
