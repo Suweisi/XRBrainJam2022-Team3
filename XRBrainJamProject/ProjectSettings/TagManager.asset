@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - dragObject
+  - GUITAR
+  - BOOK
+  - CRUMPLED
+  - CUP
+  - FOOD
+  - LAUNDRY
+  - OLDfood
+  - PIZZA
+  - SHEETS
   layers:
   - Default
   - TransparentFX

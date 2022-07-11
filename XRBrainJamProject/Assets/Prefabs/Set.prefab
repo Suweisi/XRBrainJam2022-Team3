@@ -956,7 +956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4836902417148114497
 Transform:
   m_ObjectHideFlags: 0
@@ -1773,7 +1773,7 @@ GameObject:
   - component: {fileID: 494557972}
   m_Layer: 0
   m_Name: pizza_01 (1)
-  m_TagString: Untagged
+  m_TagString: PIZZA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2591,7 +2591,7 @@ GameObject:
   - component: {fileID: 868010772}
   m_Layer: 0
   m_Name: snack_01
-  m_TagString: Untagged
+  m_TagString: FOOD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3085,7 +3085,7 @@ GameObject:
   - component: {fileID: 1755542404}
   m_Layer: 0
   m_Name: pizza_01
-  m_TagString: Untagged
+  m_TagString: PIZZA
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3186,6 +3186,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4836902417142801406}
     m_Modifications:
+    - target: {fileID: 4822026951855246670, guid: 5b643079ca008f94882fb8e4d08bd04e,
+        type: 3}
+      propertyPath: m_TagString
+      value: GUITAR
+      objectReference: {fileID: 0}
     - target: {fileID: 4822026951855412969, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
       propertyPath: movingMat
@@ -3415,6 +3420,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PaperTrashTarget
+      objectReference: {fileID: 0}
+    - target: {fileID: 5436955306690699252, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
+        type: 3}
+      propertyPath: m_TagString
+      value: CRUMPLED
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b52e1789b8ce5441b72056b9e1fcc58, type: 3}
@@ -3649,6 +3659,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4836902417142801406}
     m_Modifications:
+    - target: {fileID: 1916661737733851987, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
+      propertyPath: m_TagString
+      value: CRUMPLED
+      objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
       propertyPath: m_UseGravity
@@ -3797,6 +3812,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4836902417142801406}
     m_Modifications:
+    - target: {fileID: 531072698778545527, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
+      propertyPath: m_TagString
+      value: CRUMPLED
+      objectReference: {fileID: 0}
     - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: m_UseGravity
@@ -4141,6 +4161,10 @@ PrefabInstance:
     - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_Name
       value: Cola Can
+      objectReference: {fileID: 0}
+    - target: {fileID: 1705129010167144, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
+      propertyPath: m_TagString
+      value: FOOD
       objectReference: {fileID: 0}
     - target: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a, type: 3}
       propertyPath: m_RootOrder
@@ -4658,6 +4682,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3890912749407421444, guid: 42e6d8a153f68b9409bcadf7ebed804a,
+        type: 3}
+      propertyPath: m_TagString
+      value: CRUMPLED
+      objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: movingMat
@@ -4746,6 +4775,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4836902417142801406}
     m_Modifications:
+    - target: {fileID: 1660604893952340999, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_TagString
+      value: SHEETS
+      objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: movingMat
@@ -5012,7 +5046,7 @@ PrefabInstance:
     - target: {fileID: 8223775194135619516, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: LAUNDRY
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a569920aece26d4ab912bb174e714fb, type: 3}
@@ -5176,6 +5210,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseGravity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390172941717547311, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
+      propertyPath: m_TagString
+      value: CRUMPLED
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 280d15c68ac5d054b9d7d195dd00c8d6, type: 3}
