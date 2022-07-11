@@ -11,11 +11,11 @@ public class Destination : MonoBehaviour
     GameObject[] destinationObjs; 
 
     [System.NonSerialized]
-    public DestinationManager destManager; 
+    DestinationManager destManager; 
 
-    // void Awake() {
-    //     destManager = postiveDestinationManagerObject.GetComponent<DestinationManager>(); 
-    // }
+    void Awake() {
+        destManager = GameObject.FindGameObjectWithTag("posdes").GetComponent<DestinationManager>(); 
+    }
 
     
     //how far stuff is away for it to be considered done
@@ -26,25 +26,14 @@ public class Destination : MonoBehaviour
     - increments a counter (destination manager)
     */
 
-    [SerializeField]
-    TMP_Text debugText; 
-
     void Update() {
-
-        // if (postiveDestinationManagerObject.activeSelf) {
-        //     destinationManagerObject = postiveDestinationManagerObject; 
-        // } else if (negativeDestinationManagerObject.activeSelf) {
-        //     destinationManagerObject = negativeDestinationManagerObject;
-        // } else {
-        //     Debug.Log("yodalayheehoo"); 
-        //     return; 
-        // }
-
+        
         foreach(var destinationObj in destinationObjs) {
             if (Vector3.Distance(gameObject.transform.position, destinationObj.transform.position) < .1) {
                 Debug.Log("put away"); 
                 gameObject.SetActive(false); 
                 destManager.numOfObjectsPutAway+=1; 
+                Debug.Log("num of objects put away (from destination script)" + destManager.numOfObjectsPutAway); 
             }
         }
     }
