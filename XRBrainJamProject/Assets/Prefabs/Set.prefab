@@ -1473,8 +1473,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!114 &8076925298009425814
 MonoBehaviour:
@@ -1490,8 +1490,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1 &1108443377714934744
 GameObject:
@@ -3627,8 +3625,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!114 &6893089152846082836
 MonoBehaviour:
@@ -3644,8 +3642,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1 &5826627284205045214
 GameObject:
@@ -4063,8 +4059,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!114 &494557972
 MonoBehaviour:
@@ -4080,8 +4076,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1 &6632661369752985217
 GameObject:
@@ -5236,8 +5230,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!114 &868010772
 MonoBehaviour:
@@ -5259,8 +5253,6 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1 &8648762806328406646
 GameObject:
@@ -5856,8 +5848,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!114 &1755542404
 MonoBehaviour:
@@ -5873,8 +5865,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &80201954
 PrefabInstance:
@@ -5984,8 +5974,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &1725770670
 MonoBehaviour:
@@ -6002,8 +5990,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &112267308
 PrefabInstance:
@@ -6107,8 +6095,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &1688990568
 MonoBehaviour:
@@ -6125,8 +6111,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!4 &112714860 stripped
 Transform:
@@ -6236,8 +6222,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &1870786119
 MonoBehaviour:
@@ -6254,8 +6238,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!4 &228456779 stripped
 Transform:
@@ -6371,8 +6355,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &2130089133
 MonoBehaviour:
@@ -6389,8 +6371,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &622211451
 PrefabInstance:
@@ -6500,8 +6482,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &1192022583
 MonoBehaviour:
@@ -6518,8 +6498,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &972602911
 PrefabInstance:
@@ -6648,8 +6628,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &1541561691
 MonoBehaviour:
@@ -6666,8 +6644,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!4 &4527064594304145 stripped
 Transform:
@@ -6695,17 +6673,17 @@ PrefabInstance:
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -6725,7 +6703,7 @@ PrefabInstance:
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795695, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -6837,8 +6815,6 @@ MonoBehaviour:
   - {fileID: 352154952}
   - {fileID: 880564979}
   - {fileID: 1778806238}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &1221608952
 PrefabInstance:
@@ -7235,8 +7211,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &105784008
 MonoBehaviour:
@@ -7253,8 +7227,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &1739080917
 PrefabInstance:
@@ -7427,8 +7401,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &156834641
 MonoBehaviour:
@@ -7445,8 +7417,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!4 &1799687237 stripped
 Transform:
@@ -7479,17 +7451,17 @@ PrefabInstance:
     - target: {fileID: 4822026951855412969, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4822026951855412969, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4822026951855412969, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4822026951855412969, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
@@ -7509,7 +7481,7 @@ PrefabInstance:
     - target: {fileID: 4822026951855412969, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4822026951970068418, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
@@ -7629,7 +7601,7 @@ PrefabInstance:
     - target: {fileID: 2029589136137198049, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2029589136137198051, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
@@ -7729,8 +7701,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &546316647077330835
 PrefabInstance:
@@ -7987,7 +7957,7 @@ PrefabInstance:
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6733769329049233564, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
@@ -8071,8 +8041,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &4836902418276074761 stripped
 Transform:
@@ -8201,8 +8169,6 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &7088465459072297834
 MonoBehaviour:
@@ -8219,8 +8185,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &2674311638462341190
 PrefabInstance:
@@ -8343,8 +8309,6 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &3824248365960450529
 MonoBehaviour:
@@ -8361,8 +8325,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &2936426155851788222
 PrefabInstance:
@@ -8449,17 +8413,17 @@ PrefabInstance:
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
@@ -8479,7 +8443,7 @@ PrefabInstance:
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
@@ -8508,8 +8472,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &4340055317693434385 stripped
 Transform:
@@ -8542,17 +8504,17 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -8572,7 +8534,7 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -8662,8 +8624,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 407169149}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &3379191774419019529
 PrefabInstance:
@@ -8775,8 +8735,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!114 &5725728997177821844
 MonoBehaviour:
@@ -8798,8 +8758,6 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &3383711453738425961 stripped
 Transform:
@@ -8837,17 +8795,17 @@ PrefabInstance:
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -8867,7 +8825,7 @@ PrefabInstance:
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8443317652548046560, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -8952,8 +8910,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &4751626899551242454 stripped
 Transform:
@@ -9021,7 +8977,7 @@ PrefabInstance:
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8443317652548046560, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -9106,8 +9062,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &4836902418544473038 stripped
 Transform:
@@ -9417,8 +9371,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!114 &3860785427333142592
 MonoBehaviour:
@@ -9440,8 +9394,6 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &4780543263451043697 stripped
 Transform:
@@ -9564,8 +9516,6 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &1383813631
 MonoBehaviour:
@@ -9582,8 +9532,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!4 &4841430894114965884 stripped
 Transform:
@@ -9792,17 +9742,17 @@ PrefabInstance:
     - target: {fileID: 6747562565537015896, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537015896, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537015896, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537015896, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
@@ -9822,7 +9772,7 @@ PrefabInstance:
     - target: {fileID: 6747562565537015896, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
@@ -9856,8 +9806,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &8291539964144143759 stripped
 Transform:
@@ -10102,17 +10050,17 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -10132,7 +10080,7 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -10216,8 +10164,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 407169149}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &8539336166889153492 stripped
 Transform:
@@ -10340,7 +10286,7 @@ PrefabInstance:
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
@@ -10375,8 +10321,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &6436689140823290393
 PrefabInstance:
@@ -10403,17 +10347,17 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -10433,7 +10377,7 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -10517,8 +10461,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 407169149}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &8806129064892589570 stripped
 Transform:
@@ -10556,17 +10498,17 @@ PrefabInstance:
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -10586,7 +10528,7 @@ PrefabInstance:
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8443317652548046560, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -10677,8 +10619,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &6571570309640550246
 PrefabInstance:
@@ -10765,17 +10705,17 @@ PrefabInstance:
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
@@ -10795,7 +10735,7 @@ PrefabInstance:
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
@@ -10830,8 +10770,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &7479504211400664251
 PrefabInstance:
@@ -10858,17 +10796,17 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -10888,7 +10826,7 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -10978,8 +10916,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 407169149}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &7819969247653298152
 PrefabInstance:
@@ -11001,17 +10937,17 @@ PrefabInstance:
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -11031,7 +10967,7 @@ PrefabInstance:
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795695, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -11137,8 +11073,6 @@ MonoBehaviour:
   - {fileID: 352154952}
   - {fileID: 880564979}
   - {fileID: 1778806238}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &2953783794396817991 stripped
 Transform:
@@ -11181,17 +11115,17 @@ PrefabInstance:
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
@@ -11211,7 +11145,7 @@ PrefabInstance:
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6733769329049233564, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
@@ -11301,8 +11235,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &8380161148278931241
 PrefabInstance:
@@ -11324,17 +11256,17 @@ PrefabInstance:
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -11354,7 +11286,7 @@ PrefabInstance:
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795695, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -11460,8 +11392,6 @@ MonoBehaviour:
   - {fileID: 352154952}
   - {fileID: 880564979}
   - {fileID: 1778806238}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &3474454567485729414 stripped
 Transform:
@@ -11579,8 +11509,8 @@ MonoBehaviour:
   normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
 --- !u!114 &6503273780072924720
 MonoBehaviour:
@@ -11602,8 +11532,6 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &8903920356311402869 stripped
 Transform:
@@ -11631,17 +11559,17 @@ PrefabInstance:
     - target: {fileID: 2029589136137198049, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
       propertyPath: moveScale.x
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2029589136137198049, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
       propertyPath: moveScale.y
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2029589136137198049, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
       propertyPath: moveScale.z
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2029589136137198049, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
@@ -11661,7 +11589,7 @@ PrefabInstance:
     - target: {fileID: 2029589136137198049, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
       propertyPath: distFromCamera
-      value: 2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2029589136137198051, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
@@ -11755,8 +11683,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &4069903852636253476 stripped
 Transform:
@@ -11889,7 +11815,7 @@ PrefabInstance:
     - target: {fileID: 6747562565537015896, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.2
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
@@ -11923,8 +11849,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  postiveDestinationManagerObject: {fileID: 0}
-  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &4836902418960908577 stripped
 Transform:
