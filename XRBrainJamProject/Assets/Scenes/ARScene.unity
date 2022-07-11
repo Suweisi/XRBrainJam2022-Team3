@@ -1494,6 +1494,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 330097437, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+      propertyPath: debugText
+      value: 
+      objectReference: {fileID: 778948417}
+    - target: {fileID: 330097438, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 360374709, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+      propertyPath: debugText
+      value: 
+      objectReference: {fileID: 778948417}
+    - target: {fileID: 360374710, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 372239550, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 494557972, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: debugText
       value: 
@@ -1522,7 +1542,21 @@ PrefabInstance:
       propertyPath: debugText
       value: 
       objectReference: {fileID: 778948417}
+    - target: {fileID: 1828097401, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 601480064593047759, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 1267232120190870414, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 1958724464845675167, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
@@ -1556,6 +1590,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Set
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4836902417148114497, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
@@ -1613,6 +1652,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4836902417315657308, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 4934799704431015124, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
