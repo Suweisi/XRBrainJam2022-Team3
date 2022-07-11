@@ -41,6 +41,8 @@ public class PlaneContainer : MonoBehaviour
     GameObject dragManager; 
     [SerializeField]
     GameObject set; 
+    [SerializeField]
+    GameObject phoneCanvasUI; 
 
     void SetObjectsActive() {
         prim1.GetComponent<Rigidbody>().useGravity = true; 
@@ -103,8 +105,9 @@ public class PlaneContainer : MonoBehaviour
                 floorPlaneObject.gameObject.SetActive(true);
                 SetObjectsActive(); 
                 TurnOffPlanes();
+                phoneCanvasUI.SetActive(true); 
                 eventTransitioner.endConditionReached = true; 
-                set.SetActive(true);
+                //set.SetActive(true);
                 setInit = true;  
                 planeCounter++; 
             }

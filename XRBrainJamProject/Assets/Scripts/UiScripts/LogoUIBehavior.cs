@@ -11,25 +11,27 @@ public class LogoUIBehavior : MonoBehaviour
     [SerializeField] 
     float waitTime; 
     float elapsedTime; 
-    string teststring; 
+    EventTransitioner eventTransitioner; 
 
     void Awake() {
         image = GetComponent<Image>(); 
         alphaVal = image.color.a; 
+        eventTransitioner = GetComponent<EventTransitioner>(); 
         StartCoroutine(AlphaFade()); 
-        teststring = "woo";
     }
 
     void Update() {
-        Debug.Log(teststring);
+        
     }
 
     IEnumerator AlphaFade() {
-        for (float i = 1; i >= 0; i -= Time.deltaTime) {
+        for (float i = 1; i >= 0; i -= Time.deltaTime * .5f) {
             image.color = new Color(1, 1, 1, i);
             yield return null; 
         }
-        teststring = "yuh"; 
-
+        gameObject.SetActive(false); 
+        image.color = new Color(1, 1, 1, 0); 
+        eventTransitioner.endConditionReached = true; 
+        yield return null; 
     }
 }
