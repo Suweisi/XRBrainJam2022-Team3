@@ -1218,7 +1218,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 900, y: 933.8}
+  m_SizeDelta: {x: 900, y: 1046.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &126783620795930104
 CanvasRenderer:
@@ -2488,7 +2488,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sam's Voice should sound
+  m_text: Sam's voice sounds
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9c55b85752fc3d84b8a684c0a9817022, type: 2}
   m_sharedMaterial: {fileID: -3370802180199296951, guid: 9c55b85752fc3d84b8a684c0a9817022,
