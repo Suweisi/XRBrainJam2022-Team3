@@ -36,6 +36,7 @@ public class DragPrimProperties : MonoBehaviour
         rend = gameObject.GetComponent<Renderer>(); 
         arCamera = GameObject.Find("AR Camera").GetComponent<Camera>();
         destinationManagerObject = GameObject.FindGameObjectWithTag("posdes"); 
+        gameObject.transform.localScale = normalScale; 
         positiveAudioDictionary = destinationManagerObject.GetComponent<DestinationManager>().tagToAudioDictionary;
         tagIntDictionary = destinationManagerObject.GetComponent<DestinationManager>().voiceLineUsedCountDictionary; 
         negativeAudioDictionary = destinationManagerObject.GetComponent<DestinationManager>().negativeTagToAudioDictionary;
@@ -45,6 +46,7 @@ public class DragPrimProperties : MonoBehaviour
 
         if (lastFrameBool!=draggableStateActivated) {
             if (draggableStateActivated) {
+                Debug.Log("activated!"); 
                 gameObject.transform.localScale = moveScale; 
                 rend.sharedMaterial = movingMat; 
             } else {

@@ -31,7 +31,7 @@ public class PhoneEventBehavior : MonoBehaviour
             alpha = 1; 
             introPanelImage.color = new Color(0, 0, 0, alpha); 
             panelReadyImage.color = new Color(0, 0, 0, alpha); 
-        } else if (phoneDist < .6f) {
+        } else if (phoneDist < 2f) {
             panelReady.GetComponent<EventTransitioner>().endConditionReached = true; 
             phone.SetActive(false);
         }  else if (phoneDist < 3 && phoneDist > 0) {
