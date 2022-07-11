@@ -38,8 +38,7 @@ public class DestinationManager : MonoBehaviour
         }
         for(int i = 0; i < objTags.Length; i++) {
             negativeTagToAudioDictionary[objTags[i]] = negativeAudioClips[i]; 
-        }
-        
+        }   
     }
     int lastInt; 
     void Update() {
@@ -58,8 +57,7 @@ public class DestinationManager : MonoBehaviour
         } else {
             //Debug.Log("phase 2 has been started!"); 
             if (numOfObjectsPutAway == 6) {
-                Debug.Log("done with game... roll to the end"); 
-                //maybe we set the end condition here
+                GetComponent<EventTransitioner>().endConditionReached = true;     
             }
         }
 
