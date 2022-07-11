@@ -243,6 +243,10 @@ PrefabInstance:
       propertyPath: setObject
       value: 
       objectReference: {fileID: 816155588}
+    - target: {fileID: 720685180, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
+      propertyPath: uiMusicObj
+      value: 
+      objectReference: {fileID: 1230695672}
     - target: {fileID: 126783621509269198, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: m_IsActive
@@ -1194,6 +1198,7 @@ MonoBehaviour:
   dragManager: {fileID: 1088452751}
   set: {fileID: 816155588}
   phoneCanvasUI: {fileID: 1737261690}
+  ifDebug: 0
 --- !u!114 &1173318912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1207,6 +1212,81 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endConditionReached: 0
+--- !u!1001 &1230695671
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987769486559845580, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8208902190854057712, guid: 1303661a92148a44193aef2228f0e38d,
+        type: 3}
+      propertyPath: m_Name
+      value: UI music Object
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1303661a92148a44193aef2228f0e38d, type: 3}
+--- !u!1 &1230695672 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8208902190854057712, guid: 1303661a92148a44193aef2228f0e38d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1230695671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1354141925
 GameObject:
   m_ObjectHideFlags: 0
