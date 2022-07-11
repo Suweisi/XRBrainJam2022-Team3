@@ -27,7 +27,6 @@ public class PhoneEventBehavior : MonoBehaviour
     void Update()
     {
         var phoneDist = Vector3.Distance(arCamera.transform.position, phone.transform.position); 
-        Debug.Log("phoneDistance: " + phoneDist); 
         if (phoneDist > 6) {
             alpha = 1; 
             introPanelImage.color = new Color(0, 0, 0, alpha); 

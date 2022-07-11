@@ -46,7 +46,7 @@ public class DragPrimProperties : MonoBehaviour
         if (lastFrameBool!=draggableStateActivated) {
             if (draggableStateActivated) {
                 gameObject.transform.localScale = moveScale; 
-                rend.sharedMaterial = movingMat;
+                rend.sharedMaterial = movingMat; 
             } else {
                 gameObject.transform.localScale = normalScale; 
                 rend.sharedMaterial = normalMat; 
@@ -54,9 +54,7 @@ public class DragPrimProperties : MonoBehaviour
         }
 
         if (Vector3.Distance(arCamera.transform.position, gameObject.transform.position) < 1.5) {
-            draggableStateActivated = true; 
-            Debug.Log(gameObject.name + " draggable distance is true"); 
-             
+            draggableStateActivated = true;  
         } else {
             draggableStateActivated = false; 
         }
@@ -65,16 +63,18 @@ public class DragPrimProperties : MonoBehaviour
             if (draggableStateActivated) {
                 RaycastHit hit; 
                 Ray ray = arCamera.ScreenPointToRay(Input.GetTouch(0).position);
-                if (!moveState && Input.GetTouch(0).phase == TouchPhase.Began) {
-                    if (Physics.Raycast(ray, out hit)) {
-                        if (hit.collider.gameObject == gameObject) {
-                            gameObjTag = gameObject.tag; 
-                            moveState = true; 
+                if (Input.GetTouch(0).phase == TouchPhase.Began) {
+                    if (!moveState) {
+                        if (Physics.Raycast(ray, out hit)) {
+                            if (hit.collider.gameObject == gameObject) {
+                                gameObjTag = gameObject.tag; 
+                                moveState = true; 
+                            }
                         }
+                    } else {
+                        moveState = false;
                     }
                 }
-            } else if (moveState && Input.GetTouch(0).phase == TouchPhase.Began) {
-                moveState = false; 
             }
 
         }
@@ -94,9 +94,7 @@ public class DragPrimProperties : MonoBehaviour
                     tagIntDictionary[gameObjTag] += 1;  
                 }
             }
-            Debug.Log("halloa: " + gameObject.name); 
             MoveObjectWithCam(); 
-            
         }
        
        lastFrameBool = draggableStateActivated; 

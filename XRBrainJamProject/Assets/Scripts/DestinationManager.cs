@@ -41,24 +41,29 @@ public class DestinationManager : MonoBehaviour
         }
         
     }
-
+    int lastInt; 
     void Update() {
+
+        if (lastInt!=numOfObjectsPutAway) {
+            Debug.Log("(from dest manager **) value changed to " + numOfObjectsPutAway); 
+        }
 
         if (!phaseTwoStarted) {
             if (numOfObjectsPutAway == 3) {
                 //might not have to set end condition... could keep going after throwing ui on the screen
-                Debug.Log("put away 3 objects!!"); 
                 GetPhoneCallFromAlex(); 
                 // GetComponent<EventTransitioner>().endConditionReached = true; 
 
             }
         } else {
-            Debug.Log("phase 2 has been started!"); 
+            //Debug.Log("phase 2 has been started!"); 
             if (numOfObjectsPutAway == 6) {
                 Debug.Log("done with game... roll to the end"); 
                 //maybe we set the end condition here
             }
         }
+
+        lastInt = numOfObjectsPutAway; 
 
         
     }

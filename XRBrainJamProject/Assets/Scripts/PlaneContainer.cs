@@ -9,6 +9,7 @@ using System.Linq;
 using Unity.Collections; 
 
 
+
 public class PlaneContainer : MonoBehaviour
 {
     Camera arCam; 
@@ -43,6 +44,8 @@ public class PlaneContainer : MonoBehaviour
     GameObject set; 
     [SerializeField]
     GameObject phoneCanvasUI; 
+    [SerializeField]
+    bool ifDebug; 
 
     void SetObjectsActive() {
         prim1.GetComponent<Rigidbody>().useGravity = true; 
