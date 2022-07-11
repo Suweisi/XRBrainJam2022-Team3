@@ -27,14 +27,14 @@ public class PhoneEventBehavior : MonoBehaviour
     void Update()
     {
         var phoneDist = Vector3.Distance(arCamera.transform.position, phone.transform.position); 
-        if (phoneDist > 6) {
+        if (phoneDist > 3) {
             alpha = 1; 
             introPanelImage.color = new Color(0, 0, 0, alpha); 
             panelReadyImage.color = new Color(0, 0, 0, alpha); 
-        } else if (phoneDist < 4) {
+        } else if (phoneDist < .6f) {
             panelReady.GetComponent<EventTransitioner>().endConditionReached = true; 
             phone.SetActive(false);
-        }  else if (phoneDist < 6 && phoneDist > 0) {
+        }  else if (phoneDist < 3 && phoneDist > 0) {
             alpha = 1 - (1 / phoneDist / 6); 
             introPanelImage.color = new Color(0, 0, 0, alpha); 
             panelReadyImage.color = new Color(0, 0, 0, alpha); 

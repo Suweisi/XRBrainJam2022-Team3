@@ -9,6 +9,8 @@ public class PhoneCallAnsweredBehavior : MonoBehaviour
     GameObject phoneUICanvas; 
     [SerializeField]
     GameObject setObject; 
+    [SerializeField]
+    GameObject postChrisCallAudioObject; 
     void Awake () {
         audioSource = GetComponent<AudioSource>(); 
     }
@@ -17,6 +19,7 @@ public class PhoneCallAnsweredBehavior : MonoBehaviour
         if (!audioSource.isPlaying) {
             GetComponent<EventTransitioner>().endConditionReached = true; 
             //setObject.SetActive(true); 
+            postChrisCallAudioObject.GetComponent<AudioSource>().Play(); 
             gameObject.SetActive(false); 
             phoneUICanvas.SetActive(false);
         }

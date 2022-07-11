@@ -12,6 +12,8 @@ public class PanelReadyBehavior : MonoBehaviour
     GameObject childObj; 
     [SerializeField]
     GameObject setObject; 
+    [SerializeField]
+    GameObject uiMusicObj; 
 
      void Awake() {
         image = GetComponent<Image>();
@@ -29,6 +31,8 @@ public class PanelReadyBehavior : MonoBehaviour
         image.color = new Color(0, 0, 0, 1);
         childImage.color = new Color(0, 0, 0, 1); 
         childObj.SetActive(false); 
+        //turn off the ui music object here
+        uiMusicObj.SetActive(false); 
         setObject.SetActive(true); 
         yield return null; 
 

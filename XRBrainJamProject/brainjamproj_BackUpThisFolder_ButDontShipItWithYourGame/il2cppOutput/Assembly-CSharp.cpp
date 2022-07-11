@@ -564,7 +564,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral310E8397D6216CC9B26EB5C12E509ABDA5601327
 IL2CPP_EXTERN_C String_t* _stringLiteral3708CDBCC9F390AB99D52FE7DEE4724401B69B9F;
 IL2CPP_EXTERN_C String_t* _stringLiteral38C64887AB82F5BC82217C8F11DDB0313813CA67;
 IL2CPP_EXTERN_C String_t* _stringLiteral3932B8534D5D4BE937592F1B10ACBA212676A51A;
-IL2CPP_EXTERN_C String_t* _stringLiteral3A5D0D14F657289C99F6931A0F77C772C95E0FFE;
 IL2CPP_EXTERN_C String_t* _stringLiteral3BC87920B1442F3D7F9BCF13099BFFCAC6A70535;
 IL2CPP_EXTERN_C String_t* _stringLiteral40102E36E8B1B4C1EE8BAB8B3660F23FD5933519;
 IL2CPP_EXTERN_C String_t* _stringLiteral437D4B096877A1450EC9D7A7C4C35431EA2B2FC8;
@@ -581,7 +580,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral6CADD907942F3914D6A7E949952BB1C42CE6C391
 IL2CPP_EXTERN_C String_t* _stringLiteral6DDEBC2866E51A8A514D2EFA0542FA55F41840AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral6DE05BAB247508293F306885400634ED250BFC88;
 IL2CPP_EXTERN_C String_t* _stringLiteral6E2DF2962AAED14C03C5D097CD61F1E48224BBBF;
-IL2CPP_EXTERN_C String_t* _stringLiteral6EA1C7173F883E957774A921A377F33163107B2A;
 IL2CPP_EXTERN_C String_t* _stringLiteral71383EA9D9D2BB710814E8746E4AE8EDC7C52A74;
 IL2CPP_EXTERN_C String_t* _stringLiteral7200D5866E871F59E7DA92E1BD52300F5C0CDD03;
 IL2CPP_EXTERN_C String_t* _stringLiteral73B13DE9817379145386BC6ECC87E983FC8ED41A;
@@ -7518,8 +7516,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestinationManager_Update_m32BF504A2D288
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3A5D0D14F657289C99F6931A0F77C772C95E0FFE);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6EA1C7173F883E957774A921A377F33163107B2A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBBEE8F29A18618643FABEE9B870633C9C7ADF2F4);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF6838CCF1718F71823C7AFA5165362650B8471E3);
 		s_Il2CppMethodInitialized = true;
@@ -7550,7 +7546,7 @@ IL_0028:
 		bool L_5 = __this->___phaseTwoStarted_8;
 		if (L_5)
 		{
-			goto IL_004b;
+			goto IL_0041;
 		}
 	}
 	{
@@ -7558,28 +7554,22 @@ IL_0028:
 		int32_t L_6 = __this->___numOfObjectsPutAway_4;
 		if ((!(((uint32_t)L_6) == ((uint32_t)3))))
 		{
-			goto IL_0068;
+			goto IL_0054;
 		}
 	}
 	{
-		// Debug.Log("put away 3 objects!!");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral6EA1C7173F883E957774A921A377F33163107B2A, NULL);
 		// GetPhoneCallFromAlex();
 		DestinationManager_GetPhoneCallFromAlex_m27A99CAAF0BAD0D69A9BE3AFF39B9883C14CF53B(__this, NULL);
-		goto IL_0068;
+		goto IL_0054;
 	}
 
-IL_004b:
+IL_0041:
 	{
-		// Debug.Log("phase 2 has been started!");
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral3A5D0D14F657289C99F6931A0F77C772C95E0FFE, NULL);
 		// if (numOfObjectsPutAway == 6) {
 		int32_t L_7 = __this->___numOfObjectsPutAway_4;
 		if ((!(((uint32_t)L_7) == ((uint32_t)6))))
 		{
-			goto IL_0068;
+			goto IL_0054;
 		}
 	}
 	{
@@ -7588,7 +7578,7 @@ IL_004b:
 		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralBBEE8F29A18618643FABEE9B870633C9C7ADF2F4, NULL);
 	}
 
-IL_0068:
+IL_0054:
 	{
 		// lastInt = numOfObjectsPutAway;
 		int32_t L_8 = __this->___numOfObjectsPutAway_4;
