@@ -375,6 +375,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3083549197421729016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083549197421729016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083549197421729016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 375
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083549197421729016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 812
+      objectReference: {fileID: 0}
+    - target: {fileID: 3483466703031597446, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: phone
+      value: 
+      objectReference: {fileID: 326255845}
     - target: {fileID: 4950169766043411347, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: m_audioClip
@@ -419,6 +444,7 @@ PrefabInstance:
     - {fileID: 3858312054728543285, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
     - {fileID: 2118126720325642138, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
     - {fileID: 650339617, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
+    - {fileID: 760654987, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
 --- !u!1 &414779237 stripped
 GameObject:
@@ -456,27 +482,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 414779236}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &414779243 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 126783621509269198, guid: d1e048fa5e7893946adbcd4cc35192be,
-    type: 3}
-  m_PrefabInstance: {fileID: 414779236}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &414779249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414779239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80c0c02063e6582468394d17a17c26ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panelReady: {fileID: 414779239}
-  introPanel: {fileID: 414779243}
-  phone: {fileID: 326255845}
 --- !u!1 &422218013
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,7 +723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alexNote: {fileID: 1645929289}
-  canvasPhoneUI: {fileID: 0}
+  canvasPhoneUI: {fileID: 1737261690}
 --- !u!114 &622751220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1156,6 +1161,7 @@ MonoBehaviour:
   phoneCanvasUI: {fileID: 1737261690}
   alexPhoneCall: {fileID: 760654981}
   phone: {fileID: 326255845}
+  phaseThreeInteractables: {fileID: 0}
 --- !u!82 &1067277162
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1950,6 +1956,10 @@ PrefabInstance:
       propertyPath: debugText
       value: 
       objectReference: {fileID: 778948417}
+    - target: {fileID: 749567943, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+      propertyPath: destinationObjs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 816155591, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: planeManager
       value: 
@@ -2152,7 +2162,9 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 622751219, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+    - {fileID: 622751220, guid: dea88764918e0ce4398f740e65c19652, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dea88764918e0ce4398f740e65c19652, type: 3}
 --- !u!1 &1645929289 stripped
 GameObject:

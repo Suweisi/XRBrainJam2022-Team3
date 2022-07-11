@@ -12,6 +12,8 @@ public class Destination : MonoBehaviour
 
     [System.NonSerialized]
     DestinationManager destManager; 
+    [SerializeField]
+    GameObject audioDing; 
 
     void Awake() {
         destManager = GameObject.FindGameObjectWithTag("posdes").GetComponent<DestinationManager>(); 
@@ -27,11 +29,13 @@ public class Destination : MonoBehaviour
     */
 
     void Update() {
-        
+
         foreach(var destinationObj in destinationObjs) {
-            if (Vector3.Distance(gameObject.transform.position, destinationObj.transform.position) < .1) {
+            if (Vector3.Distance(gameObject.transform.position, destinationObj.transform.position) < .3f) {
                 Debug.Log("put away"); 
-                gameObject.SetActive(false); 
+                //gameObject.SetActive(false); play sound of being in right place
+                gameObject.GetComponent<Collider>().enabled = false; 
+                audioDing.GetComponent<AudioSource>().Play(); 
                 destManager.numOfObjectsPutAway+=1; 
                 Debug.Log("num of objects put away (from destination script)" + destManager.numOfObjectsPutAway); 
             }

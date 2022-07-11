@@ -29,6 +29,8 @@ public class DestinationManager : MonoBehaviour
     GameObject alexPhoneCall; 
     [SerializeField]
     GameObject phone; 
+    [SerializeField]
+    GameObject phaseThreeInteractables;
 
     void Awake() {
         phaseTwoStarted = false; 
@@ -55,10 +57,7 @@ public class DestinationManager : MonoBehaviour
 
             }
         } else {
-            //Debug.Log("phase 2 has been started!"); 
-            if (numOfObjectsPutAway == 6) {
-                GetComponent<EventTransitioner>().endConditionReached = true;     
-            }
+            phaseThreeInteractables.SetActive(true);
         }
 
         lastInt = numOfObjectsPutAway; 

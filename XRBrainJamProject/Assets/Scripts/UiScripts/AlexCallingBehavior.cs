@@ -10,6 +10,7 @@ public class AlexCallingBehavior : MonoBehaviour
     GameObject phoneCallAnsweredTwo; 
     
     public void PickUpAlexCall() {
+        phone.GetComponent<AudioSource>().enabled = false; 
         phone.SetActive(false);
         gameObject.SetActive(false);
         phoneCallAnsweredTwo.SetActive(true); 

@@ -20,6 +20,7 @@ public class PhoneCallTwoBehavior : MonoBehaviour
         if (!audioSource.isPlaying) {
             //setObject.SetActive(true); 
             gameObject.SetActive(false); 
+            postAlexCallAudioGameObject.SetActive(true); 
             postAlexCallAudioGameObject.GetComponent<AudioSource>().Play(); 
             destMan.GetComponent<DestinationManager>().phaseTwoStarted = true; 
             phoneUICanvas.SetActive(false);
