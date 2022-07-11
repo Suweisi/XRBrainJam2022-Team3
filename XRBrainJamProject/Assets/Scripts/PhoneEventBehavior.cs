@@ -11,6 +11,8 @@ public class PhoneEventBehavior : MonoBehaviour
     GameObject panelReady; 
     [SerializeField]
     GameObject introPanel; 
+    [SerializeField]
+    GameObject phone; 
     Image introPanelImage; 
     Image panelReadyImage; 
     float alpha; 
@@ -24,15 +26,15 @@ public class PhoneEventBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var phoneDist = Vector3.Distance(arCamera.transform.position, gameObject.transform.position); 
+        var phoneDist = Vector3.Distance(arCamera.transform.position, phone.transform.position); 
         Debug.Log("phoneDistance: " + phoneDist); 
         if (phoneDist > 6) {
             alpha = 1; 
             introPanelImage.color = new Color(0, 0, 0, alpha); 
             panelReadyImage.color = new Color(0, 0, 0, alpha); 
-        } else if (phoneDist < 1) {
+        } else if (phoneDist < 4) {
             panelReady.GetComponent<EventTransitioner>().endConditionReached = true; 
-            gameObject.SetActive(false);
+            phone.SetActive(false);
         }  else if (phoneDist < 6 && phoneDist > 0) {
             alpha = 1 - (1 / phoneDist / 6); 
             introPanelImage.color = new Color(0, 0, 0, alpha); 

@@ -45,10 +45,10 @@ static const int32_t s_InvokerIndices[8] =
 	4313,
 	6668,
 	7102,
-	8500,
-	8500,
+	8501,
+	8501,
 	5423,
-	8500,
+	8501,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_OpenXR_Features_RuntimeDebugger_CodeGenModule = 

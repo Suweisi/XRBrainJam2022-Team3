@@ -13,7 +13,15 @@ public class Destination : MonoBehaviour
     GameObject postiveDestinationManagerObject;
     [SerializeField]
     GameObject negativeDestinationManagerObject; 
-    GameObject destinationManagerObject; 
+    [System.NonSerialized]
+    public GameObject destinationManagerObject; 
+
+    [System.NonSerialized]
+    public DestinationManager destManager; 
+
+    // void Awake() {
+    //     destManager = postiveDestinationManagerObject.GetComponent<DestinationManager>(); 
+    // }
 
     
     //how far stuff is away for it to be considered done
@@ -29,19 +37,20 @@ public class Destination : MonoBehaviour
 
     void Update() {
 
-        if (postiveDestinationManagerObject.activeSelf) {
-            destinationManagerObject = postiveDestinationManagerObject; 
-        } else if (negativeDestinationManagerObject.activeSelf) {
-            destinationManagerObject = negativeDestinationManagerObject; 
-        } else {
-            return; 
-        }
+        // if (postiveDestinationManagerObject.activeSelf) {
+        //     destinationManagerObject = postiveDestinationManagerObject; 
+        // } else if (negativeDestinationManagerObject.activeSelf) {
+        //     destinationManagerObject = negativeDestinationManagerObject;
+        // } else {
+        //     Debug.Log("yodalayheehoo"); 
+        //     return; 
+        // }
 
         foreach(var destinationObj in destinationObjs) {
             if (Vector3.Distance(gameObject.transform.position, destinationObj.transform.position) < .1) {
                 Debug.Log("put away"); 
                 gameObject.SetActive(false); 
-                destinationManagerObject.GetComponent<DestinationManager>().numOfObjectsPutAway+=1; 
+                destManager.numOfObjectsPutAway+=1; 
             }
         }
     }

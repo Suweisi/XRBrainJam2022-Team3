@@ -6,6 +6,6 @@ public class PhoneCallBehavior : MonoBehaviour
 {
     public void PressAnswerButton() {
         GetComponent<EventTransitioner>().endConditionReached = true; 
-        gameObject.SetActive(false);
+        gameObject.SetActive(false); 
     }
 }

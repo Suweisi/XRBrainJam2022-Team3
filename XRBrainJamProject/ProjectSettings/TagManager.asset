@@ -14,6 +14,8 @@ TagManager:
   - OLDfood
   - PIZZA
   - SHEETS
+  - posdes
+  - negdes
   layers:
   - Default
   - TransparentFX

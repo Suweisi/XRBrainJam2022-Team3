@@ -23,14 +23,22 @@ public class DragPrimProperties : MonoBehaviour
     [SerializeField]
     float distFromCamera; 
     bool moveState; 
-    [SerializeField]
-    TMP_Text debugText; 
     
+    string gameObjTag; 
+    [SerializeField]
+    GameObject destinationManagerObject;
+    Dictionary<string, AudioClip> positiveAudioDictionary = new Dictionary<string, AudioClip>(); 
+    Dictionary<string, AudioClip> negativeAudioDictionary = new Dictionary<string, AudioClip>(); 
+    Dictionary<string, int> tagIntDictionary = new Dictionary<string, int>(); 
 
     void Awake() {
         draggableStateActivated = false; 
         rend = gameObject.GetComponent<Renderer>(); 
-        arCamera = GameObject.Find("AR Camera").GetComponent<Camera>(); 
+        arCamera = GameObject.Find("AR Camera").GetComponent<Camera>();
+        destinationManagerObject = GameObject.FindGameObjectWithTag("posdes"); 
+        positiveAudioDictionary = destinationManagerObject.GetComponent<DestinationManager>().tagToAudioDictionary;
+        tagIntDictionary = destinationManagerObject.GetComponent<DestinationManager>().voiceLineUsedCountDictionary; 
+        negativeAudioDictionary = destinationManagerObject.GetComponent<DestinationManager>().negativeTagToAudioDictionary;
     }
 
     void Update() {
@@ -47,6 +55,7 @@ public class DragPrimProperties : MonoBehaviour
 
         if (Vector3.Distance(arCamera.transform.position, gameObject.transform.position) < 1.5) {
             draggableStateActivated = true; 
+            Debug.Log(gameObject.name + " draggable distance is true"); 
              
         } else {
             draggableStateActivated = false; 
@@ -59,7 +68,7 @@ public class DragPrimProperties : MonoBehaviour
                 if (!moveState && Input.GetTouch(0).phase == TouchPhase.Began) {
                     if (Physics.Raycast(ray, out hit)) {
                         if (hit.collider.gameObject == gameObject) {
-                            debugText.text += (" just hit: " + hit.collider.gameObject.name); 
+                            gameObjTag = gameObject.tag; 
                             moveState = true; 
                         }
                     }
@@ -70,8 +79,24 @@ public class DragPrimProperties : MonoBehaviour
 
         }
 
-        if (moveState) {
+        if (moveState) { 
+            // if (destManager.voiceLineUsedCountDictionary[gameObjTag] == 0) {
+            //     AudioClip audioClip = destManager.tagToAudioDictionary[gameObjTag]; 
+            // }   
+            if (destinationManagerObject.GetComponent<DestinationManager>().phaseTwoStarted) {
+                if (tagIntDictionary[gameObjTag] == 0 || tagIntDictionary[gameObjTag] == 1) {
+                    destinationManagerObject.GetComponent<DestinationManager>().SetAudioClip(negativeAudioDictionary[gameObjTag]);
+                    tagIntDictionary[gameObjTag] += 1;
+                }
+            } else {
+                if (tagIntDictionary[gameObjTag] == 0) {
+                    destinationManagerObject.GetComponent<DestinationManager>().SetAudioClip(positiveAudioDictionary[gameObjTag]);
+                    tagIntDictionary[gameObjTag] += 1;  
+                }
+            }
+            Debug.Log("halloa: " + gameObject.name); 
             MoveObjectWithCam(); 
+            
         }
        
        lastFrameBool = draggableStateActivated; 
