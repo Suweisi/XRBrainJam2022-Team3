@@ -1864,7 +1864,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1 &6632661369752985217
 GameObject:
@@ -2727,7 +2728,8 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1 &8648762806328406646
 GameObject:
@@ -3174,7 +3176,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &129310169382281397
 PrefabInstance:
@@ -3441,7 +3444,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &546316647077330835
 PrefabInstance:
@@ -3777,7 +3781,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &4836902418276074761 stripped
 Transform:
@@ -3925,7 +3930,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &4836902418544473038 stripped
 Transform:
@@ -4236,7 +4242,8 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!114 &1383813631
 MonoBehaviour:
@@ -4729,7 +4736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &7479504211400664251
 PrefabInstance:
@@ -4871,7 +4879,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 407169149}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!1001 &8380161148278931241
 PrefabInstance:
@@ -5027,7 +5036,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 352154952}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &3474454567485729414 stripped
 Transform:
@@ -5189,7 +5199,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
-  destinationManager: {fileID: 0}
+  postiveDestinationManagerObject: {fileID: 0}
+  negativeDestinationManagerObject: {fileID: 0}
   debugText: {fileID: 0}
 --- !u!4 &4836902418960908577 stripped
 Transform:

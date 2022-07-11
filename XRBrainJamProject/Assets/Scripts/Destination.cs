@@ -10,7 +10,11 @@ public class Destination : MonoBehaviour
     [SerializeField]
     GameObject[] destinationObjs; 
     [SerializeField]
-    GameObject destinationManager; 
+    GameObject postiveDestinationManagerObject;
+    [SerializeField]
+    GameObject negativeDestinationManagerObject; 
+    GameObject destinationManagerObject; 
+
     
     //how far stuff is away for it to be considered done
 
@@ -25,10 +29,19 @@ public class Destination : MonoBehaviour
 
     void Update() {
 
+        if (postiveDestinationManagerObject.activeSelf) {
+            destinationManagerObject = postiveDestinationManagerObject; 
+        } else if (negativeDestinationManagerObject.activeSelf) {
+            destinationManagerObject = negativeDestinationManagerObject; 
+        } else {
+            return; 
+        }
+
         foreach(var destinationObj in destinationObjs) {
             if (Vector3.Distance(gameObject.transform.position, destinationObj.transform.position) < .1) {
-                debugText.text = gameObject.name + " disappear homie"; 
+                Debug.Log("put away"); 
                 gameObject.SetActive(false); 
+                destinationManagerObject.GetComponent<DestinationManager>().numOfObjectsPutAway+=1; 
             }
         }
     }
