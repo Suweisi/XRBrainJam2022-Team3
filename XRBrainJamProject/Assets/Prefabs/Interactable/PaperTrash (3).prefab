@@ -127,8 +127,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggableStateActivated: 0
-  rend: {fileID: 0}
+  normalMat: {fileID: 0}
+  movingMat: {fileID: 0}
+  normalScale: {x: 1, y: 1, z: 1}
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
+  destinationManagerObject: {fileID: 0}
 --- !u!1 &8443317652548046560
 GameObject:
   m_ObjectHideFlags: 0
@@ -174,5 +178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggableStateActivated: 0
-  rend: {fileID: 0}
+  normalMat: {fileID: 0}
+  movingMat: {fileID: 0}
+  normalScale: {x: 1, y: 1, z: 1}
+  moveScale: {x: 0.8, y: 0.8, z: 0.8}
+  distFromCamera: 0.5
+  destinationManagerObject: {fileID: 0}

@@ -228,6 +228,8 @@ struct ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44;
 struct ARSessionOrigin_tE7B28A1A19500BCC02711397A19E330425830BC3;
 // UnityEngine.XR.ARFoundation.ARTrackable
 struct ARTrackable_t1D98417758C08E98A333CDEC0C2C1688CE10B2E0;
+// AlexCallingBehavior
+struct AlexCallingBehavior_t1CDD5A62215762F90C50C627D8CAE17854CC88FF;
 // AnchorCreator
 struct AnchorCreator_tBBEE94135B5183E0A8EE52FB00513F69C7C980ED;
 // UnityEngine.Animator
@@ -318,6 +320,8 @@ struct PanelReadyBehavior_tA00C26F860E81BB2840529867D6DDA98AA7B5A67;
 struct PhoneCallAnsweredBehavior_tE7434CCBAE489EA0208D3DF2D3B15FE474944776;
 // PhoneCallBehavior
 struct PhoneCallBehavior_t640DCCAF5B2236E41144D13F6D36E8EAE176CA8C;
+// PhoneCallTwoBehavior
+struct PhoneCallTwoBehavior_tAE90CA373BE59F8F1BD4AE78D02636EDA1E3E688;
 // PhoneEventBehavior
 struct PhoneEventBehavior_tBA4D4361098D9CD5F4EB262F2CB7A169A6443D72;
 // PlaneContainer
@@ -485,6 +489,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral28ED81CF5AD6FE392326D7F88BC350380E97CAC5
 IL2CPP_EXTERN_C String_t* _stringLiteral2C77DF174D758CF558C6CC300CB509AD9B27AD58;
 IL2CPP_EXTERN_C String_t* _stringLiteral310E8397D6216CC9B26EB5C12E509ABDA5601327;
 IL2CPP_EXTERN_C String_t* _stringLiteral3932B8534D5D4BE937592F1B10ACBA212676A51A;
+IL2CPP_EXTERN_C String_t* _stringLiteral3A5D0D14F657289C99F6931A0F77C772C95E0FFE;
 IL2CPP_EXTERN_C String_t* _stringLiteral3BC87920B1442F3D7F9BCF13099BFFCAC6A70535;
 IL2CPP_EXTERN_C String_t* _stringLiteral437D4B096877A1450EC9D7A7C4C35431EA2B2FC8;
 IL2CPP_EXTERN_C String_t* _stringLiteral5276276414219C1C9E636F9FF7A30D84163BFF4E;
@@ -2850,6 +2855,15 @@ struct ARTrackable_t1D98417758C08E98A333CDEC0C2C1688CE10B2E0  : public MonoBehav
 {
 };
 
+// AlexCallingBehavior
+struct AlexCallingBehavior_t1CDD5A62215762F90C50C627D8CAE17854CC88FF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.GameObject AlexCallingBehavior::phone
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___phone_4;
+	// UnityEngine.GameObject AlexCallingBehavior::phoneCallAnsweredTwo
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___phoneCallAnsweredTwo_5;
+};
+
 // AnchorCreator
 struct AnchorCreator_tBBEE94135B5183E0A8EE52FB00513F69C7C980ED  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -2945,6 +2959,12 @@ struct DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E  : public Mo
 	Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* ___negativeTagToAudioDictionary_10;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> DestinationManager::voiceLineUsedCountDictionary
 	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___voiceLineUsedCountDictionary_11;
+	// UnityEngine.GameObject DestinationManager::phoneCanvasUI
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___phoneCanvasUI_12;
+	// UnityEngine.GameObject DestinationManager::alexPhoneCall
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___alexPhoneCall_13;
+	// UnityEngine.GameObject DestinationManager::phone
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___phone_14;
 };
 
 // DragDropBehavior
@@ -3114,6 +3134,17 @@ struct PhoneCallAnsweredBehavior_tE7434CCBAE489EA0208D3DF2D3B15FE474944776  : pu
 // PhoneCallBehavior
 struct PhoneCallBehavior_t640DCCAF5B2236E41144D13F6D36E8EAE176CA8C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+};
+
+// PhoneCallTwoBehavior
+struct PhoneCallTwoBehavior_tAE90CA373BE59F8F1BD4AE78D02636EDA1E3E688  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.AudioSource PhoneCallTwoBehavior::audioSource
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___audioSource_4;
+	// UnityEngine.GameObject PhoneCallTwoBehavior::phoneUICanvas
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___phoneUICanvas_5;
+	// UnityEngine.GameObject PhoneCallTwoBehavior::destMan
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___destMan_6;
 };
 
 // PhoneEventBehavior
@@ -4522,11 +4553,8 @@ inline void Dictionary_2_set_Item_m038480C0EC13713DBD89A53BE69FF0359501B4C2 (Dic
 {
 	((  void (*) (Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588*, String_t*, int32_t, const RuntimeMethod*))Dictionary_2_set_Item_m72CC2F1213D1C1B8ABEDE31082D07B67EC873B13_gshared)(__this, ___key0, ___value1, method);
 }
-// T UnityEngine.Component::GetComponent<EventTransitioner>()
-inline EventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699* Component_GetComponent_TisEventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699_m60E16D0073CA7B2AA1900B9AA80625DB795FC70D (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
-{
-	return ((  EventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
-}
+// System.Void DestinationManager::GetPhoneCallFromAlex()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestinationManager_GetPhoneCallFromAlex_m27A99CAAF0BAD0D69A9BE3AFF39B9883C14CF53B (DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.AudioSource>()
 inline AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -4687,6 +4715,11 @@ inline ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* GameObject_GetC
 inline ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* GameObject_GetComponent_TisARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_m77634146E9AE333BE0BCEEC545F76E1784D96F7B (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
 	return ((  ARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+// T UnityEngine.Component::GetComponent<EventTransitioner>()
+inline EventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699* Component_GetComponent_TisEventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699_m60E16D0073CA7B2AA1900B9AA80625DB795FC70D (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  EventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
 // T UnityEngine.GameObject::GetComponent<UnityEngine.XR.ARFoundation.ARPlane>()
 inline ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* GameObject_GetComponent_TisARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0_mE27527505653C46355095DA08D22F475E77443C6 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
@@ -6558,8 +6591,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestinationManager_Update_m32BF504A2D288
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisEventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699_m60E16D0073CA7B2AA1900B9AA80625DB795FC70D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3A5D0D14F657289C99F6931A0F77C772C95E0FFE);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6EA1C7173F883E957774A921A377F33163107B2A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBBEE8F29A18618643FABEE9B870633C9C7ADF2F4);
 		s_Il2CppMethodInitialized = true;
@@ -6569,7 +6602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestinationManager_Update_m32BF504A2D288
 		bool L_0 = __this->___phaseTwoStarted_8;
 		if (L_0)
 		{
-			goto IL_0028;
+			goto IL_0022;
 		}
 	}
 	{
@@ -6577,28 +6610,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestinationManager_Update_m32BF504A2D288
 		int32_t L_1 = __this->___numOfObjectsPutAway_4;
 		if ((!(((uint32_t)L_1) == ((uint32_t)3))))
 		{
-			goto IL_003b;
+			goto IL_003f;
 		}
 	}
 	{
 		// Debug.Log("put away 3 objects!!");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral6EA1C7173F883E957774A921A377F33163107B2A, NULL);
-		// GetComponent<EventTransitioner>().endConditionReached = true;
-		EventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699* L_2;
-		L_2 = Component_GetComponent_TisEventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699_m60E16D0073CA7B2AA1900B9AA80625DB795FC70D(__this, Component_GetComponent_TisEventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699_m60E16D0073CA7B2AA1900B9AA80625DB795FC70D_RuntimeMethod_var);
-		NullCheck(L_2);
-		L_2->___endConditionReached_4 = (bool)1;
+		// GetPhoneCallFromAlex();
+		DestinationManager_GetPhoneCallFromAlex_m27A99CAAF0BAD0D69A9BE3AFF39B9883C14CF53B(__this, NULL);
 		return;
 	}
 
-IL_0028:
+IL_0022:
 	{
+		// Debug.Log("phase 2 has been started!");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral3A5D0D14F657289C99F6931A0F77C772C95E0FFE, NULL);
 		// if (numOfObjectsPutAway == 6) {
-		int32_t L_3 = __this->___numOfObjectsPutAway_4;
-		if ((!(((uint32_t)L_3) == ((uint32_t)6))))
+		int32_t L_2 = __this->___numOfObjectsPutAway_4;
+		if ((!(((uint32_t)L_2) == ((uint32_t)6))))
 		{
-			goto IL_003b;
+			goto IL_003f;
 		}
 	}
 	{
@@ -6607,8 +6640,28 @@ IL_0028:
 		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralBBEE8F29A18618643FABEE9B870633C9C7ADF2F4, NULL);
 	}
 
-IL_003b:
+IL_003f:
 	{
+		// }
+		return;
+	}
+}
+// System.Void DestinationManager::GetPhoneCallFromAlex()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestinationManager_GetPhoneCallFromAlex_m27A99CAAF0BAD0D69A9BE3AFF39B9883C14CF53B (DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* __this, const RuntimeMethod* method) 
+{
+	{
+		// phoneCanvasUI.SetActive(true);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___phoneCanvasUI_12;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)1, NULL);
+		// alexPhoneCall.SetActive(true);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___alexPhoneCall_13;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		// phone.SetActive(true);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___phone_14;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
 		// }
 		return;
 	}
@@ -8275,6 +8328,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartVariables__ctor_m63274EAFB42728A317
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void AlexCallingBehavior::PickUpAlexCall()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlexCallingBehavior_PickUpAlexCall_m4B89CB39649C587D6AB6D7E3D08A9A02611F9A34 (AlexCallingBehavior_t1CDD5A62215762F90C50C627D8CAE17854CC88FF* __this, const RuntimeMethod* method) 
+{
+	{
+		// phone.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___phone_4;
+		NullCheck(L_0);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		// gameObject.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
+		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
+		// phoneCallAnsweredTwo.SetActive(true);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___phoneCallAnsweredTwo_5;
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)1, NULL);
+		// }
+		return;
+	}
+}
+// System.Void AlexCallingBehavior::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlexCallingBehavior__ctor_mE519D31A5471943E84CA7DAEB41172776AD7445E (AlexCallingBehavior_t1CDD5A62215762F90C50C627D8CAE17854CC88FF* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void GenderSelectionBehavior::OnGenderScreenNextButtonPress()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenderSelectionBehavior_OnGenderScreenNextButtonPress_m621A1251ABC8248CA74B644A28EC8BF79EA9E215 (GenderSelectionBehavior_t25C68541D8A35D05A1862CE94D211095642F3EB2* __this, const RuntimeMethod* method) 
 {
@@ -9042,6 +9132,86 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhoneCallBehavior_PressAnswerButton_m446
 }
 // System.Void PhoneCallBehavior::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhoneCallBehavior__ctor_mEB05EA53DF05C43535018C37330949F5AB00937E (PhoneCallBehavior_t640DCCAF5B2236E41144D13F6D36E8EAE176CA8C* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void PhoneCallTwoBehavior::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhoneCallTwoBehavior_Awake_m892902398A8D15827EE5A6DB24A861C2EBFA4F8A (PhoneCallTwoBehavior_tAE90CA373BE59F8F1BD4AE78D02636EDA1E3E688* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// audioSource = GetComponent<AudioSource>();
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0;
+		L_0 = Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B(__this, Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
+		__this->___audioSource_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___audioSource_4), (void*)L_0);
+		// }
+		return;
+	}
+}
+// System.Void PhoneCallTwoBehavior::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhoneCallTwoBehavior_Update_m848E25D84C2969C2E8D044575822CD3D0F523F5F (PhoneCallTwoBehavior_tAE90CA373BE59F8F1BD4AE78D02636EDA1E3E688* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisDestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E_m8C53DF584F86F7FBF585AC4EAE7F85C7334E4515_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!audioSource.isPlaying) {
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___audioSource_4;
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		// gameObject.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
+		NullCheck(L_2);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_2, (bool)0, NULL);
+		// destMan.GetComponent<DestinationManager>().phaseTwoStarted = true;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___destMan_6;
+		NullCheck(L_3);
+		DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* L_4;
+		L_4 = GameObject_GetComponent_TisDestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E_m8C53DF584F86F7FBF585AC4EAE7F85C7334E4515(L_3, GameObject_GetComponent_TisDestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E_m8C53DF584F86F7FBF585AC4EAE7F85C7334E4515_RuntimeMethod_var);
+		NullCheck(L_4);
+		L_4->___phaseTwoStarted_8 = (bool)1;
+		// phoneUICanvas.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___phoneUICanvas_5;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
+	}
+
+IL_0036:
+	{
+		// }
+		return;
+	}
+}
+// System.Void PhoneCallTwoBehavior::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PhoneCallTwoBehavior__ctor_mD296F8ACA03B45F4AF52015368E99A4F0BF98E12 (PhoneCallTwoBehavior_tAE90CA373BE59F8F1BD4AE78D02636EDA1E3E688* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
