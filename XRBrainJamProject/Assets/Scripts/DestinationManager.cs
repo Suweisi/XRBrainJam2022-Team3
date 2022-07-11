@@ -22,6 +22,13 @@ public class DestinationManager : MonoBehaviour
     public Dictionary<string, AudioClip> tagToAudioDictionary = new Dictionary<string, AudioClip>(); 
     public Dictionary<string, AudioClip> negativeTagToAudioDictionary = new Dictionary<string, AudioClip>(); 
     public Dictionary<string, int> voiceLineUsedCountDictionary = new Dictionary<string, int>(); 
+    [Header("Phone Events")]
+    [SerializeField]
+    GameObject phoneCanvasUI; 
+    [SerializeField]
+    GameObject alexPhoneCall; 
+    [SerializeField]
+    GameObject phone; 
 
     void Awake() {
         phaseTwoStarted = false; 
@@ -41,9 +48,12 @@ public class DestinationManager : MonoBehaviour
             if (numOfObjectsPutAway == 3) {
                 //might not have to set end condition... could keep going after throwing ui on the screen
                 Debug.Log("put away 3 objects!!"); 
-                GetComponent<EventTransitioner>().endConditionReached = true; 
+                GetPhoneCallFromAlex(); 
+                // GetComponent<EventTransitioner>().endConditionReached = true; 
+
             }
         } else {
+            Debug.Log("phase 2 has been started!"); 
             if (numOfObjectsPutAway == 6) {
                 Debug.Log("done with game... roll to the end"); 
                 //maybe we set the end condition here
@@ -51,6 +61,12 @@ public class DestinationManager : MonoBehaviour
         }
 
         
+    }
+
+    void GetPhoneCallFromAlex() {
+        phoneCanvasUI.SetActive(true);
+        alexPhoneCall.SetActive(true); 
+        phone.SetActive(true); 
     }
 
     public void SetAudioClip(AudioClip audioClip) {

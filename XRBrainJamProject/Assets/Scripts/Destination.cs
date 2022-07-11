@@ -9,12 +9,6 @@ public class Destination : MonoBehaviour
     //take this thing's pos and make a radius around it 
     [SerializeField]
     GameObject[] destinationObjs; 
-    [SerializeField]
-    GameObject postiveDestinationManagerObject;
-    [SerializeField]
-    GameObject negativeDestinationManagerObject; 
-    [System.NonSerialized]
-    public GameObject destinationManagerObject; 
 
     [System.NonSerialized]
     public DestinationManager destManager; 

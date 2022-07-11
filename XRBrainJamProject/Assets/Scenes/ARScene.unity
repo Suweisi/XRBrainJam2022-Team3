@@ -362,7 +362,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 36a6c1e4f7f771a4caf3644afefcf59e, type: 3}
+      objectReference: {fileID: 8300000, guid: 66e9d140ca2ad2d46ade75d64acf61fe, type: 3}
+    - target: {fileID: 6136681392348732016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 760654987}
+    - target: {fileID: 6136681392348732016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PickUpAlexCall
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136681392348732016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AlexCallingBehavior, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7174168106190925979, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: setObject
@@ -370,10 +385,16 @@ PrefabInstance:
       objectReference: {fileID: 816155588}
     - target: {fileID: 7481870088713885002, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
+      propertyPath: m_Name
+      value: PhoneCallAnswered2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7481870088713885002, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3858312054728543285, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
 --- !u!1 &414779237 stripped
 GameObject:
@@ -572,6 +593,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &650339611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7481870088713885002, guid: d1e048fa5e7893946adbcd4cc35192be,
+    type: 3}
+  m_PrefabInstance: {fileID: 414779236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &650339617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650339611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2162b08441be7b149abc4ada4962ea5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  phoneUICanvas: {fileID: 1737261690}
+  destMan: {fileID: 1067277158}
 --- !u!1 &656880745
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,6 +679,26 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 414779236}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &760654981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4461695759743290255, guid: d1e048fa5e7893946adbcd4cc35192be,
+    type: 3}
+  m_PrefabInstance: {fileID: 414779236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &760654987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760654981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f67e67dad21824a8db13982957434c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  phone: {fileID: 326255845}
+  phoneCallAnsweredTwo: {fileID: 650339611}
 --- !u!114 &778948417 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 778948417, guid: d1e048fa5e7893946adbcd4cc35192be,
@@ -733,6 +794,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: edc5596824145d9478dd9d156f83efca, type: 3}
   - {fileID: 8300000, guid: f0a4db45edf2e0d429920d60d663c6fe, type: 3}
   - {fileID: 8300000, guid: 1b5322210769f384582cdb3defccc817, type: 3}
+  phoneCanvasUI: {fileID: 1737261690}
+  alexPhoneCall: {fileID: 760654981}
+  phone: {fileID: 326255845}
 --- !u!82 &1067277162
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1432,10 +1496,6 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 354713751, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 494557972, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: debugText
       value: 
@@ -1444,10 +1504,6 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 494557972, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 550251527, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: debugText
       value: 
@@ -1456,10 +1512,6 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 550251527, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 612197549, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: debugText
       value: 
@@ -1468,10 +1520,6 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 612197549, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 749567943, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: debugText
       value: 
@@ -1480,10 +1528,6 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 749567943, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 816155591, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: planeManager
       value: 
@@ -1496,10 +1540,6 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 868010772, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1026677952, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: debugText
       value: 
@@ -1508,10 +1548,6 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1026677952, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1029551215, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: debugText
       value: 
@@ -1520,10 +1556,6 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1029551215, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1598650541, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: debugText
       value: 
@@ -1532,10 +1564,6 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1598650541, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1755542404, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: debugText
       value: 
@@ -1544,10 +1572,6 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1755542404, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 1931913490, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: debugText
       value: 
@@ -1556,32 +1580,50 @@ PrefabInstance:
       propertyPath: postiveDestinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1931913490, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: negativeDestinationManagerObject
-      value: 
+    - target: {fileID: 1267232120190870414, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: distFromCamera
+      value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1966479214, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: introPanel
+    - target: {fileID: 1267232120190870414, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
       value: 
-      objectReference: {fileID: 414779243}
-    - target: {fileID: 1966479214, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: panelReady
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 1960614029373840310, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
       value: 
-      objectReference: {fileID: 414779239}
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 2412248748673515745, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: distFromCamera
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2412248748673515745, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 4491341560294157922, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: distFromCamera
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4491341560294157922, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 4537801634769472403, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: debugText
+      propertyPath: destinationManagerObject
       value: 
-      objectReference: {fileID: 778948417}
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: m_Name
       value: Set
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4836902417148114497, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
@@ -1638,8 +1680,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1966479214, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+    - target: {fileID: 8998826432345772472, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dea88764918e0ce4398f740e65c19652, type: 3}
 --- !u!1 &1659859597
 GameObject:
