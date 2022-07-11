@@ -248,6 +248,7 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
+  audioDing: {fileID: 0}
 --- !u!1 &341393434
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,6 +418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 4127173710331921641}
+  audioDing: {fileID: 0}
 --- !u!1 &385098937
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,6 +2825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destinationObjs: []
+  audioDing: {fileID: 0}
 --- !u!1 &5587715984974257745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3122,6 +3125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 4127173710331921641}
+  audioDing: {fileID: 0}
 --- !u!1 &6632661369752985217
 GameObject:
   m_ObjectHideFlags: 0
@@ -4016,6 +4020,7 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
+  audioDing: {fileID: 0}
 --- !u!1 &8648762806328406646
 GameObject:
   m_ObjectHideFlags: 0
@@ -4461,6 +4466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 4127173710331921641}
+  audioDing: {fileID: 0}
 --- !u!1001 &112267308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4563,6 +4569,7 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
+  audioDing: {fileID: 0}
 --- !u!114 &1688990568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4732,6 +4739,7 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
+  audioDing: {fileID: 0}
 --- !u!4 &4527064813149360 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4527064727974542, guid: 00931e932c93cef48ae2d8cc87408c66,
@@ -4905,6 +4913,7 @@ MonoBehaviour:
   - {fileID: 352154952}
   - {fileID: 0}
   - {fileID: 0}
+  audioDing: {fileID: 0}
 --- !u!1001 &884958080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5060,6 +5069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
+  audioDing: {fileID: 0}
 --- !u!4 &8443317652739730787 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8443317652548046563, guid: d93018da0ae839241a36b127570f41cf,
@@ -5195,6 +5205,7 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
+  audioDing: {fileID: 0}
 --- !u!114 &1541561691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5483,6 +5494,7 @@ MonoBehaviour:
   - {fileID: 809286738}
   - {fileID: 407169149}
   - {fileID: 320191392}
+  audioDing: {fileID: 0}
 --- !u!1001 &2083581852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5632,6 +5644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 407169149}
+  audioDing: {fileID: 0}
 --- !u!4 &2550745006138227591 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
@@ -5913,6 +5926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
+  audioDing: {fileID: 0}
 --- !u!1001 &558783606854562779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6159,6 +6173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
+  audioDing: {fileID: 0}
 --- !u!4 &4836902418276074761 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6733769329049233564, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
@@ -6310,6 +6325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
+  audioDing: {fileID: 0}
 --- !u!4 &4836902418544473038 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8443317652548046563, guid: d93018da0ae839241a36b127570f41cf,
@@ -6623,6 +6639,7 @@ MonoBehaviour:
   - {fileID: 97318862}
   - {fileID: 890822157}
   - {fileID: 809286738}
+  audioDing: {fileID: 0}
 --- !u!114 &1383813631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6641,6 +6658,21 @@ MonoBehaviour:
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
   distFromCamera: 0.5
   destinationManagerObject: {fileID: 0}
+--- !u!114 &1645929292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4838607426111688052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bae3adb9f77e8a4ba89630a4d3e4c39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destinationObjs:
+  - {fileID: 2761461217605019120}
+  audioDing: {fileID: 0}
 --- !u!4 &4841430894114965884 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a,
@@ -7129,6 +7161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 407169149}
+  audioDing: {fileID: 0}
 --- !u!4 &8539336166889153492 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
@@ -7220,32 +7253,32 @@ PrefabInstance:
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: moveScale.x
-      value: 0.3
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: moveScale.y
-      value: 0.3
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: moveScale.z
-      value: 0.3
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: normalScale.x
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: normalScale.y
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: normalScale.z
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
@@ -7285,6 +7318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
+  audioDing: {fileID: 0}
 --- !u!1001 &7479504211400664251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7430,6 +7464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 407169149}
+  audioDing: {fileID: 0}
 --- !u!1001 &8380161148278931241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7584,8 +7619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 352154952}
-  - {fileID: 0}
-  - {fileID: 0}
+  audioDing: {fileID: 0}
 --- !u!4 &3474454567485729414 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4934799703830795695, guid: 0a569920aece26d4ab912bb174e714fb,
@@ -7751,6 +7785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
+  audioDing: {fileID: 0}
 --- !u!4 &4836902418960908577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4611138515516451224, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
