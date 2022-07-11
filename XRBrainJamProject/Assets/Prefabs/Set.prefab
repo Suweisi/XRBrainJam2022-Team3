@@ -8760,6 +8760,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &396833468863279536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3378618695736138337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
+  movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
+  normalScale: {x: 1, y: 1, z: 1}
+  moveScale: {x: 1, y: 1, z: 1}
+  distFromCamera: 2
+  debugText: {fileID: 0}
 --- !u!114 &5725728997177821844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8782,24 +8800,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   postiveDestinationManagerObject: {fileID: 0}
   negativeDestinationManagerObject: {fileID: 0}
-  debugText: {fileID: 0}
---- !u!114 &396833468863279536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3378618695736138337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
-  movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
-  normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
   debugText: {fileID: 0}
 --- !u!4 &3383711453738425961 stripped
 Transform:
@@ -9402,6 +9402,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1256107856375504376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4774377091116667769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
+  movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
+  normalScale: {x: 1, y: 1, z: 1}
+  moveScale: {x: 1, y: 1, z: 1}
+  distFromCamera: 2
+  debugText: {fileID: 0}
 --- !u!114 &3860785427333142592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9424,24 +9442,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   postiveDestinationManagerObject: {fileID: 0}
   negativeDestinationManagerObject: {fileID: 0}
-  debugText: {fileID: 0}
---- !u!114 &1256107856375504376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4774377091116667769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
-  movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
-  normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
   debugText: {fileID: 0}
 --- !u!4 &4780543263451043697 stripped
 Transform:
@@ -9936,6 +9936,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047307109264895311, guid: d0134227919a00b4e9088270f04ae0e4,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047307109264895311, guid: d0134227919a00b4e9088270f04ae0e4,
+        type: 3}
+      propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].value
+      value: 0.08148193
       objectReference: {fileID: 0}
     - target: {fileID: 2719022049732644996, guid: d0134227919a00b4e9088270f04ae0e4,
         type: 3}
@@ -11568,6 +11578,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4767220758291787249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8901096441631001981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
+  movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
+  normalScale: {x: 1, y: 1, z: 1}
+  moveScale: {x: 1, y: 1, z: 1}
+  distFromCamera: 2
+  debugText: {fileID: 0}
 --- !u!114 &6503273780072924720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11590,24 +11618,6 @@ MonoBehaviour:
   - {fileID: 809286738}
   postiveDestinationManagerObject: {fileID: 0}
   negativeDestinationManagerObject: {fileID: 0}
-  debugText: {fileID: 0}
---- !u!114 &4767220758291787249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8901096441631001981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
-  movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
-  normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 1, y: 1, z: 1}
-  distFromCamera: 2
   debugText: {fileID: 0}
 --- !u!4 &8903920356311402869 stripped
 Transform:
