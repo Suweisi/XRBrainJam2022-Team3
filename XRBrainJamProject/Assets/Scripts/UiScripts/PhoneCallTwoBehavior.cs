@@ -9,6 +9,8 @@ public class PhoneCallTwoBehavior : MonoBehaviour
     GameObject phoneUICanvas;
     [SerializeField]
     GameObject destMan; 
+    [SerializeField]
+    GameObject postAlexCallAudioGameObject; 
 
     void Awake() {
         audioSource = GetComponent<AudioSource>(); 
@@ -18,6 +20,7 @@ public class PhoneCallTwoBehavior : MonoBehaviour
         if (!audioSource.isPlaying) {
             //setObject.SetActive(true); 
             gameObject.SetActive(false); 
+            postAlexCallAudioGameObject.GetComponent<AudioSource>().Play(); 
             destMan.GetComponent<DestinationManager>().phaseTwoStarted = true; 
             phoneUICanvas.SetActive(false);
         }
