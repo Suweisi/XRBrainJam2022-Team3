@@ -9,8 +9,11 @@ public class PhaseThreeBehavior : MonoBehaviour
     Camera arCamera; 
     [SerializeField]
     GameObject canvasPhoneUI; 
+    [SerializeField]
+    GameObject arStuff; 
     void Awake() {
         arCamera = GameObject.Find("AR Camera").GetComponent<Camera>(); 
+        Debug.Log("STARTED: " + gameObject.name + " phase three baby");
     }
 
     void Update() {
@@ -23,6 +26,7 @@ public class PhaseThreeBehavior : MonoBehaviour
                     if (hit.collider.gameObject == alexNote) {
                         Debug.Log("got the note");
                         GetComponent<EventTransitioner>().endConditionReached = true; 
+                        arStuff.SetActive(false); 
                         canvasPhoneUI.SetActive(true); 
                     }
                 }

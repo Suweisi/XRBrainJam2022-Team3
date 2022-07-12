@@ -5,13 +5,12 @@ using UnityEngine;
 public class AlexCallingBehavior : MonoBehaviour
 {
     [SerializeField]
-    GameObject phone; 
-    [SerializeField]
     GameObject phoneCallAnsweredTwo; 
+    [SerializeField]
+    GameObject phoneRingingObj;
     
     public void PickUpAlexCall() {
-        phone.GetComponent<AudioSource>().enabled = false; 
-        phone.SetActive(false);
+        phoneRingingObj.SetActive(false);
         gameObject.SetActive(false);
         phoneCallAnsweredTwo.SetActive(true); 
     }

@@ -16,7 +16,6 @@ public class Events : MonoBehaviour
     }
 
     void Update() {
-        //Debug.Log(eventCounter); 
         var currentEvent = gameObjectEventList[eventCounter];  
         var currentEventTransitioner = currentEvent.GetComponent<EventTransitioner>(); 
         if (eventCounter + 1 == sizeOfList) {
