@@ -31,6 +31,10 @@ public class DestinationManager : MonoBehaviour
     GameObject phone; 
     [SerializeField]
     GameObject phaseThreeInteractables;
+    bool phaseThreeStarted; 
+    [SerializeField]
+    GameObject phoneRingingObject; 
+
 
     void Awake() {
         phaseTwoStarted = false; 
@@ -56,9 +60,12 @@ public class DestinationManager : MonoBehaviour
                 // GetComponent<EventTransitioner>().endConditionReached = true; 
 
             }
-        } else { 
+        
+        if (phaseTwoStarted && !phaseThreeStarted) {
+            phaseThreeStarted = true; 
             phaseThreeInteractables.SetActive(true);
         }
+    }
 
         lastInt = numOfObjectsPutAway; 
 
@@ -68,7 +75,7 @@ public class DestinationManager : MonoBehaviour
     void GetPhoneCallFromAlex() {
         phoneCanvasUI.SetActive(true);
         alexPhoneCall.SetActive(true); 
-        phone.SetActive(true); 
+        phoneRingingObject.SetActive(true); 
     }
 
     public void SetAudioClip(AudioClip audioClip) {
