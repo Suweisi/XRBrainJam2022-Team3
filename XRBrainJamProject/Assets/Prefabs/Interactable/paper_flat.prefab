@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 5918527803402349935}
   - component: {fileID: 5918527803402349928}
   - component: {fileID: 1958724463701701891}
+  - component: {fileID: 7013094193186885860}
   m_Layer: 0
   m_Name: paperBrushed1:pPlane1_0
-  m_TagString: Untagged
+  m_TagString: SHEETS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660604893952340999}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0062, z: 0}
-  m_LocalScale: {x: 7.2186437, y: 7.2186437, z: 7.2186437}
+  m_LocalPosition: {x: 0, y: 0.02, z: -0}
+  m_LocalScale: {x: 10.600578, y: 10.600578, z: 10.600578}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2550745007678592027}
@@ -113,7 +114,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &1958724463701701891
 MonoBehaviour:
@@ -127,8 +128,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  draggableStateActivated: 0
-  rend: {fileID: 0}
+  normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
+  movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
+  normalScale: {x: 1, y: 1, z: 1}
+  moveScale: {x: 0.3, y: 0.3, z: 0.3}
+  distFromCamera: 0.5
+  destinationManagerObject: {fileID: 0}
+--- !u!114 &7013094193186885860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660604893952340999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bae3adb9f77e8a4ba89630a4d3e4c39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destinationObjs:
+  - {fileID: 0}
+  audioDing: {fileID: 0}
 --- !u!1 &2895183154941316769
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,7 +172,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2895183154941316769}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
