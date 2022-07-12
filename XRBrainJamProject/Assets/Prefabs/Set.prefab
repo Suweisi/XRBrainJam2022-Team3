@@ -208,7 +208,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &330097438
 MonoBehaviour:
@@ -384,7 +384,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &360374710
 MonoBehaviour:
@@ -2793,7 +2793,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &2309668909414996461
 MonoBehaviour:
@@ -3092,7 +3092,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &6612619608205368501
 BoxCollider:
@@ -3994,7 +3994,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &8843958519296248488
 MonoBehaviour:
@@ -4446,7 +4446,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &9183078535537297662
 MonoBehaviour:
@@ -4574,7 +4574,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &1688990567
 MonoBehaviour:
@@ -4713,7 +4713,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &1828097403
 BoxCollider:
@@ -4828,6 +4828,11 @@ PrefabInstance:
         type: 3}
       propertyPath: destinationManagerObject
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795695, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -4956,6 +4961,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseGravity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -5197,7 +5207,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &1541561693
 BoxCollider:
@@ -5493,7 +5503,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &372239550
 MonoBehaviour:
@@ -5660,6 +5670,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: paper_flat (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 327f6d54aca22984fa755e59c925abf8, type: 3}
 --- !u!1 &1660604893351451547 stripped
@@ -5700,6 +5715,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: GUITAR
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822026951855412968, guid: 5b643079ca008f94882fb8e4d08bd04e,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 4822026951855412969, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
@@ -5870,6 +5890,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseGravity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029589136137198051, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 4917699473255116487, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
@@ -6084,6 +6109,11 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
       propertyPath: movingMat
@@ -6234,6 +6264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseGravity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -6655,7 +6690,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &612197549
 MonoBehaviour:
@@ -7177,6 +7212,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: paper_flat (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 327f6d54aca22984fa755e59c925abf8, type: 3}
 --- !u!1 &4822342875546616776 stripped
@@ -7328,6 +7368,11 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42e6d8a153f68b9409bcadf7ebed804a, type: 3}
 --- !u!4 &4836902416852242205 stripped
@@ -7474,6 +7519,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: paper_flat
       objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 327f6d54aca22984fa755e59c925abf8, type: 3}
 --- !u!4 &4947934688097054880 stripped
@@ -7554,6 +7604,11 @@ PrefabInstance:
         type: 3}
       propertyPath: distFromCamera
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795695, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -7795,6 +7850,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_UseGravity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 8390172941717547311, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
