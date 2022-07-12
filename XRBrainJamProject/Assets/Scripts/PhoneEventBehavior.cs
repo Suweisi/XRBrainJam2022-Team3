@@ -15,8 +15,6 @@ public class PhoneEventBehavior : MonoBehaviour
     
     [SerializeField]
     GameObject wherePhoneObject; 
-    [SerializeField]
-    GameObject phoneRingingObject; 
     float phoneDist; 
 
     void Awake() {
@@ -36,8 +34,7 @@ public class PhoneEventBehavior : MonoBehaviour
                 Ray ray = arCamera.ScreenPointToRay(Input.GetTouch(0).position);
                 if (Physics.Raycast(ray, out hit)) {
                     if (hit.collider.gameObject == phone) {
-                        Debug.Log("hit the phone baby"); 
-                        phoneRingingObject.SetActive(false); 
+                        Debug.Log("hit the phone baby!!");  
                         phoneCanvas.SetActive(true);
                         gameObject.SetActive(false); 
                         GetComponent<EventTransitioner>().endConditionReached = true; 

@@ -12,11 +12,16 @@ public class PanelReadyBehavior : MonoBehaviour
     GameObject uiMusicObj; 
     [SerializeField]
     GameObject phoneCanvasUI; 
-    GameObject alphaContainerPanelReady; 
-
+    [SerializeField]
+    GameObject alphaContainerPanelReady;
+    [SerializeField]
+    GameObject phoneRingingAudio;  
+    [SerializeField]
+    GameObject panelReadyObject; 
 
      void Awake() {
         image = alphaContainerPanelReady.GetComponent<Image>();
+        panelReadyObject.SetActive(true); 
     }
 
     void Start() {
@@ -29,9 +34,10 @@ public class PanelReadyBehavior : MonoBehaviour
             yield return null; 
         }
         setObject.SetActive(true); 
-        phoneCanvasUI.SetActive(false); 
-        gameObject.SetActive(false);
         GetComponent<EventTransitioner>().endConditionReached = true; 
+        phoneRingingAudio.SetActive(true); 
+        panelReadyObject.SetActive(false);
+        uiMusicObj.SetActive(false); 
         yield return StartCoroutine(FadeToScene()); 
     }
 
@@ -40,8 +46,7 @@ public class PanelReadyBehavior : MonoBehaviour
             image.color = new Color(0, 0, 0, i);
             yield return null; 
         }
-
-        Debug.Log("starting set scene - phone finder"); 
+        phoneCanvasUI.SetActive(false);
         yield return null;
     }
 

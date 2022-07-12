@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class PanelGetStartedBehavior : MonoBehaviour
 {
     [SerializeField]
+    GameObject panelStartedObject; 
+    [SerializeField]
     GameObject canvasPhoneUI; 
     [SerializeField]
     GameObject alphaContainer; 
@@ -19,6 +21,7 @@ public class PanelGetStartedBehavior : MonoBehaviour
         image = alphaContainer.GetComponent<Image>(); 
         alphaVal = image.color.a; 
         eventTransitioner = GetComponent<EventTransitioner>(); 
+        panelStartedObject.SetActive(true); 
     }
 
     public void OnImReadyButtonPress() {
@@ -38,9 +41,9 @@ public class PanelGetStartedBehavior : MonoBehaviour
             yield return null; 
         }
         image.color = new Color(0, 0, 0, 1);
-        canvasPhoneUI.SetActive(false); 
-        gameObject.SetActive(false);
         eventTransitioner.endConditionReached = true; 
+        canvasPhoneUI.SetActive(false); 
+        panelStartedObject.SetActive(false);
         yield return StartCoroutine(FadeToScene());
     }   
 
@@ -53,30 +56,3 @@ public class PanelGetStartedBehavior : MonoBehaviour
         yield return null;
     }
 }
-
-    // void Awake() {
-    //     image = GetComponent<Image>(); 
-    //     canvasPhoneImage = canvasPhoneImage.GetComponent<Image>(); 
-    //     alphaVal = image.color.a; 
-    //     eventTransitioner = GetComponent<EventTransitioner>(); 
-    // }
-    // public void OnImReadyButtonPress() {
-    //     StartCoroutine(AlphaFade()); 
-    //     Debug.Log("yyuhh"); 
-    // }
-
-    // IEnumerator AlphaFade() {
-    //     for (float i = 1; i >= 0; i -= Time.deltaTime) {
-    //         image.color = new Color(1, 1, 1, i);
-    //         canvasPhoneImage.color = new Color(1, 1, 1, i); 
-    //         yield return null; 
-    //     }
-    //     gameObject.SetActive(false); 
-    //     canvasPhoneUI.SetActive(false); 
-    //     image.color = new Color(1, 1, 1, 0); 
-    //     canvasPhoneImage.color = new Color(1, 1, 1, 0);
-    //     eventTransitioner.endConditionReached = true; 
-    //     yield return null; 
-    // }
-    
-//}
