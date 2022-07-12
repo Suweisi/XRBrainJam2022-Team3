@@ -2254,7 +2254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4836902417148114497
 Transform:
   m_ObjectHideFlags: 0
@@ -2706,6 +2706,7 @@ GameObject:
   - component: {fileID: 7573440635111167216}
   - component: {fileID: 2309668909414996461}
   - component: {fileID: 8498775520427410900}
+  - component: {fileID: 1507667293}
   m_Layer: 0
   m_Name: LegalPad
   m_TagString: Untagged
@@ -2721,7 +2722,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5580722953267094713}
   m_LocalRotation: {x: -0, y: -0.000000022351742, z: -0.13646084, w: 0.9906455}
-  m_LocalPosition: {x: 0.0438, y: 0.032, z: 0}
+  m_LocalPosition: {x: 0.0438, y: 0.1, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2826,6 +2827,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs: []
   audioDing: {fileID: 0}
+--- !u!65 &1507667293
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5580722953267094713}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020000001, y: 0.028084373, z: 0.00086784223}
+  m_Center: {x: -0.000000014901161, y: 0.000000059604645, z: 0.00043596985}
 --- !u!1 &5587715984974257745
 GameObject:
   m_ObjectHideFlags: 0

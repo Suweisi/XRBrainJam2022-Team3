@@ -56,7 +56,7 @@ public class DestinationManager : MonoBehaviour
                 // GetComponent<EventTransitioner>().endConditionReached = true; 
 
             }
-        } else {
+        } else { 
             phaseThreeInteractables.SetActive(true);
         }
 

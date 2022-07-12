@@ -377,11 +377,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3083549197421729016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083549197421729016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083549197421729016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083549197421729016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083549197421729016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083549197421729016, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3483466703031597446, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: phone
       value: 
       objectReference: {fileID: 326255845}
+    - target: {fileID: 4461695759743290255, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
 --- !u!1 &414779237 stripped
@@ -1389,7 +1424,6 @@ MonoBehaviour:
   - {fileID: 414779238}
   - {fileID: 414779237}
   - {fileID: 1067277158}
-  - {fileID: 622751217}
   - {fileID: 661977491}
   - {fileID: 661977490}
   - {fileID: 1112936211}
@@ -2058,11 +2092,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Set
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4836902417148114497, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
