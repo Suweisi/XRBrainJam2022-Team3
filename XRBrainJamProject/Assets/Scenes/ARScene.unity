@@ -471,7 +471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &422218014
 Light:
   m_ObjectHideFlags: 0
@@ -1936,39 +1936,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 330097437, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
-    - target: {fileID: 330097438, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
     - target: {fileID: 354713751, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
-    - target: {fileID: 360374709, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
-    - target: {fileID: 360374710, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
-    - target: {fileID: 372239550, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
-    - target: {fileID: 372239551, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
     - target: {fileID: 494557972, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
-    - target: {fileID: 506072279, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
@@ -2004,10 +1976,6 @@ PrefabInstance:
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
-    - target: {fileID: 1187201599, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
     - target: {fileID: 1383813631, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: destinationManagerObject
       value: 
@@ -2036,33 +2004,20 @@ PrefabInstance:
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
-    - target: {fileID: 1828097401, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
-    - target: {fileID: 1828097402, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
     - target: {fileID: 1931913490, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
-    - target: {fileID: 601480064593047759, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
     - target: {fileID: 1267232120190870414, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1958724464845675167, guid: dea88764918e0ce4398f740e65c19652,
+    - target: {fileID: 1543090764668333960, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: destinationManagerObject
+      propertyPath: audioDing
       value: 
-      objectReference: {fileID: 1067277158}
+      objectReference: {fileID: 778948415}
     - target: {fileID: 1960614029373840310, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -2073,11 +2028,31 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
+    - target: {fileID: 2432427164748272515, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 3474454567485729417, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
+    - target: {fileID: 3755880512655635241, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: audioDing
+      value: 
+      objectReference: {fileID: 778948415}
+    - target: {fileID: 4168990491288036217, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: audioDing
+      value: 
+      objectReference: {fileID: 778948415}
+    - target: {fileID: 4431723060086775677, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4d0a760cfbddbbd4eb6404983ad40162, type: 2}
     - target: {fileID: 4491341560294157922, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -2088,6 +2063,11 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
+    - target: {fileID: 4567441502000669152, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: audioDing
+      value: 
+      objectReference: {fileID: 778948415}
     - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: m_Name
@@ -2153,12 +2133,12 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 4934799704431015124, guid: dea88764918e0ce4398f740e65c19652,
+    - target: {fileID: 5677079338375496396, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 5677079338375496396, guid: dea88764918e0ce4398f740e65c19652,
+    - target: {fileID: 6431031301085239852, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
@@ -2168,11 +2148,16 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 7013094193186885860, guid: dea88764918e0ce4398f740e65c19652,
+    - target: {fileID: 7386262336760064793, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
+    - target: {fileID: 8265362445148911313, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 8843958519296248488, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -2184,6 +2169,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1067277158}
     - target: {fileID: 9183078535537297662, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 9201125235803769884, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
