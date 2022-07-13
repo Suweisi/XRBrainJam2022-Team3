@@ -53,15 +53,14 @@ public class Destination : MonoBehaviour
                 audioDing.GetComponent<AudioSource>().Play(); 
                 destManager.numOfObjectsPutAway+=1; 
                 collidedObj.GetComponent<Collider>().enabled = false;
-            } else {
-                var objIsDestinationObj = false; 
-                foreach(var collided in allPossibleDestinationObjects) {
-                    if (collidedObj == collided) {
-                        objIsDestinationObj = true; 
-                        incorrectAudioDing.GetComponent<AudioSource>().Play(); 
-                    }  
-                }
+                collidedObj.GetComponent<Rigidbody>().useGravity = false; 
+                return; 
             }
+        }
+        foreach(var collided in allPossibleDestinationObjects) {
+            if (collidedObj == collided) { 
+                incorrectAudioDing.GetComponent<AudioSource>().Play(); 
+            }  
         }
     }
 }
