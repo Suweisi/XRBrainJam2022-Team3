@@ -61,6 +61,8 @@ public class DragPrimProperties : MonoBehaviour
             draggableStateActivated = false; 
         }
 
+        //if this doesnt work then get the move state out of the raycast
+
         if (Input.touchCount > 0) {
             if (draggableStateActivated) {
                 RaycastHit hit; 
@@ -71,9 +73,15 @@ public class DragPrimProperties : MonoBehaviour
                             if (hit.collider.gameObject == gameObject) {
                                 gameObjTag = gameObject.tag; 
                                 moveState = true; 
+                                GetComponent<Collider>().enabled = false;
+                            } else {
+                                GetComponent<Collider>().enabled = true; 
+                                moveState = false; 
                             }
                         }
                     } else {
+                        GetComponent<Collider>().enabled = true; 
+                        //Debug.Log("fuaiddfisaofusoad"); 
                         moveState = false;
                     }
                 }
@@ -81,8 +89,7 @@ public class DragPrimProperties : MonoBehaviour
 
         }
 
-        if (moveState) { 
-            gameObject.GetComponent<Collider>().enabled = false; 
+        if (moveState) {  
             // if (destManager.voiceLineUsedCountDictionary[gameObjTag] == 0) {
             //     AudioClip audioClip = destManager.tagToAudioDictionary[gameObjTag]; 
             // }   
@@ -98,8 +105,6 @@ public class DragPrimProperties : MonoBehaviour
                 }
             }
             MoveObjectWithCam(); 
-        } else {
-            gameObject.GetComponent<Collider>().enabled = true;
         }
        
        lastFrameBool = draggableStateActivated; 

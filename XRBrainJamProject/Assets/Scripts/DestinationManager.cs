@@ -52,7 +52,7 @@ public class DestinationManager : MonoBehaviour
         if (lastInt!=numOfObjectsPutAway) {
             Debug.Log("(from dest manager **) value changed to " + numOfObjectsPutAway); 
         }
-        if (numOfObjectsPutAway == 3) {
+        if (numOfObjectsPutAway >= 3 && !phaseTwoStarted) {
             //might not have to set end condition... could keep going after throwing ui on the screen
             GetPhoneCallFromAlex();  
             phaseTwoStarted = true; 
