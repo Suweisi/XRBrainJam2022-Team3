@@ -169,7 +169,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1063,7 +1063,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1983,7 +1983,6 @@ MonoBehaviour:
   debugText: {fileID: 778948417}
   mapButton: {fileID: 693494041}
   floorPlaneObject: {fileID: 1172318335}
-  prim1: {fileID: 0}
   dragManager: {fileID: 1088452751}
   set: {fileID: 816155588}
   phoneCanvasUI: {fileID: 1737261690}
@@ -2341,39 +2340,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 330097437, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
-    - target: {fileID: 330097438, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
     - target: {fileID: 354713751, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
-    - target: {fileID: 360374709, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
-    - target: {fileID: 360374710, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
-    - target: {fileID: 372239550, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
-    - target: {fileID: 372239551, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
     - target: {fileID: 494557972, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
-    - target: {fileID: 506072279, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
@@ -2385,6 +2356,10 @@ PrefabInstance:
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
+    - target: {fileID: 622751219, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+      propertyPath: arStuff
+      value: 
+      objectReference: {fileID: 1043993192}
     - target: {fileID: 622751219, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: canvasPhoneUI
       value: 
@@ -2406,10 +2381,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 778948415}
     - target: {fileID: 1029551215, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
-    - target: {fileID: 1187201599, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
@@ -2441,29 +2412,11 @@ PrefabInstance:
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
-    - target: {fileID: 1828097401, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
-    - target: {fileID: 1828097402, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
     - target: {fileID: 1931913490, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
       objectReference: {fileID: 778948415}
-    - target: {fileID: 601480064593047759, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
     - target: {fileID: 1267232120190870414, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
-    - target: {fileID: 1958724464845675167, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
@@ -2502,11 +2455,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Set
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4836902417148114497, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
@@ -2568,16 +2516,6 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 4836902418624538877, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4934799704431015124, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
     - target: {fileID: 5677079338375496396, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -2588,11 +2526,6 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 7013094193186885860, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: audioDing
-      value: 
-      objectReference: {fileID: 778948415}
     - target: {fileID: 8843958519296248488, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -2608,8 +2541,7 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    m_RemovedComponents:
-    - {fileID: 4836902418744435198, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dea88764918e0ce4398f740e65c19652, type: 3}
 --- !u!1 &1659859597
 GameObject:
