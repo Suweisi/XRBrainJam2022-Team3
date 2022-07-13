@@ -257,6 +257,24 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 414779236}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &258062387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1298656614656671453, guid: d1e048fa5e7893946adbcd4cc35192be,
+    type: 3}
+  m_PrefabInstance: {fileID: 414779236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &258062391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258062387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091d7ed21f83b8a4692443378497f900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &278778983
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,13 +285,14 @@ GameObject:
   m_Component:
   - component: {fileID: 278778984}
   - component: {fileID: 278778985}
+  - component: {fileID: 278778986}
   m_Layer: 0
   m_Name: CanvasARManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &278778984
 Transform:
   m_ObjectHideFlags: 0
@@ -304,7 +323,33 @@ MonoBehaviour:
   phoneCanvas: {fileID: 1737261690}
   canvasAR: {fileID: 1602493487}
   destManObj: {fileID: 1067277158}
-  counterText: {fileID: 1602493488}
+  counterText: {fileID: 292529218}
+--- !u!114 &278778986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278778983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4581c9fcc3f2b484294ec63d312d53a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endConditionReached: 0
+  onlyConditionIsActive: 1
+--- !u!114 &292529218 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7280424078322017345, guid: 9e0fa4c7c08292641963cded866a01f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1602493486}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &326255845 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5531757128734958080, guid: dea88764918e0ce4398f740e65c19652,
@@ -486,6 +531,11 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1918025888}
+    - target: {fileID: 126783621509269198, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 126783621981390410, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: m_Name
@@ -596,12 +646,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5765074044375140407, guid: d1e048fa5e7893946adbcd4cc35192be,
+    - target: {fileID: 3452140607540381882, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 8043167539978323054, guid: d1e048fa5e7893946adbcd4cc35192be,
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6379378403243623210, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077710238225025662, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7174168106190925979, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: phoneRingingObject
@@ -612,6 +671,21 @@ PrefabInstance:
       propertyPath: callHerAudio
       value: 
       objectReference: {fileID: 1368874960}
+    - target: {fileID: 8779771343683069129, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_fontColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8779771343683069129, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155726203220387142, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
 --- !u!1 &414779237 stripped
@@ -872,6 +946,24 @@ Transform:
   m_Father: {fileID: 2006004984}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &521902547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1054084206381484260, guid: d1e048fa5e7893946adbcd4cc35192be,
+    type: 3}
+  m_PrefabInstance: {fileID: 414779236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &521902549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521902547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091d7ed21f83b8a4692443378497f900, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &622751217 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1485222462, guid: dea88764918e0ce4398f740e65c19652,
@@ -1777,6 +1869,7 @@ MonoBehaviour:
   - {fileID: 1173318909}
   - {fileID: 1770116924}
   - {fileID: 2046330650}
+  - {fileID: 278778983}
   - {fileID: 1665138231}
   - {fileID: 414779238}
   - {fileID: 414779237}
@@ -2221,7 +2314,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: de6d6402517665e48bf14bf123b56d09, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2531,6 +2624,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasAR
       objectReference: {fileID: 0}
+    - target: {fileID: 5507220568519599874, guid: 9e0fa4c7c08292641963cded866a01f0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e0fa4c7c08292641963cded866a01f0, type: 3}
 --- !u!1 &1602493487 stripped
@@ -2539,18 +2637,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1602493486}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1602493488 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 604588395691442391, guid: 9e0fa4c7c08292641963cded866a01f0,
-    type: 3}
-  m_PrefabInstance: {fileID: 1602493486}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1623916354 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3763020035984888335, guid: d1e048fa5e7893946adbcd4cc35192be,
