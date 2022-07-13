@@ -441,6 +441,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1737261690}
     - target: {fileID: 720685180, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
+      propertyPath: panelReadyObject
+      value: 
+      objectReference: {fileID: 414779239}
+    - target: {fileID: 720685180, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
       propertyPath: phoneRingingAudio
       value: 
       objectReference: {fileID: 703407583}
