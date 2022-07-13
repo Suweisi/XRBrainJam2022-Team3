@@ -10,7 +10,10 @@ public class AlexNoteBehavior : MonoBehaviour
     void Update() {
         if (!GetComponent<AudioSource>().isPlaying) {
             callHerAudio.SetActive(true); 
-            GetComponent<EventTransitioner>().endConditionReached = true; 
+            if (!callHerAudio.GetComponent<AudioSource>().isPlaying) {
+                gameObject.SetActive(false); 
+                GetComponent<EventTransitioner>().endConditionReached = true; 
+            }
         }
     }
 }

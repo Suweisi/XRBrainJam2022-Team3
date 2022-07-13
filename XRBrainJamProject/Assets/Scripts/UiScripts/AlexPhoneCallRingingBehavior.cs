@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class AlexPhoneCallRingingBehavior : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //just turn the ringing off and go to next event after certain amount of timem
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Update() {
+        if (GetComponent<AudioSource>().time > 5f) {
+            GetComponent<EventTransitioner>().endConditionReached = true; 
+            gameObject.SetActive(false); 
+        }
     }
 }
