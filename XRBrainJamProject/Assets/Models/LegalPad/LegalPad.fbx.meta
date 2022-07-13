@@ -3,7 +3,12 @@ guid: 57cddae76270ac647833ec1d534ee00a
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Legal Pad
+    second: {fileID: 2100000, guid: 01ed3b8f4072455458efc677be4810c9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
