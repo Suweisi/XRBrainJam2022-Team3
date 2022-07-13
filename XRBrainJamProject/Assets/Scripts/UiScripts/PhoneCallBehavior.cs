@@ -9,7 +9,7 @@ public class PhoneCallBehavior : MonoBehaviour
     GameObject phoneRingingObject; 
     public void PressAnswerButton() {
         GetComponent<EventTransitioner>().endConditionReached = true; 
-        phoneRingingObject.SetActive(false); 
+        phoneRingingObject.SetActive(false);  
         gameObject.SetActive(false); 
     }
 }

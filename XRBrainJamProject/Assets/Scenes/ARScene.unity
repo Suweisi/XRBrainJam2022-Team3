@@ -397,6 +397,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 816155588}
     - target: {fileID: 518528936, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
+      propertyPath: phoneRingingAudioObject
+      value: 
+      objectReference: {fileID: 703407583}
+    - target: {fileID: 518528936, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
       propertyPath: postChrisCallAudioObject
       value: 
       objectReference: {fileID: 743358853}
@@ -653,6 +657,11 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: DebriefSelectionBehavior, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 7174168106190925979, guid: d1e048fa5e7893946adbcd4cc35192be,
+        type: 3}
+      propertyPath: phoneRingingObject
+      value: 
+      objectReference: {fileID: 703407583}
     - target: {fileID: 7986278590328897273, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: canvasPhoneUI
@@ -1855,6 +1864,8 @@ MonoBehaviour:
   - {fileID: 414779238}
   - {fileID: 414779237}
   - {fileID: 1067277158}
+  - {fileID: 760654981}
+  - {fileID: 622751217}
   - {fileID: 661977491}
   - {fileID: 661977490}
   - {fileID: 1112936211}
@@ -2459,6 +2470,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Set
+      objectReference: {fileID: 0}
+    - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4836902417148114497, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}

@@ -26,6 +26,7 @@ public class PanelReadyBehavior : MonoBehaviour
 
     void Start() {
         StartCoroutine(FadeAway()); 
+        Debug.Log("done.. phone ringing audio is only turned on once"); 
     }
 
     IEnumerator FadeAway() {

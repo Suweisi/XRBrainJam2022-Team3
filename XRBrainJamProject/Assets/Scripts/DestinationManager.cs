@@ -52,19 +52,15 @@ public class DestinationManager : MonoBehaviour
         if (lastInt!=numOfObjectsPutAway) {
             Debug.Log("(from dest manager **) value changed to " + numOfObjectsPutAway); 
         }
-
-        if (!phaseTwoStarted) {
-            if (numOfObjectsPutAway == 3) {
-                //might not have to set end condition... could keep going after throwing ui on the screen
-                GetPhoneCallFromAlex(); 
-                // GetComponent<EventTransitioner>().endConditionReached = true; 
-
-            }
+        if (numOfObjectsPutAway == 3) {
+            //might not have to set end condition... could keep going after throwing ui on the screen
+            GetPhoneCallFromAlex(); 
+            // GetComponent<EventTransitioner>().endConditionReached = true; 
         
-        if (phaseTwoStarted && !phaseThreeStarted) {
-            phaseThreeStarted = true; 
-            phaseThreeInteractables.SetActive(true);
-        }
+        // if (phaseTwoStarted && !phaseThreeStarted) {
+        //     phaseThreeInteractables.SetActive(true);
+        //     phaseThreeStarted = true; 
+        // }
     }
 
         lastInt = numOfObjectsPutAway; 
@@ -74,7 +70,8 @@ public class DestinationManager : MonoBehaviour
 
     void GetPhoneCallFromAlex() {
         phoneCanvasUI.SetActive(true);
-        alexPhoneCall.SetActive(true); 
+        //alexPhoneCall.SetActive(true); 
+        GetComponent<EventTransitioner>().endConditionReached = true; 
         phoneRingingObject.SetActive(true); 
     }
 

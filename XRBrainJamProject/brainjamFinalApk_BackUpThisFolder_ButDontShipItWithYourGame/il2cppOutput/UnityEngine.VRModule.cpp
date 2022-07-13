@@ -90,11 +90,6 @@ struct XRDevice_tD076A68EFE413B3EEEEA362BE0364A488B58F194_StaticFields
 	Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A* ___deviceLoaded_0;
 };
 
-// UnityEngine.XR.XRSettings
-struct XRSettings_t783533FF87B79D6D0C6A47FA8EC9B17EC0820D97  : public RuntimeObject
-{
-};
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
@@ -108,13 +103,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
 	String_t* ___TrueString_5;
 	// System.String System.Boolean::FalseString
 	String_t* ___FalseString_6;
-};
-
-// System.Int32
-struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
-{
-	// System.Int32 System.Int32::m_value
-	int32_t ___m_value_0;
 };
 
 // System.IntPtr
@@ -299,44 +287,6 @@ inline void Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline (Ac
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Boolean UnityEngine.XR.XRSettings::get_isDeviceActive()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSettings_get_isDeviceActive_m05C0035E5985667632BBE1BD972C611A674039DC (const RuntimeMethod* method) 
-{
-	typedef bool (*XRSettings_get_isDeviceActive_m05C0035E5985667632BBE1BD972C611A674039DC_ftn) ();
-	static XRSettings_get_isDeviceActive_m05C0035E5985667632BBE1BD972C611A674039DC_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (XRSettings_get_isDeviceActive_m05C0035E5985667632BBE1BD972C611A674039DC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::get_isDeviceActive()");
-	bool icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-// System.Int32 UnityEngine.XR.XRSettings::get_eyeTextureWidth()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSettings_get_eyeTextureWidth_m3CE183B84E67605E54A6BEABB74B40B7088F2F45 (const RuntimeMethod* method) 
-{
-	typedef int32_t (*XRSettings_get_eyeTextureWidth_m3CE183B84E67605E54A6BEABB74B40B7088F2F45_ftn) ();
-	static XRSettings_get_eyeTextureWidth_m3CE183B84E67605E54A6BEABB74B40B7088F2F45_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (XRSettings_get_eyeTextureWidth_m3CE183B84E67605E54A6BEABB74B40B7088F2F45_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::get_eyeTextureWidth()");
-	int32_t icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
-// System.Int32 UnityEngine.XR.XRSettings::get_eyeTextureHeight()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSettings_get_eyeTextureHeight_m8EE6F89E72068B09B75DCCD94AC9438136507C28 (const RuntimeMethod* method) 
-{
-	typedef int32_t (*XRSettings_get_eyeTextureHeight_m8EE6F89E72068B09B75DCCD94AC9438136507C28_ftn) ();
-	static XRSettings_get_eyeTextureHeight_m8EE6F89E72068B09B75DCCD94AC9438136507C28_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (XRSettings_get_eyeTextureHeight_m8EE6F89E72068B09B75DCCD94AC9438136507C28_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::get_eyeTextureHeight()");
-	int32_t icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

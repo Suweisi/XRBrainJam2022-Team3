@@ -22,8 +22,9 @@ public class PhoneCallTwoBehavior : MonoBehaviour
             gameObject.SetActive(false); 
             postAlexCallAudioGameObject.SetActive(true); 
             postAlexCallAudioGameObject.GetComponent<AudioSource>().Play(); 
-            destMan.GetComponent<DestinationManager>().phaseTwoStarted = true; 
+            GetComponent<EventTransitioner>().endConditionReached = true; 
             phoneUICanvas.SetActive(false);
+
         }
     }
 }
