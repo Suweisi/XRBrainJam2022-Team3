@@ -31,10 +31,6 @@ public class PlaneContainer : MonoBehaviour
     [SerializeField]
     GameObject floorPlaneObject; 
 
-    //for testing -> this stuff will move into event system later
-    [SerializeField]
-    GameObject prim1;
-
     [System.NonSerialized]
     public float yGroundValue; 
     EventTransitioner eventTransitioner; 
@@ -46,11 +42,6 @@ public class PlaneContainer : MonoBehaviour
     GameObject phoneCanvasUI; 
     [SerializeField]
     bool ifDebug; 
-
-    void SetObjectsActive() {
-        prim1.GetComponent<Rigidbody>().useGravity = true; 
-        prim1.GetComponent<Rigidbody>().detectCollisions = true; 
-    }
 
     void TurnOffPlanes() {
         aRPlaneManager.enabled = false; 
@@ -67,7 +58,6 @@ public class PlaneContainer : MonoBehaviour
         m_RaycastManager = arSesssionOrigin.GetComponent<ARRaycastManager>();
         arCam = GameObject.Find("AR Camera").GetComponent<Camera>();   
         planeCounter = 0; 
-        prim1.GetComponent<Rigidbody>().detectCollisions = true;  
         eventTransitioner = GetComponent<EventTransitioner>(); 
         setInit = false; 
     }
@@ -106,7 +96,6 @@ public class PlaneContainer : MonoBehaviour
                 //debugText.text = "step 2"; 
                 floorPlaneObject.transform.position = new Vector3(0f, yGroundValue, 0f); 
                 floorPlaneObject.gameObject.SetActive(true);
-                SetObjectsActive(); 
                 TurnOffPlanes();
                 phoneCanvasUI.SetActive(true); 
                 eventTransitioner.endConditionReached = true; 

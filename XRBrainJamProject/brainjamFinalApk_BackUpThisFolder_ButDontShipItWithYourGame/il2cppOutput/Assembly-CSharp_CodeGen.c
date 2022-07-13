@@ -128,62 +128,62 @@ extern void DepthExtraction__ctor_m52F0789D6976C11BFBE535FC07337F3C341F387F (voi
 extern void Destination_Awake_m380CBF9D48F4FB0A0D241913AB3BAEF419826B8B (void);
 // 0x0000003A System.Void Destination::Update()
 extern void Destination_Update_mB04A5B199E100BF91B51EBF30CB46BF011EE50E6 (void);
-// 0x0000003B System.Void Destination::.ctor()
+// 0x0000003B System.Void Destination::OnCollisionEnter(UnityEngine.Collision)
+extern void Destination_OnCollisionEnter_m4F9CB4CAF2FBC4ADA9A76AE925CB97EBE761026C (void);
+// 0x0000003C System.Void Destination::.ctor()
 extern void Destination__ctor_mD311041C59D38BAA86F53F99FD0A8158F0421CB7 (void);
-// 0x0000003C System.Void DestinationManager::Awake()
+// 0x0000003D System.Void DestinationManager::Awake()
 extern void DestinationManager_Awake_m831233133002E06B73ACD975FB196FD05F1C5597 (void);
-// 0x0000003D System.Void DestinationManager::Update()
+// 0x0000003E System.Void DestinationManager::Update()
 extern void DestinationManager_Update_m32BF504A2D288474DA3F1131C7F085E7D677A6CB (void);
-// 0x0000003E System.Void DestinationManager::GetPhoneCallFromAlex()
+// 0x0000003F System.Void DestinationManager::GetPhoneCallFromAlex()
 extern void DestinationManager_GetPhoneCallFromAlex_m27A99CAAF0BAD0D69A9BE3AFF39B9883C14CF53B (void);
-// 0x0000003F System.Void DestinationManager::SetAudioClip(UnityEngine.AudioClip)
+// 0x00000040 System.Void DestinationManager::SetAudioClip(UnityEngine.AudioClip)
 extern void DestinationManager_SetAudioClip_m9C7DDC6DAAC401D76229CE17874E05280DC7F39D (void);
-// 0x00000040 System.Void DestinationManager::.ctor()
+// 0x00000041 System.Void DestinationManager::.ctor()
 extern void DestinationManager__ctor_m0C944DFEBB2D23EE463112FD9120CAD16D4A9521 (void);
-// 0x00000041 System.Void DragDropBehavior::Awake()
+// 0x00000042 System.Void DragDropBehavior::Awake()
 extern void DragDropBehavior_Awake_mB84AA21BD40FDCF75BD253BC8BAC885EF2EE08C6 (void);
-// 0x00000042 System.Void DragDropBehavior::Update()
+// 0x00000043 System.Void DragDropBehavior::Update()
 extern void DragDropBehavior_Update_mFE93B34FDA6C01164B4400E80B11AB45CA2CEC90 (void);
-// 0x00000043 System.Void DragDropBehavior::.ctor()
+// 0x00000044 System.Void DragDropBehavior::.ctor()
 extern void DragDropBehavior__ctor_mA59D459B2BC6E746FFFC021EF65DE5048C3CC786 (void);
-// 0x00000044 System.Void DragPrimProperties::Awake()
+// 0x00000045 System.Void DragPrimProperties::Awake()
 extern void DragPrimProperties_Awake_m84066FF6E6FE07C74C139F43CF0D04C0D6165185 (void);
-// 0x00000045 System.Void DragPrimProperties::Update()
+// 0x00000046 System.Void DragPrimProperties::Update()
 extern void DragPrimProperties_Update_mEFD891BB4AEFDF7D62CDB4E2CFB08466EF22017D (void);
-// 0x00000046 System.Void DragPrimProperties::MoveObjectWithCam()
+// 0x00000047 System.Void DragPrimProperties::MoveObjectWithCam()
 extern void DragPrimProperties_MoveObjectWithCam_mA3BBC0F4A0615D08CD04027898F0B9ECC999A5D2 (void);
-// 0x00000047 System.Void DragPrimProperties::.ctor()
+// 0x00000048 System.Void DragPrimProperties::.ctor()
 extern void DragPrimProperties__ctor_mB5604E69E314CFCC0EB0052A95B4C0138E3C0B74 (void);
-// 0x00000048 System.Void Events::Awake()
+// 0x00000049 System.Void Events::Awake()
 extern void Events_Awake_m8AAEC404811FEAA1DD27D68D9268F3C599ECCDF2 (void);
-// 0x00000049 System.Void Events::Update()
+// 0x0000004A System.Void Events::Update()
 extern void Events_Update_m11C4CC68B79110D252B1D30E744C4BBCDB73C47A (void);
-// 0x0000004A System.Void Events::.ctor()
+// 0x0000004B System.Void Events::.ctor()
 extern void Events__ctor_m7252526B9DDE74A4BC4145D658080478E9D6AC43 (void);
-// 0x0000004B System.Void EventTransitioner::Update()
+// 0x0000004C System.Void EventTransitioner::Update()
 extern void EventTransitioner_Update_mD755306ACFC1CE960253B92609DFF20D1DD4D362 (void);
-// 0x0000004C System.Void EventTransitioner::.ctor()
+// 0x0000004D System.Void EventTransitioner::.ctor()
 extern void EventTransitioner__ctor_mEA33C326450B6CB9873AFB4B75CAF361C0D85B96 (void);
-// 0x0000004D System.Void NegativeDestinationManager::Start()
+// 0x0000004E System.Void NegativeDestinationManager::Start()
 extern void NegativeDestinationManager_Start_mF98A53A879AE676BDAD39B980EBE24A4EDD33A28 (void);
-// 0x0000004E System.Void NegativeDestinationManager::Update()
+// 0x0000004F System.Void NegativeDestinationManager::Update()
 extern void NegativeDestinationManager_Update_mF7FDED2334BE3C6C1D7E5270621AC347A4B18DC1 (void);
-// 0x0000004F System.Void NegativeDestinationManager::.ctor()
+// 0x00000050 System.Void NegativeDestinationManager::.ctor()
 extern void NegativeDestinationManager__ctor_m3E421D9DE3C7474ADBFA6D3C0E3DD446B653D5E2 (void);
-// 0x00000050 System.Void PhaseThreeBehavior::Awake()
+// 0x00000051 System.Void PhaseThreeBehavior::Awake()
 extern void PhaseThreeBehavior_Awake_mE40F8566EEBF985FE3E92FDB81A0572BA01BBB5B (void);
-// 0x00000051 System.Void PhaseThreeBehavior::Update()
+// 0x00000052 System.Void PhaseThreeBehavior::Update()
 extern void PhaseThreeBehavior_Update_m101310CB738A2AC5B30E18274ED75F9FCDA57D94 (void);
-// 0x00000052 System.Void PhaseThreeBehavior::.ctor()
+// 0x00000053 System.Void PhaseThreeBehavior::.ctor()
 extern void PhaseThreeBehavior__ctor_mE48750293A4E751080FBBC80773C87FD0113E106 (void);
-// 0x00000053 System.Void PhoneEventBehavior::Awake()
+// 0x00000054 System.Void PhoneEventBehavior::Awake()
 extern void PhoneEventBehavior_Awake_m439A495233F36A7E4D95FCF8E3891C281150DC94 (void);
-// 0x00000054 System.Void PhoneEventBehavior::Update()
+// 0x00000055 System.Void PhoneEventBehavior::Update()
 extern void PhoneEventBehavior_Update_m2AB887BFB1D576A290551AE772AAB3FBE59E64DA (void);
-// 0x00000055 System.Void PhoneEventBehavior::.ctor()
+// 0x00000056 System.Void PhoneEventBehavior::.ctor()
 extern void PhoneEventBehavior__ctor_m74B612B14D00D7D3A0D1D189081C097D68746D9C (void);
-// 0x00000056 System.Void PlaneContainer::SetObjectsActive()
-extern void PlaneContainer_SetObjectsActive_m6DB2872284F71CCCD21229EB873948BC18A31B28 (void);
 // 0x00000057 System.Void PlaneContainer::TurnOffPlanes()
 extern void PlaneContainer_TurnOffPlanes_m57B4038C3D72E64902BAB3ED9A6900DD0522BA6D (void);
 // 0x00000058 System.Void PlaneContainer::Awake()
@@ -658,6 +658,7 @@ static Il2CppMethodPointer s_methodPointers[293] =
 	DepthExtraction__ctor_m52F0789D6976C11BFBE535FC07337F3C341F387F,
 	Destination_Awake_m380CBF9D48F4FB0A0D241913AB3BAEF419826B8B,
 	Destination_Update_mB04A5B199E100BF91B51EBF30CB46BF011EE50E6,
+	Destination_OnCollisionEnter_m4F9CB4CAF2FBC4ADA9A76AE925CB97EBE761026C,
 	Destination__ctor_mD311041C59D38BAA86F53F99FD0A8158F0421CB7,
 	DestinationManager_Awake_m831233133002E06B73ACD975FB196FD05F1C5597,
 	DestinationManager_Update_m32BF504A2D288474DA3F1131C7F085E7D677A6CB,
@@ -685,7 +686,6 @@ static Il2CppMethodPointer s_methodPointers[293] =
 	PhoneEventBehavior_Awake_m439A495233F36A7E4D95FCF8E3891C281150DC94,
 	PhoneEventBehavior_Update_m2AB887BFB1D576A290551AE772AAB3FBE59E64DA,
 	PhoneEventBehavior__ctor_m74B612B14D00D7D3A0D1D189081C097D68746D9C,
-	PlaneContainer_SetObjectsActive_m6DB2872284F71CCCD21229EB873948BC18A31B28,
 	PlaneContainer_TurnOffPlanes_m57B4038C3D72E64902BAB3ED9A6900DD0522BA6D,
 	PlaneContainer_Awake_m5E8AB046821ED1B740D5453256AA822EED653620,
 	PlaneContainer_Start_m3F726080111C1E8C119B63671D20432B8FBA6292,
@@ -954,12 +954,12 @@ static const int32_t s_InvokerIndices[293] =
 	5423,
 	5423,
 	5423,
+	4313,
 	5423,
 	5423,
 	5423,
 	5423,
 	4313,
-	5423,
 	5423,
 	5423,
 	5423,

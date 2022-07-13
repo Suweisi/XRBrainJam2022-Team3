@@ -151,6 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alexNote: {fileID: 470150975834881644}
   canvasPhoneUI: {fileID: 0}
+  arStuff: {fileID: 0}
 --- !u!114 &622751220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,6 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endConditionReached: 0
+  onlyConditionIsActive: 0
 --- !u!1 &1762599389
 GameObject:
   m_ObjectHideFlags: 0
@@ -1276,6 +1278,7 @@ MonoBehaviour:
   - {fileID: 267216601}
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1 &3626816372112535271
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,6 +1590,7 @@ MonoBehaviour:
   - {fileID: 267216601}
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1 &4635376993546795679
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,7 +1828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4836902417148114497
 Transform:
   m_ObjectHideFlags: 0
@@ -1860,6 +1864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endConditionReached: 0
+  onlyConditionIsActive: 0
 --- !u!114 &816155591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1921,7 +1926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4836902418624538879
 Transform:
   m_ObjectHideFlags: 0
@@ -2430,6 +2435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs: []
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!65 &1507667293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3024,6 +3030,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1 &6632661369752985217
 GameObject:
   m_ObjectHideFlags: 0
@@ -3586,6 +3593,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1 &7132031937561601170
 GameObject:
   m_ObjectHideFlags: 0
@@ -4119,6 +4127,7 @@ MonoBehaviour:
   - {fileID: 267216601}
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1 &8273153079987689796
 GameObject:
   m_ObjectHideFlags: 0
@@ -4891,6 +4900,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &112267308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5010,6 +5020,7 @@ MonoBehaviour:
   - {fileID: 4213149456725720785}
   - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &1688990568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5166,6 +5177,7 @@ MonoBehaviour:
   - {fileID: 4213149456725720785}
   - {fileID: 6632661369752985217}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &1541561691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5486,6 +5498,7 @@ MonoBehaviour:
   - {fileID: 4213149456725720785}
   - {fileID: 6632661369752985217}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &158081734655482916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5638,6 +5651,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &8583067229648016071 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8443317652548046563, guid: d93018da0ae839241a36b127570f41cf,
@@ -5856,6 +5870,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &365690913399676354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5996,6 +6011,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &4109963789354728031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6029,6 +6045,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &513142637193757271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6186,6 +6203,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &558783606854562779
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6546,6 +6564,7 @@ MonoBehaviour:
   - {fileID: 4213149456725720785}
   - {fileID: 6632661369752985217}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &1306411947729278112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6689,6 +6708,7 @@ MonoBehaviour:
   - {fileID: 4213149456725720785}
   - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &5217699596229120512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6985,6 +7005,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &4836902418276074761 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6733769329049233564, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
@@ -7182,6 +7203,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 0}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &4335367870889977459 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
@@ -7384,6 +7406,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 0}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &2581532344758877657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7524,6 +7547,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &2410142485910467382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7557,6 +7581,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &2621044615861436548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7712,6 +7737,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &2664830303353961716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7843,6 +7869,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &5757888315292673168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8050,6 +8077,7 @@ MonoBehaviour:
   - {fileID: 4213149456725720785}
   - {fileID: 6632661369752985217}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &7841532170686933662 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4934799703830795695, guid: 0a569920aece26d4ab912bb174e714fb,
@@ -8214,6 +8242,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &7064665096661960681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8235,6 +8264,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &3101062861624806386
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8363,6 +8393,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &5877090477321189210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8387,6 +8418,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &3105555880194126482 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a,
@@ -8626,6 +8658,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &4836902418544473038 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8443317652548046563, guid: d93018da0ae839241a36b127570f41cf,
@@ -9100,6 +9133,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &1383813631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9133,6 +9167,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &4841430894114965884 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a,
@@ -9279,6 +9314,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!114 &4863075587008999965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9312,6 +9348,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &5364521907903745568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9536,6 +9573,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &5391546422735160846 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a,
@@ -9649,7 +9687,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.0032
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1047307109264895311, guid: d0134227919a00b4e9088270f04ae0e4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d0134227919a00b4e9088270f04ae0e4, type: 3}
 --- !u!4 &4836902417719890366 stripped
 Transform:
@@ -9935,6 +9974,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &6190127396157028303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10212,6 +10252,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &7312986029011159428
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10401,6 +10442,7 @@ MonoBehaviour:
   - {fileID: 4213149456725720785}
   - {fileID: 6632661369752985217}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &2379901866651900971 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4934799703830795695, guid: 0a569920aece26d4ab912bb174e714fb,
@@ -10598,6 +10640,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &8320271013096013584 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1511715611957241263, guid: 42e6d8a153f68b9409bcadf7ebed804a,
@@ -10741,6 +10784,7 @@ MonoBehaviour:
   - {fileID: 4213149456725720785}
   - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &7470255648326587144 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 455744, guid: f30b04b488e907b4a88bf0e13b603528,
@@ -10943,6 +10987,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 0}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &7926772102783379228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11273,6 +11318,7 @@ MonoBehaviour:
   - {fileID: 4213149456725720785}
   - {fileID: 6632661369752985217}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &3474454567485729414 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4934799703830795695, guid: 0a569920aece26d4ab912bb174e714fb,
@@ -11422,6 +11468,7 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &8561935200143046617 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4528477828364640, guid: bfa7e8189ab181843b9ac106678a628a,
@@ -11591,6 +11638,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!1001 &8997680868279347385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11757,6 +11805,7 @@ MonoBehaviour:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
   audioDing: {fileID: 0}
+  incorrectAudioDing: {fileID: 0}
 --- !u!4 &4836902418960908577 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4611138515516451224, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
