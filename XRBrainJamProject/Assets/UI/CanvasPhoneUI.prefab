@@ -1209,7 +1209,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 900, y: 1046.71}
+  m_SizeDelta: {x: 900, y: 1093.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &126783620795930104
 CanvasRenderer:
@@ -2838,8 +2838,8 @@ MonoBehaviour:
 
 
 
-    Wait for planes to be detected while slowly moving your device
-    in small circles. Select a plane by tapping it.
+    Wait for floor planes to be detected while slowly moving your
+    phone around. Select any plane (shaded area) on the floor by tapping it.
 
 '
   m_isRightToLeft: 0
