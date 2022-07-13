@@ -52,6 +52,7 @@ public class Destination : MonoBehaviour
                 //play thats right audio here, dont turn off the obj, and set the counter in destman up 1
                 audioDing.GetComponent<AudioSource>().Play(); 
                 destManager.numOfObjectsPutAway+=1; 
+                collidedObj.GetComponent<Collider>().enabled = false;
             } else {
                 var objIsDestinationObj = false; 
                 foreach(var collided in allPossibleDestinationObjects) {
