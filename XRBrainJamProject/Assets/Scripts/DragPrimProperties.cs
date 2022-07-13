@@ -82,6 +82,7 @@ public class DragPrimProperties : MonoBehaviour
         }
 
         if (moveState) { 
+            gameObject.GetComponent<Collider>().enabled = false; 
             // if (destManager.voiceLineUsedCountDictionary[gameObjTag] == 0) {
             //     AudioClip audioClip = destManager.tagToAudioDictionary[gameObjTag]; 
             // }   
@@ -90,13 +91,15 @@ public class DragPrimProperties : MonoBehaviour
                     destinationManagerObject.GetComponent<DestinationManager>().SetAudioClip(negativeAudioDictionary[gameObjTag]);
                     tagIntDictionary[gameObjTag] += 1;
                 }
-            } else {
+            } else { 
                 if (tagIntDictionary[gameObjTag] == 0) {
                     destinationManagerObject.GetComponent<DestinationManager>().SetAudioClip(positiveAudioDictionary[gameObjTag]);
                     tagIntDictionary[gameObjTag] += 1;  
                 }
             }
             MoveObjectWithCam(); 
+        } else {
+            gameObject.GetComponent<Collider>().enabled = true;
         }
        
        lastFrameBool = draggableStateActivated; 
