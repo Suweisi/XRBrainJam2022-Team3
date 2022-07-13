@@ -17729,12 +17729,14 @@ struct Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F  : public MonoBehav
 {
 	// UnityEngine.GameObject[] Destination::destinationObjs
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___destinationObjs_4;
+	// UnityEngine.GameObject[] Destination::allPossibleDestinationObjects
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___allPossibleDestinationObjects_5;
 	// DestinationManager Destination::destManager
-	DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* ___destManager_5;
+	DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* ___destManager_6;
 	// UnityEngine.GameObject Destination::audioDing
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___audioDing_6;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___audioDing_7;
 	// UnityEngine.GameObject Destination::incorrectAudioDing
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___incorrectAudioDing_7;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___incorrectAudioDing_8;
 };
 
 // DestinationManager
@@ -22734,9 +22736,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4377[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4378[3] = 
 {
 	static_cast<int32_t>(offsetof(DepthExtraction_t1BD358DE1F456D6ACB26E85B3239C097B44EFD83, ___arCamera_4)),static_cast<int32_t>(offsetof(DepthExtraction_t1BD358DE1F456D6ACB26E85B3239C097B44EFD83, ___debugText_5)),static_cast<int32_t>(offsetof(DepthExtraction_t1BD358DE1F456D6ACB26E85B3239C097B44EFD83, ___occlusionManager_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4379[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4379[5] = 
 {
-	static_cast<int32_t>(offsetof(Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F, ___destinationObjs_4)),static_cast<int32_t>(offsetof(Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F, ___destManager_5)),static_cast<int32_t>(offsetof(Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F, ___audioDing_6)),static_cast<int32_t>(offsetof(Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F, ___incorrectAudioDing_7)),};
+	static_cast<int32_t>(offsetof(Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F, ___destinationObjs_4)),static_cast<int32_t>(offsetof(Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F, ___allPossibleDestinationObjects_5)),static_cast<int32_t>(offsetof(Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F, ___destManager_6)),static_cast<int32_t>(offsetof(Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F, ___audioDing_7)),static_cast<int32_t>(offsetof(Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F, ___incorrectAudioDing_8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4380[15] = 
 {
 	static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___numOfObjectsPutAway_4)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___objTags_5)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___audioClips_6)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___negativeAudioClips_7)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___phaseTwoStarted_8)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___tagToAudioDictionary_9)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___negativeTagToAudioDictionary_10)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___voiceLineUsedCountDictionary_11)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___phoneCanvasUI_12)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___alexPhoneCall_13)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___phone_14)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___phaseThreeInteractables_15)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___phaseThreeStarted_16)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___phoneRingingObject_17)),static_cast<int32_t>(offsetof(DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E, ___lastInt_18)),};

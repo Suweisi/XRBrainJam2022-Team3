@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708985, g: 0.3783704, b: 0.35722548, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -913,7 +913,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &703407584
 Transform:
   m_ObjectHideFlags: 0
@@ -1734,6 +1734,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: floorplane
       objectReference: {fileID: 0}
+    - target: {fileID: 5552634480763150256, guid: 027978d8e3f63fa4d940721e48fc21ea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6407884263710445169, guid: 027978d8e3f63fa4d940721e48fc21ea,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7292494302560953240, guid: 027978d8e3f63fa4d940721e48fc21ea,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8669616329548641389, guid: 027978d8e3f63fa4d940721e48fc21ea,
         type: 3}
       propertyPath: m_RootOrder
@@ -1789,7 +1804,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6407884263710445169, guid: 027978d8e3f63fa4d940721e48fc21ea, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 027978d8e3f63fa4d940721e48fc21ea, type: 3}
 --- !u!1 &1172318335 stripped
 GameObject:
@@ -2333,6 +2349,16 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 315967273532639083, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 321838817947611389, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 477114863463789663, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -2343,6 +2369,11 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 552746797437355616, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 645071504297792036, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -2353,7 +2384,37 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 750267627618520939, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 1148479821715547192, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 1199981300098995680, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 1267232120190870414, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 1306411947729278112, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 1342466197254746972, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 1415176256832973857, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
@@ -2368,7 +2429,27 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 1719071010164716246, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 1960614029373840310, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 1986520717819092869, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 1988335297343894215, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 2272810239562065405, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
@@ -2378,7 +2459,22 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
+    - target: {fileID: 2379901866651900964, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 2410142485910467382, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 2412248748673515745, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 2432427164748272515, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
@@ -2393,6 +2489,11 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 2851665270970791419, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 3036355958397740273, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -2448,6 +2549,16 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 3985674552273776794, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 4109963789354728031, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 4168754763853328792, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -2468,6 +2579,11 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 4253944399102021767, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 4301337993278321010, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -2583,6 +2699,11 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
+    - target: {fileID: 4863075587008999965, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 5203932891804352181, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -2593,7 +2714,22 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 5217699596229120512, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 5668634631491715354, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 5677079338375496396, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 5757888315292673168, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
@@ -2618,6 +2754,11 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 6431031301085239852, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 6612619608205368500, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -2633,6 +2774,11 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 7841532170686933649, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 8061749094325854258, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -2643,6 +2789,11 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
+    - target: {fileID: 8265362445148911313, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
     - target: {fileID: 8843958519296248488, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -2664,6 +2815,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348371569}
     - target: {fileID: 9183078535537297662, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: destinationManagerObject
+      value: 
+      objectReference: {fileID: 1067277158}
+    - target: {fileID: 9201125235803769884, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 

@@ -670,6 +670,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisARPlane_tB2F0224
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisARRaycastManager_tD9459374F0F5BD9E2E4A8A1C665E7F33F9C2EE44_m77634146E9AE333BE0BCEEC545F76E1784D96F7B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m4F30DAB8E5B57E8DB6BD8C0C3BB11CCB57690C4A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_m3B3C11550E48AA36AFF82788636EB163CC51FEE6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisDestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E_m8C53DF584F86F7FBF585AC4EAE7F85C7334E4515_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisEventTransitioner_t77D2246249FD347D4847068979AD553A2F3D1699_m217A341A598BD5D18352F291B3053A0423F0351E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var;
@@ -3318,12 +3319,14 @@ struct Destination_t336101C9D43A1813C8DD5375BBEE228C8B09873F  : public MonoBehav
 {
 	// UnityEngine.GameObject[] Destination::destinationObjs
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___destinationObjs_4;
+	// UnityEngine.GameObject[] Destination::allPossibleDestinationObjects
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___allPossibleDestinationObjects_5;
 	// DestinationManager Destination::destManager
-	DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* ___destManager_5;
+	DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* ___destManager_6;
 	// UnityEngine.GameObject Destination::audioDing
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___audioDing_6;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___audioDing_7;
 	// UnityEngine.GameObject Destination::incorrectAudioDing
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___incorrectAudioDing_7;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___incorrectAudioDing_8;
 };
 
 // DestinationManager
@@ -5483,6 +5486,13 @@ inline AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* GameObject_GetComp
 }
 // System.Void UnityEngine.AudioSource::Play()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+// T UnityEngine.GameObject::GetComponent<UnityEngine.Collider>()
+inline Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+// System.Void UnityEngine.Collider::set_enabled(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70 (Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* __this, bool ___value0, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.AudioClip>::set_Item(TKey,TValue)
 inline void Dictionary_2_set_Item_m6D8159C91FE4513E3489D7B8D777DBB0044FEBED (Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* __this, String_t* ___key0, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___value1, const RuntimeMethod* method)
 {
@@ -8937,8 +8947,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Destination_Awake_m380CBF9D48F4FB0A0D241
 		NullCheck(L_0);
 		DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* L_1;
 		L_1 = GameObject_GetComponent_TisDestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E_m8C53DF584F86F7FBF585AC4EAE7F85C7334E4515(L_0, GameObject_GetComponent_TisDestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E_m8C53DF584F86F7FBF585AC4EAE7F85C7334E4515_RuntimeMethod_var);
-		__this->___destManager_5 = L_1;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___destManager_5), (void*)L_1);
+		__this->___destManager_6 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___destManager_6), (void*)L_1);
 		// }
 		return;
 	}
@@ -8959,12 +8969,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Destination_OnCollisionEnter_m4F9CB4CAF2
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m4F30DAB8E5B57E8DB6BD8C0C3BB11CCB57690C4A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* V_1 = NULL;
 	int32_t V_2 = 0;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_3 = NULL;
 	{
 		// GameObject collidedObj = collision.gameObject;
 		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_0 = ___collision0;
@@ -8980,7 +8992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Destination_OnCollisionEnter_m4F9CB4CAF2
 		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_3 = __this->___destinationObjs_4;
 		V_1 = L_3;
 		V_2 = 0;
-		goto IL_005c;
+		goto IL_0057;
 	}
 
 IL_0018:
@@ -8998,45 +9010,42 @@ IL_0018:
 		L_9 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_7, L_8, NULL);
 		if (!L_9)
 		{
-			goto IL_0048;
+			goto IL_0053;
 		}
 	}
 	{
 		// audioDing.GetComponent<AudioSource>().Play();
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___audioDing_6;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___audioDing_7;
 		NullCheck(L_10);
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_11;
 		L_11 = GameObject_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m4F30DAB8E5B57E8DB6BD8C0C3BB11CCB57690C4A(L_10, GameObject_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m4F30DAB8E5B57E8DB6BD8C0C3BB11CCB57690C4A_RuntimeMethod_var);
 		NullCheck(L_11);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_11, NULL);
 		// destManager.numOfObjectsPutAway+=1;
-		DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* L_12 = __this->___destManager_5;
+		DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* L_12 = __this->___destManager_6;
 		DestinationManager_t4AA129BB43DE46B35B515DE58A9C70751CCAC81E* L_13 = L_12;
 		NullCheck(L_13);
 		int32_t L_14 = L_13->___numOfObjectsPutAway_4;
 		NullCheck(L_13);
 		L_13->___numOfObjectsPutAway_4 = ((int32_t)il2cpp_codegen_add(L_14, 1));
-		goto IL_0058;
-	}
-
-IL_0048:
-	{
-		// incorrectAudioDing.GetComponent<AudioSource>().Play();
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___incorrectAudioDing_7;
+		// collidedObj.GetComponent<Collider>().enabled = false;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = V_0;
 		NullCheck(L_15);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_16;
-		L_16 = GameObject_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m4F30DAB8E5B57E8DB6BD8C0C3BB11CCB57690C4A(L_15, GameObject_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m4F30DAB8E5B57E8DB6BD8C0C3BB11CCB57690C4A_RuntimeMethod_var);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_16;
+		L_16 = GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597(L_15, GameObject_GetComponent_TisCollider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76_m4CB0FC4E59CE6C91F1106739EF364208A63E2597_RuntimeMethod_var);
 		NullCheck(L_16);
-		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_16, NULL);
+		Collider_set_enabled_m8D5C3B5047592D227A52560FC9723D176E209F70(L_16, (bool)0, NULL);
+		// return;
+		return;
 	}
 
-IL_0058:
+IL_0053:
 	{
 		int32_t L_17 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_17, 1));
 	}
 
-IL_005c:
+IL_0057:
 	{
 		// foreach(var obj in destinationObjs) {
 		int32_t L_18 = V_2;
@@ -9045,6 +9054,61 @@ IL_005c:
 		if ((((int32_t)L_18) < ((int32_t)((int32_t)(((RuntimeArray*)L_19)->max_length)))))
 		{
 			goto IL_0018;
+		}
+	}
+	{
+		// foreach(var collided in allPossibleDestinationObjects) {
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_20 = __this->___allPossibleDestinationObjects_5;
+		V_1 = L_20;
+		V_2 = 0;
+		goto IL_0089;
+	}
+
+IL_0068:
+	{
+		// foreach(var collided in allPossibleDestinationObjects) {
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_21 = V_1;
+		int32_t L_22 = V_2;
+		NullCheck(L_21);
+		int32_t L_23 = L_22;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		V_3 = L_24;
+		// if (collidedObj == collided) {
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = V_0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_3;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_27;
+		L_27 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_25, L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_0085;
+		}
+	}
+	{
+		// incorrectAudioDing.GetComponent<AudioSource>().Play();
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = __this->___incorrectAudioDing_8;
+		NullCheck(L_28);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_29;
+		L_29 = GameObject_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m4F30DAB8E5B57E8DB6BD8C0C3BB11CCB57690C4A(L_28, GameObject_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m4F30DAB8E5B57E8DB6BD8C0C3BB11CCB57690C4A_RuntimeMethod_var);
+		NullCheck(L_29);
+		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_29, NULL);
+	}
+
+IL_0085:
+	{
+		int32_t L_30 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_30, 1));
+	}
+
+IL_0089:
+	{
+		// foreach(var collided in allPossibleDestinationObjects) {
+		int32_t L_31 = V_2;
+		GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* L_32 = V_1;
+		NullCheck(L_32);
+		if ((((int32_t)L_31) < ((int32_t)((int32_t)(((RuntimeArray*)L_32)->max_length)))))
+		{
+			goto IL_0068;
 		}
 	}
 	{
