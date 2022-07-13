@@ -1142,6 +1142,19 @@ MonoBehaviour:
   - {fileID: 9155613465935635574}
   - {fileID: 267216601}
   - {fileID: 2761461217605019120}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1 &3626816372112535271
@@ -1409,6 +1422,19 @@ MonoBehaviour:
   - {fileID: 9155613465935635574}
   - {fileID: 267216601}
   - {fileID: 2761461217605019120}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1 &4635376993546795679
@@ -1648,7 +1674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4836902417148114497
 Transform:
   m_ObjectHideFlags: 0
@@ -2255,6 +2281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destinationObjs: []
+  allPossibleDestinationObjects: []
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!65 &1507667293
@@ -2868,6 +2895,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1 &6679670348905621048
@@ -3386,6 +3426,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1 &7132031937561601170
@@ -3920,6 +3973,19 @@ MonoBehaviour:
   - {fileID: 9155613465935635574}
   - {fileID: 267216601}
   - {fileID: 2761461217605019120}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1 &8273153079987689796
@@ -4603,6 +4669,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1001 &112267308
@@ -4736,6 +4815,19 @@ MonoBehaviour:
   - {fileID: 4447638475694705930}
   - {fileID: 4447638475694705930}
   - {fileID: 4447638475694705930}
+  - {fileID: 9155613465935635574}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
   - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
@@ -4894,6 +4986,19 @@ MonoBehaviour:
   - {fileID: 1571259504854154246}
   - {fileID: 4447638475694705930}
   - {fileID: 6614311092585082202}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!114 &1541561691
@@ -5077,6 +5182,19 @@ MonoBehaviour:
   - {fileID: 1571259504854154246}
   - {fileID: 4447638475694705930}
   - {fileID: 6614311092585082202}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1001 &158081734655482916
@@ -5235,6 +5353,19 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &8583067229648016071 stripped
@@ -5459,6 +5590,19 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1001 &365690913399676354
@@ -5610,6 +5754,19 @@ MonoBehaviour:
   - {fileID: 6614311092585082202}
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!114 &4109963789354728031
@@ -5791,6 +5948,19 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1001 &558783606854562779
@@ -6174,6 +6344,19 @@ MonoBehaviour:
   - {fileID: 1571259504854154246}
   - {fileID: 4447638475694705930}
   - {fileID: 6614311092585082202}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!114 &1306411947729278112
@@ -6331,6 +6514,19 @@ MonoBehaviour:
   - {fileID: 4447638475694705930}
   - {fileID: 4447638475694705930}
   - {fileID: 4447638475694705930}
+  - {fileID: 9155613465935635574}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
   - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
@@ -6664,6 +6860,19 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &4836902418276074761 stripped
@@ -6892,6 +7101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 0}
+  allPossibleDestinationObjects: []
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &4335367870889977459 stripped
@@ -7097,6 +7307,71 @@ PrefabInstance:
       propertyPath: destinationObjs.Array.data[7]
       value: 
       objectReference: {fileID: 6614311092585082202}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 2761461217605019120}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 5364521907571538792}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 1660914707726293012}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[3]
+      value: 
+      objectReference: {fileID: 6973900596544757961}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[4]
+      value: 
+      objectReference: {fileID: 8639038905727625911}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[5]
+      value: 
+      objectReference: {fileID: 2384574943806975552}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[6]
+      value: 
+      objectReference: {fileID: 8954602476519359388}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[7]
+      value: 
+      objectReference: {fileID: 1571259504854154246}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[8]
+      value: 
+      objectReference: {fileID: 4447638475694705930}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[9]
+      value: 
+      objectReference: {fileID: 6614311092585082202}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[10]
+      value: 
+      objectReference: {fileID: 267216601}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[11]
+      value: 
+      objectReference: {fileID: 9155613465935635574}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 327f6d54aca22984fa755e59c925abf8, type: 3}
 --- !u!4 &234701137653739935 stripped
@@ -7254,6 +7529,19 @@ MonoBehaviour:
   - {fileID: 6614311092585082202}
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!114 &2410142485910467382
@@ -7438,6 +7726,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  allPossibleDestinationObjects: []
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1001 &2664830303353961716
@@ -7580,6 +7869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
+  allPossibleDestinationObjects: []
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!114 &5757888315292673168
@@ -7788,6 +8078,19 @@ MonoBehaviour:
   - {fileID: 1571259504854154246}
   - {fileID: 4447638475694705930}
   - {fileID: 6614311092585082202}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &7841532170686933662 stripped
@@ -7963,6 +8266,19 @@ MonoBehaviour:
   - {fileID: 6614311092585082202}
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1001 &3101062861624806386
@@ -8117,6 +8433,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &3105555880194126482 stripped
@@ -8362,6 +8691,19 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &4836902418544473038 stripped
@@ -8827,6 +9169,19 @@ MonoBehaviour:
   - {fileID: 6614311092585082202}
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!114 &1383813631
@@ -9002,6 +9357,19 @@ MonoBehaviour:
   - {fileID: 6614311092585082202}
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!114 &4863075587008999965
@@ -9255,6 +9623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
+  allPossibleDestinationObjects: []
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &5391546422735160846 stripped
@@ -9723,6 +10092,19 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1001 &6190127396157028303
@@ -9867,6 +10249,71 @@ PrefabInstance:
       propertyPath: destinationObjs.Array.data[7]
       value: 
       objectReference: {fileID: 6614311092585082202}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 2761461217605019120}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 5364521907571538792}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 1660914707726293012}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[3]
+      value: 
+      objectReference: {fileID: 6973900596544757961}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[4]
+      value: 
+      objectReference: {fileID: 8639038905727625911}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[5]
+      value: 
+      objectReference: {fileID: 2384574943806975552}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[6]
+      value: 
+      objectReference: {fileID: 8954602476519359388}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[7]
+      value: 
+      objectReference: {fileID: 1571259504854154246}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[8]
+      value: 
+      objectReference: {fileID: 4447638475694705930}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[9]
+      value: 
+      objectReference: {fileID: 6614311092585082202}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[10]
+      value: 
+      objectReference: {fileID: 267216601}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[11]
+      value: 
+      objectReference: {fileID: 9155613465935635574}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 327f6d54aca22984fa755e59c925abf8, type: 3}
 --- !u!4 &8539336166889153492 stripped
@@ -10036,6 +10483,19 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1001 &7312986029011159428
@@ -10226,6 +10686,19 @@ MonoBehaviour:
   - {fileID: 1571259504854154246}
   - {fileID: 4447638475694705930}
   - {fileID: 6614311092585082202}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &2379901866651900971 stripped
@@ -10429,6 +10902,19 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &8320271013096013584 stripped
@@ -10586,6 +11072,19 @@ MonoBehaviour:
   - {fileID: 4447638475694705930}
   - {fileID: 4447638475694705930}
   - {fileID: 4447638475694705930}
+  - {fileID: 9155613465935635574}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
   - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
@@ -10792,6 +11291,71 @@ PrefabInstance:
       propertyPath: destinationObjs.Array.data[7]
       value: 
       objectReference: {fileID: 6614311092585082202}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[0]
+      value: 
+      objectReference: {fileID: 2761461217605019120}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[1]
+      value: 
+      objectReference: {fileID: 5364521907571538792}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[2]
+      value: 
+      objectReference: {fileID: 1660914707726293012}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[3]
+      value: 
+      objectReference: {fileID: 6973900596544757961}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[4]
+      value: 
+      objectReference: {fileID: 8639038905727625911}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[5]
+      value: 
+      objectReference: {fileID: 2384574943806975552}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[6]
+      value: 
+      objectReference: {fileID: 8954602476519359388}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[7]
+      value: 
+      objectReference: {fileID: 1571259504854154246}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[8]
+      value: 
+      objectReference: {fileID: 4447638475694705930}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[9]
+      value: 
+      objectReference: {fileID: 6614311092585082202}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[10]
+      value: 
+      objectReference: {fileID: 267216601}
+    - target: {fileID: 7013094193186885860, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: allPossibleDestinationObjects.Array.data[11]
+      value: 
+      objectReference: {fileID: 9155613465935635574}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 327f6d54aca22984fa755e59c925abf8, type: 3}
 --- !u!4 &4947934688097054880 stripped
@@ -11129,6 +11693,19 @@ MonoBehaviour:
   - {fileID: 1571259504854154246}
   - {fileID: 4447638475694705930}
   - {fileID: 6614311092585082202}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &3474454567485729414 stripped
@@ -11289,6 +11866,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destinationObjs:
   - {fileID: 2761461217605019120}
+  allPossibleDestinationObjects: []
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &8561935200143046617 stripped
@@ -11464,6 +12042,19 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!1001 &8997680868279347385
@@ -11636,6 +12227,19 @@ MonoBehaviour:
   destinationObjs:
   - {fileID: 2761461217605019120}
   - {fileID: 267216601}
+  allPossibleDestinationObjects:
+  - {fileID: 2761461217605019120}
+  - {fileID: 5364521907571538792}
+  - {fileID: 1660914707726293012}
+  - {fileID: 6973900596544757961}
+  - {fileID: 8639038905727625911}
+  - {fileID: 2384574943806975552}
+  - {fileID: 8954602476519359388}
+  - {fileID: 1571259504854154246}
+  - {fileID: 4447638475694705930}
+  - {fileID: 6614311092585082202}
+  - {fileID: 267216601}
+  - {fileID: 9155613465935635574}
   audioDing: {fileID: 0}
   incorrectAudioDing: {fileID: 0}
 --- !u!4 &4836902418960908577 stripped

@@ -1734,11 +1734,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: floorplane
       objectReference: {fileID: 0}
-    - target: {fileID: 5552634480763150256, guid: 027978d8e3f63fa4d940721e48fc21ea,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8669616329548641389, guid: 027978d8e3f63fa4d940721e48fc21ea,
         type: 3}
       propertyPath: m_RootOrder
@@ -2527,11 +2522,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Set
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4836902417148114497, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
