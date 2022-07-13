@@ -1828,7 +1828,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4836902417148114497
 Transform:
   m_ObjectHideFlags: 0
@@ -1926,7 +1926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4836902418624538879
 Transform:
   m_ObjectHideFlags: 0
@@ -2315,6 +2315,7 @@ GameObject:
   - component: {fileID: 2309668909414996461}
   - component: {fileID: 8498775520427410900}
   - component: {fileID: 1507667293}
+  - component: {fileID: 2623571368968983985}
   m_Layer: 0
   m_Name: LegalPad
   m_TagString: Untagged
@@ -2449,6 +2450,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.020000001, y: 0.028084373, z: 0.00086784223}
   m_Center: {x: -0.000000014901161, y: 0.000000059604645, z: 0.00043596985}
+--- !u!114 &2623571368968983985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5580722953267094713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 1, b: 0.71046257, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &5587715984974257745
 GameObject:
   m_ObjectHideFlags: 0
@@ -9682,11 +9701,31 @@ PrefabInstance:
       propertyPath: rolloffCustomCurve.m_Curve.Array.data[1].outSlope
       value: -1.0841163
       objectReference: {fileID: 0}
+    - target: {fileID: 2184922596799931579, guid: d0134227919a00b4e9088270f04ae0e4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02595
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184922596799931579, guid: d0134227919a00b4e9088270f04ae0e4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.06323
+      objectReference: {fileID: 0}
+    - target: {fileID: 2184922596799931579, guid: d0134227919a00b4e9088270f04ae0e4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.00025
+      objectReference: {fileID: 0}
     - target: {fileID: 2719022049732644996, guid: d0134227919a00b4e9088270f04ae0e4,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.0032
       objectReference: {fileID: 0}
+    - target: {fileID: 8081795292072367052, guid: d0134227919a00b4e9088270f04ae0e4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: bbfee7b931d1ffd41bcf2a520eb637a3, type: 2}
     m_RemovedComponents:
     - {fileID: 1047307109264895311, guid: d0134227919a00b4e9088270f04ae0e4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d0134227919a00b4e9088270f04ae0e4, type: 3}
@@ -9731,6 +9770,48 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.07008483, y: 0.14368328, z: 0.006549459}
   m_Center: {x: 0, y: 0, z: -0.0004716526}
+--- !u!114 &326255847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5531757128734958080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0.024296915, g: 0.6106731, b: 0.735849, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!1 &7425505973104330005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3072680952945183140, guid: d0134227919a00b4e9088270f04ae0e4,
+    type: 3}
+  m_PrefabInstance: {fileID: 5595979114730540209}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1009738621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7425505973104330005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!1001 &5712323641130890683
 PrefabInstance:
   m_ObjectHideFlags: 0
