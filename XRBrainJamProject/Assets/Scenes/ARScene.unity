@@ -257,24 +257,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 414779236}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &258062387 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1298656614656671453, guid: d1e048fa5e7893946adbcd4cc35192be,
-    type: 3}
-  m_PrefabInstance: {fileID: 414779236}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &258062391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 258062387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 091d7ed21f83b8a4692443378497f900, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &278778983
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,11 +513,6 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1918025888}
-    - target: {fileID: 126783621509269198, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 126783621981390410, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: m_Name
@@ -646,21 +623,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3452140607540381882, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_fontColor.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6379378403243623210, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7077710238225025662, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7174168106190925979, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: phoneRingingObject
@@ -671,21 +633,6 @@ PrefabInstance:
       propertyPath: callHerAudio
       value: 
       objectReference: {fileID: 1368874960}
-    - target: {fileID: 8779771343683069129, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_fontColor.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8779771343683069129, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9155726203220387142, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
 --- !u!1 &414779237 stripped
@@ -946,24 +893,6 @@ Transform:
   m_Father: {fileID: 2006004984}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &521902547 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1054084206381484260, guid: d1e048fa5e7893946adbcd4cc35192be,
-    type: 3}
-  m_PrefabInstance: {fileID: 414779236}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &521902549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 521902547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 091d7ed21f83b8a4692443378497f900, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &622751217 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1485222462, guid: dea88764918e0ce4398f740e65c19652,
