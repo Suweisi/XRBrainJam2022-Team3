@@ -1271,6 +1271,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_PlayHelper_m05452A8911044189
 	_il2cpp_icall_func = (AudioSource_PlayHelper_m05452A8911044189CCCD983556E8A19A2F6747E1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)");
 	_il2cpp_icall_func(___source0, ___delay1);
 }
+// System.Single UnityEngine.AudioSource::get_time()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioSource_get_time_m130D08644F36736115FE082DAA2ED5E2C9D97A93 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) 
+{
+	typedef float (*AudioSource_get_time_m130D08644F36736115FE082DAA2ED5E2C9D97A93_ftn) (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299*);
+	static AudioSource_get_time_m130D08644F36736115FE082DAA2ED5E2C9D97A93_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (AudioSource_get_time_m130D08644F36736115FE082DAA2ED5E2C9D97A93_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.AudioSource::get_time()");
+	float icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
 // System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___value0, const RuntimeMethod* method) 
 {
