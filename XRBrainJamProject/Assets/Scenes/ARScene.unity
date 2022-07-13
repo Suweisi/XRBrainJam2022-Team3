@@ -251,6 +251,12 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &209329025 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7481870088713885002, guid: d1e048fa5e7893946adbcd4cc35192be,
+    type: 3}
+  m_PrefabInstance: {fileID: 414779236}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &326255845 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5531757128734958080, guid: dea88764918e0ce4398f740e65c19652,
@@ -397,10 +403,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 816155588}
     - target: {fileID: 518528936, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-      propertyPath: phoneRingingAudioObject
-      value: 
-      objectReference: {fileID: 703407583}
-    - target: {fileID: 518528936, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
       propertyPath: postChrisCallAudioObject
       value: 
       objectReference: {fileID: 743358853}
@@ -412,22 +414,6 @@ PrefabInstance:
       propertyPath: postAlexCallAudioGameObject
       value: 
       objectReference: {fileID: 505207885}
-    - target: {fileID: 661977501, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 661977494}
-    - target: {fileID: 661977501, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PressNote
-      objectReference: {fileID: 0}
-    - target: {fileID: 661977501, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: DebriefOneBehavior, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 661977501, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 693494043, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -441,25 +427,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1230695672}
     - target: {fileID: 720685180, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-      propertyPath: phoneCanvasUI
-      value: 
-      objectReference: {fileID: 1737261690}
-    - target: {fileID: 720685180, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-      propertyPath: panelReadyObject
-      value: 
-      objectReference: {fileID: 414779239}
-    - target: {fileID: 720685180, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
       propertyPath: phoneRingingAudio
       value: 
       objectReference: {fileID: 703407583}
-    - target: {fileID: 720685180, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-      propertyPath: alphaContainerPanelReady
-      value: 
-      objectReference: {fileID: 1005593972}
-    - target: {fileID: 760654987, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-      propertyPath: phone
-      value: 
-      objectReference: {fileID: 326255845}
     - target: {fileID: 760654987, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
       propertyPath: phoneRingingObj
       value: 
@@ -468,25 +438,6 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1918025888}
-    - target: {fileID: 1962829668, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnImReadyButtonPress
-      objectReference: {fileID: 0}
-    - target: {fileID: 126783620782891560, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 126783620782891562, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 126783621509269198, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 126783621981390410, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: m_Name
@@ -597,84 +548,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 126783622303280901, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 593085001967474300, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 926339636130391043, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1112936213}
-    - target: {fileID: 926339636130391043, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PressNo
-      objectReference: {fileID: 0}
-    - target: {fileID: 926339636130391043, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: DebriefSelectionBehavior, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1324869294792927954, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1666765302456435597, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3483466703031597446, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: phone
-      value: 
-      objectReference: {fileID: 326255845}
-    - target: {fileID: 3483466703031597446, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: wherePhoneAudio
-      value: 
-      objectReference: {fileID: 203905947}
-    - target: {fileID: 5117110905997055505, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1112936213}
-    - target: {fileID: 5117110905997055505, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PressYes
-      objectReference: {fileID: 0}
-    - target: {fileID: 5117110905997055505, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: DebriefSelectionBehavior, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 7174168106190925979, guid: d1e048fa5e7893946adbcd4cc35192be,
         type: 3}
       propertyPath: phoneRingingObject
       value: 
       objectReference: {fileID: 703407583}
-    - target: {fileID: 7986278590328897273, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: canvasPhoneUI
-      value: 
-      objectReference: {fileID: 1737261690}
-    - target: {fileID: 7986278590328897273, guid: d1e048fa5e7893946adbcd4cc35192be,
-        type: 3}
-      propertyPath: alphaContainer
-      value: 
-      objectReference: {fileID: 1126090016}
-    m_RemovedComponents:
-    - {fileID: 3483466703031597446, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
-    - {fileID: 7986278590328897273, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1e048fa5e7893946adbcd4cc35192be, type: 3}
 --- !u!1 &414779237 stripped
 GameObject:
@@ -1012,18 +891,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 414779236}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &661977494 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 661977500, guid: d1e048fa5e7893946adbcd4cc35192be,
-    type: 3}
-  m_PrefabInstance: {fileID: 414779236}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661977490}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95c52d6ea61f11841ad31239dce2ea22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &693494041 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 693494041, guid: d1e048fa5e7893946adbcd4cc35192be,
@@ -1438,12 +1305,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1645929288}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1005593972 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6842339904427409991, guid: d1e048fa5e7893946adbcd4cc35192be,
-    type: 3}
-  m_PrefabInstance: {fileID: 414779236}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1043993192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1731,18 +1592,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 414779236}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1112936213 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1112936218, guid: d1e048fa5e7893946adbcd4cc35192be,
-    type: 3}
-  m_PrefabInstance: {fileID: 414779236}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1112936211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 707396a7e95dbab4291074f014a4dccf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1122885769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,6 +1714,7 @@ MonoBehaviour:
   - {fileID: 414779237}
   - {fileID: 1067277158}
   - {fileID: 760654981}
+  - {fileID: 209329025}
   - {fileID: 622751217}
   - {fileID: 661977491}
   - {fileID: 661977490}
@@ -3027,20 +2877,6 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918025886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4581c9fcc3f2b484294ec63d312d53a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  endConditionReached: 0
-  onlyConditionIsActive: 0
---- !u!114 &1927048117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414779240}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4581c9fcc3f2b484294ec63d312d53a7, type: 3}
