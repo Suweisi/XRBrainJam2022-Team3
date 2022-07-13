@@ -23,8 +23,8 @@ public class PhaseThreeBehavior : MonoBehaviour
             Ray ray = arCamera.ScreenPointToRay(touch.position);
             if (touch.phase == TouchPhase.Began) {
                 if (Physics.Raycast(ray, out hit)) {
+                    Debug.Log(hit.collider.gameObject.name); 
                     if (hit.collider.gameObject == alexNote) {
-                        Debug.Log("got the note");
                         GetComponent<EventTransitioner>().endConditionReached = true; 
                         arStuff.SetActive(false); 
                         canvasPhoneUI.SetActive(true); 

@@ -21,8 +21,8 @@ public class PhoneCallAnsweredBehavior : MonoBehaviour
             //setObject.SetActive(true); 
             postChrisCallAudioObject.SetActive(true); 
             postChrisCallAudioObject.GetComponent<AudioSource>().Play(); 
-            gameObject.SetActive(false); 
             phoneUICanvas.SetActive(false);
+            gameObject.SetActive(false); 
         }
     }
 }
