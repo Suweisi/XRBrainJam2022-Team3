@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class AlexNoteBehavior : MonoBehaviour
 {
-    public void PressNote() {
-        GetComponent<EventTransitioner>().endConditionReached = true; 
-        gameObject.SetActive(false); 
+    [SerializeField]
+    GameObject callHerAudio; 
+
+    void Update() {
+        if (!GetComponent<AudioSource>().isPlaying) {
+            callHerAudio.SetActive(true); 
+            GetComponent<EventTransitioner>().endConditionReached = true; 
+        }
     }
 }
