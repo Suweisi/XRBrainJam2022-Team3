@@ -46,9 +46,9 @@ public class Destination : MonoBehaviour
 
     void OnCollisionEnter(Collision collision) {
         GameObject collidedObj = collision.gameObject; 
-        Debug.Log(collidedObj);
         foreach(var obj in destinationObjs) {
             if (obj == collidedObj) {
+                Debug.Log("yuh"); 
                 //play thats right audio here, dont turn off the obj, and set the counter in destman up 1
                 audioDing.GetComponent<AudioSource>().Play(); 
                 destManager.numOfObjectsPutAway+=1; 
@@ -59,7 +59,9 @@ public class Destination : MonoBehaviour
         }
         foreach(var collided in allPossibleDestinationObjects) {
             if (collidedObj == collided) { 
+                Debug.Log("if this is followed by a nuhh, no null ref"); 
                 incorrectAudioDing.GetComponent<AudioSource>().Play(); 
+                Debug.Log("nuhh"); 
             }  
         }
     }
