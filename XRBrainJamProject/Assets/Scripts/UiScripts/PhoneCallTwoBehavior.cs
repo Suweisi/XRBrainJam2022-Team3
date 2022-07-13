@@ -18,13 +18,12 @@ public class PhoneCallTwoBehavior : MonoBehaviour
 
     void Update() {
         if (!audioSource.isPlaying) {
-            //setObject.SetActive(true); 
-            gameObject.SetActive(false); 
-            postAlexCallAudioGameObject.SetActive(true); 
-            postAlexCallAudioGameObject.GetComponent<AudioSource>().Play(); 
-            GetComponent<EventTransitioner>().endConditionReached = true; 
+            //setObject.SetActive(true);  
             phoneUICanvas.SetActive(false);
-
+            postAlexCallAudioGameObject.SetActive(true); 
+            //postAlexCallAudioGameObject.GetComponent<AudioSource>().Play(); 
+            GetComponent<EventTransitioner>().endConditionReached = true; 
+            gameObject.SetActive(false);
         }
     }
 }
