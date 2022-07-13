@@ -9208,15 +9208,17 @@ IL_0028:
 		int32_t L_5 = __this->___numOfObjectsPutAway_4;
 		if ((!(((uint32_t)L_5) == ((uint32_t)3))))
 		{
-			goto IL_0037;
+			goto IL_003e;
 		}
 	}
 	{
 		// GetPhoneCallFromAlex();
 		DestinationManager_GetPhoneCallFromAlex_m27A99CAAF0BAD0D69A9BE3AFF39B9883C14CF53B(__this, NULL);
+		// phaseTwoStarted = true;
+		__this->___phaseTwoStarted_8 = (bool)1;
 	}
 
-IL_0037:
+IL_003e:
 	{
 		// lastInt = numOfObjectsPutAway;
 		int32_t L_6 = __this->___numOfObjectsPutAway_4;

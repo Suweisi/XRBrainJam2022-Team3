@@ -54,7 +54,8 @@ public class DestinationManager : MonoBehaviour
         }
         if (numOfObjectsPutAway == 3) {
             //might not have to set end condition... could keep going after throwing ui on the screen
-            GetPhoneCallFromAlex(); 
+            GetPhoneCallFromAlex();  
+            phaseTwoStarted = true; 
             // GetComponent<EventTransitioner>().endConditionReached = true; 
         
         // if (phaseTwoStarted && !phaseThreeStarted) {

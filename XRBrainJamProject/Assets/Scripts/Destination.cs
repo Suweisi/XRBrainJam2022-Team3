@@ -8,6 +8,8 @@ public class Destination : MonoBehaviour
     //take this thing's pos and make a radius around it 
     [SerializeField]
     GameObject[] destinationObjs; 
+    [SerializeField]
+    GameObject[] allPossibleDestinationObjects; 
 
     [System.NonSerialized]
     DestinationManager destManager; 
@@ -51,8 +53,13 @@ public class Destination : MonoBehaviour
                 audioDing.GetComponent<AudioSource>().Play(); 
                 destManager.numOfObjectsPutAway+=1; 
             } else {
-                //play thats not rigth audio here
-                incorrectAudioDing.GetComponent<AudioSource>().Play(); 
+                var objIsDestinationObj = false; 
+                foreach(var collided in allPossibleDestinationObjects) {
+                    if (collidedObj == collided) {
+                        objIsDestinationObj = true; 
+                        incorrectAudioDing.GetComponent<AudioSource>().Play(); 
+                    }  
+                }
             }
         }
     }
