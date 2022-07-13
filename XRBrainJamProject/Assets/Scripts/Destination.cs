@@ -44,6 +44,7 @@ public class Destination : MonoBehaviour
 
     void OnCollisionEnter(Collision collision) {
         GameObject collidedObj = collision.gameObject; 
+        Debug.Log(collidedObj);
         foreach(var obj in destinationObjs) {
             if (obj == collidedObj) {
                 //play thats right audio here, dont turn off the obj, and set the counter in destman up 1
