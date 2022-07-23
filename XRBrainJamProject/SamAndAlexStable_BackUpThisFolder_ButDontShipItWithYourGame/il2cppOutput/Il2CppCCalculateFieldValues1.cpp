@@ -17728,13 +17728,6 @@ struct Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146  : public MonoBehaviour
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___counterText_7;
 };
 
-// DebriefOneBehavior
-struct DebriefOneBehavior_t47316C3D7B2039F0674B8F28523DEDFF22588B08  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.GameObject DebriefOneBehavior::setObj
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___setObj_4;
-};
-
 // DebriefSelectionBehavior
 struct DebriefSelectionBehavior_tF5137F036CA365FC80424D2C69113486E68AEA7B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -22824,9 +22817,6 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4392[2] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4394[1] = 
 {
 	static_cast<int32_t>(offsetof(AlexNoteBehavior_tA855849E15006EDCC7848457694010058B52AF6C, ___callHerAudio_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4396[1] = 
-{
-	static_cast<int32_t>(offsetof(DebriefOneBehavior_t47316C3D7B2039F0674B8F28523DEDFF22588B08, ___setObj_4)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4397[2] = 
 {
 	static_cast<int32_t>(offsetof(DebriefSelectionBehavior_tF5137F036CA365FC80424D2C69113486E68AEA7B, ___yesPanel_4)),static_cast<int32_t>(offsetof(DebriefSelectionBehavior_tF5137F036CA365FC80424D2C69113486E68AEA7B, ___noPanel_5)),};

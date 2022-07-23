@@ -3334,8 +3334,6 @@ struct Counter_t42D6A6E220D075FE4BCDB1BC0AB7A278A8304146  : public MonoBehaviour
 // DebriefOneBehavior
 struct DebriefOneBehavior_t47316C3D7B2039F0674B8F28523DEDFF22588B08  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.GameObject DebriefOneBehavior::setObj
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___setObj_4;
 };
 
 // DebriefSelectionBehavior
@@ -11444,18 +11442,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AlexPhoneCallRingingBehavior__ctor_m672D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void DebriefOneBehavior::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebriefOneBehavior_Awake_m6954C702D657E0A4A1B0ECB48DC1736312D65424 (DebriefOneBehavior_t47316C3D7B2039F0674B8F28523DEDFF22588B08* __this, const RuntimeMethod* method) 
-{
-	{
-		// setObj.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___setObj_4;
-		NullCheck(L_0);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
-		// }
-		return;
-	}
-}
 // System.Void DebriefOneBehavior::PressNote()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebriefOneBehavior_PressNote_m2ECF4F77A457212F9266221193E729885F531CB3 (DebriefOneBehavior_t47316C3D7B2039F0674B8F28523DEDFF22588B08* __this, const RuntimeMethod* method) 
 {
