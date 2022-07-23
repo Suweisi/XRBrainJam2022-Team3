@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deba9f3a39c679543abd87ab2e718607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alexNote: {fileID: 470150975834881644}
+  alexNote: {fileID: 5580722953267094713}
   canvasPhoneUI: {fileID: 0}
   arStuff: {fileID: 0}
 --- !u!114 &622751220
@@ -1101,13 +1101,13 @@ Rigidbody:
   m_GameObject: {fileID: 3609791596552449666}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &1342466197254746972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1124,7 +1124,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &3036355958397740273
 MonoBehaviour:
@@ -1381,13 +1381,13 @@ Rigidbody:
   m_GameObject: {fileID: 4495480584642056061}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &1199981300098995680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1404,7 +1404,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &8061749094325854258
 MonoBehaviour:
@@ -1675,7 +1675,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4836902417148114497
 Transform:
   m_ObjectHideFlags: 0
@@ -2159,13 +2159,11 @@ GameObject:
   - component: {fileID: 8184939158857707942}
   - component: {fileID: 6229122072165287276}
   - component: {fileID: 7573440635111167216}
-  - component: {fileID: 2309668909414996461}
-  - component: {fileID: 8498775520427410900}
   - component: {fileID: 1507667293}
   - component: {fileID: 2623571368968983985}
   m_Layer: 0
   m_Name: LegalPad
-  m_TagString: Untagged
+  m_TagString: note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2244,47 +2242,13 @@ Rigidbody:
   m_GameObject: {fileID: 5580722953267094713}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
---- !u!114 &2309668909414996461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5580722953267094713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1477444c549ea604c844a344a0104b51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  normalMat: {fileID: 2100000, guid: 3ad0e3953c77b704b842c203a83615fb, type: 2}
-  movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
-  normalScale: {x: 1, y: 1, z: 1}
-  moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
-  destinationManagerObject: {fileID: 0}
---- !u!114 &8498775520427410900
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5580722953267094713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bae3adb9f77e8a4ba89630a4d3e4c39, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destinationObjs: []
-  allPossibleDestinationObjects: []
-  audioDing: {fileID: 0}
-  incorrectAudioDing: {fileID: 0}
+  m_CollisionDetection: 3
 --- !u!65 &1507667293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2844,13 +2808,13 @@ Rigidbody:
   m_GameObject: {fileID: 6612619608205368499}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &6612619608205368501
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2880,7 +2844,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &494557972
 MonoBehaviour:
@@ -3388,13 +3352,13 @@ Rigidbody:
   m_GameObject: {fileID: 7126249902891373437}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &3985674552273776794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3411,7 +3375,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &5203932891804352181
 MonoBehaviour:
@@ -3933,13 +3897,13 @@ Rigidbody:
   m_GameObject: {fileID: 8212276291836121117}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &8843958519296248488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3956,7 +3920,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &868010772
 MonoBehaviour:
@@ -4631,13 +4595,13 @@ Rigidbody:
   m_GameObject: {fileID: 9183078535537297661}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!114 &9183078535537297662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4654,7 +4618,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &1755542404
 MonoBehaviour:
@@ -4774,13 +4738,13 @@ Rigidbody:
   m_GameObject: {fileID: 112244446}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &2298126119630461551
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4848,7 +4812,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!4 &112714860 stripped
 Transform:
@@ -4946,13 +4910,13 @@ Rigidbody:
   m_GameObject: {fileID: 1884156874581771}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &1541561693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5018,7 +4982,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!4 &4527064594304145 stripped
 Transform:
@@ -5040,8 +5004,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4822026951855412968, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822026951855412968, guid: 5b643079ca008f94882fb8e4d08bd04e,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822026951855412968, guid: 5b643079ca008f94882fb8e4d08bd04e,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822026951855412968, guid: 5b643079ca008f94882fb8e4d08bd04e,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4822026951855412969, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
@@ -5086,7 +5065,7 @@ PrefabInstance:
     - target: {fileID: 4822026951855412969, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 4822026951970068418, guid: 5b643079ca008f94882fb8e4d08bd04e,
         type: 3}
@@ -5217,13 +5196,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -5268,7 +5262,7 @@ PrefabInstance:
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 8443317652548046560, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -5500,7 +5494,7 @@ PrefabInstance:
     - target: {fileID: 6747562565537015896, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537015896, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
@@ -5514,13 +5508,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537016231, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
@@ -5726,13 +5735,13 @@ Rigidbody:
   m_GameObject: {fileID: 366268475761811626}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &389368359707277049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5800,7 +5809,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &513142637193757271
 PrefabInstance:
@@ -5852,7 +5861,7 @@ PrefabInstance:
     - target: {fileID: 2029589136137198049, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 2029589136137198050, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
@@ -5861,13 +5870,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2029589136137198051, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029589136137198051, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2029589136137198051, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029589136137198051, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029589136137198051, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4917699473255116487, guid: 9b52e1789b8ce5441b72056b9e1fcc58,
         type: 3}
@@ -6124,6 +6148,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5133321214354018494}
     m_Modifications:
+    - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: distFromCamera
+      value: 0.65
+      objectReference: {fileID: 0}
     - target: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: m_RootOrder
@@ -6183,6 +6212,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: paper_flat (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5918527803402349935, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -6358,13 +6402,13 @@ Rigidbody:
   m_GameObject: {fileID: 1838081491138438295}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &1018410556467229665
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6430,7 +6474,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!4 &1843249427049336589 stripped
 Transform:
@@ -6527,13 +6571,13 @@ Rigidbody:
   m_GameObject: {fileID: 1875198215405101013}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &7910035841192097221
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6601,7 +6645,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!4 &1875198215405276519 stripped
 Transform:
@@ -6616,6 +6660,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5133321214354018494}
     m_Modifications:
+    - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: distFromCamera
+      value: 0.65
+      objectReference: {fileID: 0}
     - target: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: m_RootOrder
@@ -6675,6 +6724,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: paper_flat (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5918527803402349935, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -6885,7 +6949,7 @@ PrefabInstance:
     - target: {fileID: 6747562565537015896, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537015897, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
@@ -6894,13 +6958,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8390172941717547311, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
@@ -6965,13 +7044,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
@@ -7016,7 +7110,7 @@ PrefabInstance:
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448455, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
@@ -7182,7 +7276,7 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -7246,8 +7340,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5918527803402349935, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -7411,7 +7520,7 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -7475,8 +7584,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5918527803402349935, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -7746,13 +7870,13 @@ Rigidbody:
   m_GameObject: {fileID: 2582109819351253169}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &8836074351595463461
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7820,7 +7944,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &2621044615861436548
 PrefabInstance:
@@ -7942,13 +8066,13 @@ Rigidbody:
   m_GameObject: {fileID: 2619367644929555948}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &3229871255906642054
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7978,7 +8102,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &4971040700870373889
 MonoBehaviour:
@@ -8123,13 +8247,13 @@ Rigidbody:
   m_GameObject: {fileID: 2665409444408033692}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &8287487823114872620
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8176,7 +8300,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &2929971824615636785
 PrefabInstance:
@@ -8228,12 +8352,27 @@ PrefabInstance:
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795694, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -8512,13 +8651,13 @@ Rigidbody:
   m_GameObject: {fileID: 2960389265450557178}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &6939266156298673155
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8548,7 +8687,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &3561932927045288619
 MonoBehaviour:
@@ -8702,13 +8841,13 @@ Rigidbody:
   m_GameObject: {fileID: 3102767870367495834}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &393438388530158564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8738,7 +8877,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &4168754763853328792
 MonoBehaviour:
@@ -8885,13 +9024,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -8936,7 +9090,7 @@ PrefabInstance:
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 8443317652548046560, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -9278,13 +9432,13 @@ Rigidbody:
   m_GameObject: {fileID: 4673232910632614469}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &734487089029851897
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9314,7 +9468,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &4687190112005999893
 PrefabInstance:
@@ -9521,13 +9675,13 @@ Rigidbody:
   m_GameObject: {fileID: 4838607426111688052}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &7406246788799531442
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9595,7 +9749,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!4 &4841430894114965884 stripped
 Transform:
@@ -9723,13 +9877,13 @@ Rigidbody:
   m_GameObject: {fileID: 4962409171674954853}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &3867575759108714162
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9797,7 +9951,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!1001 &5364521907903745568
 PrefabInstance:
@@ -9994,13 +10148,13 @@ Rigidbody:
   m_GameObject: {fileID: 5387578980525081094}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &9112210876839510337
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10030,7 +10184,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &4745748983676080292
 MonoBehaviour:
@@ -10206,13 +10360,13 @@ Rigidbody:
   m_GameObject: {fileID: 5531757128734958080}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &4162009303033651440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10373,13 +10527,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
@@ -10424,7 +10593,7 @@ PrefabInstance:
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
@@ -10547,6 +10716,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4836902417142801406}
     m_Modifications:
+    - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: distFromCamera
+      value: 0.65
+      objectReference: {fileID: 0}
     - target: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: m_RootOrder
@@ -10606,6 +10780,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: paper_flat (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5918527803402349935, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -10870,7 +11059,12 @@ PrefabInstance:
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
+        type: 3}
+      propertyPath: m_Drag
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
@@ -10879,8 +11073,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936575, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
@@ -10981,12 +11185,27 @@ PrefabInstance:
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795694, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -11260,7 +11479,7 @@ PrefabInstance:
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936572, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
@@ -11269,13 +11488,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065578367459936574, guid: 42e6d8a153f68b9409bcadf7ebed804a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5065578367459936575, guid: 42e6d8a153f68b9409bcadf7ebed804a,
         type: 3}
@@ -11450,13 +11684,13 @@ Rigidbody:
   m_GameObject: {fileID: 7470255648326533562}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &7944770588645910620
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11486,7 +11720,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &9173612553815803897
 MonoBehaviour:
@@ -11587,7 +11821,7 @@ PrefabInstance:
     - target: {fileID: 1958724463701701891, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 2550745007678592027, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -11651,8 +11885,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 5918527803402349928, guid: 327f6d54aca22984fa755e59c925abf8,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5918527803402349935, guid: 327f6d54aca22984fa755e59c925abf8,
         type: 3}
@@ -11816,13 +12065,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353838973105448452, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
@@ -11867,7 +12131,7 @@ PrefabInstance:
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 2353838973105448454, guid: 34953b5586ff47b40a8dcfb0b9cd3d1a,
         type: 3}
@@ -11993,12 +12257,27 @@ PrefabInstance:
     - target: {fileID: 4934799703830795680, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934799703830795681, guid: 0a569920aece26d4ab912bb174e714fb,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4934799703830795694, guid: 0a569920aece26d4ab912bb174e714fb,
         type: 3}
@@ -12271,13 +12550,13 @@ Rigidbody:
   m_GameObject: {fileID: 8557968343122260945}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 4
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &1869699537027523691
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12307,7 +12586,7 @@ MonoBehaviour:
   movingMat: {fileID: 2100000, guid: cdcd569231582a8439f2f4da18d4cf55, type: 2}
   normalScale: {x: 1, y: 1, z: 1}
   moveScale: {x: 0.3, y: 0.3, z: 0.3}
-  distFromCamera: 0.5
+  distFromCamera: 0.65
   destinationManagerObject: {fileID: 0}
 --- !u!114 &5165898012657902599
 MonoBehaviour:
@@ -12351,13 +12630,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 601480064788550477, guid: d93018da0ae839241a36b127570f41cf,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -12402,7 +12696,7 @@ PrefabInstance:
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 601480064788550479, guid: d93018da0ae839241a36b127570f41cf,
         type: 3}
@@ -12639,7 +12933,7 @@ PrefabInstance:
     - target: {fileID: 6747562565537015896, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
       propertyPath: distFromCamera
-      value: 0.5
+      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537015897, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
@@ -12648,13 +12942,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
+      propertyPath: m_Drag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
       propertyPath: m_UseGravity
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
+      propertyPath: m_AngularDrag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
       propertyPath: m_Constraints
       value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747562565537016230, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8390172941717547311, guid: 280d15c68ac5d054b9d7d195dd00c8d6,
         type: 3}
