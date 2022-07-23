@@ -1823,21 +1823,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: floorplane
       objectReference: {fileID: 0}
-    - target: {fileID: 5552634480763150256, guid: 027978d8e3f63fa4d940721e48fc21ea,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6407884263710445169, guid: 027978d8e3f63fa4d940721e48fc21ea,
-        type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7292494302560953240, guid: 027978d8e3f63fa4d940721e48fc21ea,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8669616329548641389, guid: 027978d8e3f63fa4d940721e48fc21ea,
         type: 3}
       propertyPath: m_RootOrder
@@ -1893,8 +1878,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 6407884263710445169, guid: 027978d8e3f63fa4d940721e48fc21ea, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 027978d8e3f63fa4d940721e48fc21ea, type: 3}
 --- !u!1 &1172318335 stripped
 GameObject:
@@ -1969,12 +1953,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endConditionReached: 0
   onlyConditionIsActive: 0
---- !u!1 &1203924345 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5580722953267094713, guid: dea88764918e0ce4398f740e65c19652,
-    type: 3}
-  m_PrefabInstance: {fileID: 1645929288}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1230695671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2553,11 +2531,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasAR
       objectReference: {fileID: 0}
-    - target: {fileID: 5507220568519599874, guid: 9e0fa4c7c08292641963cded866a01f0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e0fa4c7c08292641963cded866a01f0, type: 3}
 --- !u!1 &1602493487 stripped
@@ -2616,10 +2589,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1043993192}
     - target: {fileID: 622751219, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: alexNote
-      value: 
-      objectReference: {fileID: 1203924345}
-    - target: {fileID: 622751219, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: canvasPhoneUI
       value: 
       objectReference: {fileID: 1737261690}
@@ -2660,25 +2629,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348371569}
     - target: {fileID: 1383813631, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1383813631, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1383813632, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1383813632, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1383813632, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1541561690, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
@@ -2688,25 +2641,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348371569}
     - target: {fileID: 1541561691, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1541561691, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1541561692, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1541561692, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1541561692, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1688990567, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
@@ -2716,25 +2653,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 348371569}
     - target: {fileID: 1688990568, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1688990568, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1688990569, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1688990569, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1688990569, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 1755542404, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
@@ -2751,21 +2672,6 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
-    - target: {fileID: 163687066065973334, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 163687066065973334, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 163687066065973334, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 167109502482329603, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -2778,54 +2684,14 @@ PrefabInstance:
       objectReference: {fileID: 348371569}
     - target: {fileID: 315967273532639083, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 315967273532639083, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
     - target: {fileID: 321838817947611389, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 321838817947611389, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 455320960901798711, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 455320960901798711, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 455320960901798711, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 472558292206400777, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 472558292206400777, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 472558292206400777, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 477114863463789663, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -2838,29 +2704,9 @@ PrefabInstance:
       objectReference: {fileID: 348371569}
     - target: {fileID: 552746797437355616, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 552746797437355616, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 559877625897261735, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 559877625897261735, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 559877625897261735, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 645071504297792036, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -2871,26 +2717,6 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
-    - target: {fileID: 750267627618520937, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 750267627618520937, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 750267627618520937, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 750267627618520939, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 750267627618520939, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -2898,44 +2724,14 @@ PrefabInstance:
       objectReference: {fileID: 1067277158}
     - target: {fileID: 1148479821715547192, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1148479821715547192, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
     - target: {fileID: 1199981300098995680, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1199981300098995680, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1267232120190870412, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267232120190870412, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267232120190870412, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267232120190870414, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 1267232120190870414, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -2943,29 +2739,14 @@ PrefabInstance:
       objectReference: {fileID: 1067277158}
     - target: {fileID: 1306411947729278112, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1306411947729278112, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
     - target: {fileID: 1342466197254746972, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1342466197254746972, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1415176256832973857, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 1415176256832973857, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -2983,34 +2764,9 @@ PrefabInstance:
       objectReference: {fileID: 348371569}
     - target: {fileID: 1719071010164716246, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1719071010164716246, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 1960614029373840308, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960614029373840308, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960614029373840308, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1960614029373840310, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 1960614029373840310, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -3018,89 +2774,24 @@ PrefabInstance:
       objectReference: {fileID: 1067277158}
     - target: {fileID: 1986520717819092869, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1986520717819092869, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
     - target: {fileID: 1988335297343894215, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 1988335297343894215, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 2055748041248944298, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2055748041248944298, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2055748041248944298, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 2272810239562065405, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 2272810239562065405, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: destinationManagerObject
-      value: 
-      objectReference: {fileID: 1067277158}
-    - target: {fileID: 2309668909414996461, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2309668909414996461, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
     - target: {fileID: 2379901866651900964, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 2379901866651900964, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 2379901866651900965, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2379901866651900965, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2379901866651900965, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2410142485910467382, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 2410142485910467382, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -3108,49 +2799,9 @@ PrefabInstance:
       objectReference: {fileID: 1067277158}
     - target: {fileID: 2412248748673515745, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 2412248748673515745, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 2412248748673515807, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2412248748673515807, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2412248748673515807, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432427164748272513, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432427164748272513, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432427164748272513, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2432427164748272515, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 2432427164748272515, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -3168,11 +2819,6 @@ PrefabInstance:
       objectReference: {fileID: 348371569}
     - target: {fileID: 2851665270970791419, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 2851665270970791419, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
@@ -3186,41 +2832,6 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
-    - target: {fileID: 3213588035753054115, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3213588035753054115, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3213588035753054115, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474454567485729416, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474454567485729416, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474454567485729416, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3474454567485729417, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 3474454567485729417, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -3266,51 +2877,11 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
-    - target: {fileID: 3869980620413212473, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869980620413212473, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3869980620413212473, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886145637884021203, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886145637884021203, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886145637884021203, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3985674552273776794, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 3985674552273776794, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 4109963789354728031, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 4109963789354728031, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -3338,11 +2909,6 @@ PrefabInstance:
       objectReference: {fileID: 348371569}
     - target: {fileID: 4253944399102021767, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 4253944399102021767, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
@@ -3356,66 +2922,11 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
-    - target: {fileID: 4491341560294157920, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491341560294157920, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491341560294157920, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4491341560294157922, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 4491341560294157922, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 4518526864440451192, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518526864440451192, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518526864440451192, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4537801634769472401, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4537801634769472401, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4537801634769472401, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4537801634769472403, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 4537801634769472403, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -3451,30 +2962,10 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
-    - target: {fileID: 4778595288735684368, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4778595288735684368, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4778595288735684368, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: m_Name
       value: Set
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4836902417148114497, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
@@ -3533,89 +3024,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4836902417315657308, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836902417315657308, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 4836902417315657309, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836902417315657309, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4836902417315657309, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4863075587008999965, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 4863075587008999965, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 4867998988337977344, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867998988337977344, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867998988337977344, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4867998988337977854, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5075658324460037093, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5075658324460037093, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5075658324460037093, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5115003376510205011, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5115003376510205011, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5115003376510205011, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5203932891804352181, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -3628,84 +3044,9 @@ PrefabInstance:
       objectReference: {fileID: 348371569}
     - target: {fileID: 5217699596229120512, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5217699596229120512, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 5477260226783705191, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5477260226783705191, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5477260226783705191, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5579562635706277632, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5579562635706277632, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5579562635706277632, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5580722953267094713, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_TagString
-      value: note
-      objectReference: {fileID: 0}
-    - target: {fileID: 5667740965023145483, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5667740965023145483, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5667740965023145483, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5668634631491715352, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5668634631491715352, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5668634631491715352, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5668634631491715354, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 5668634631491715354, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -3713,39 +3054,14 @@ PrefabInstance:
       objectReference: {fileID: 1067277158}
     - target: {fileID: 5677079338375496396, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5677079338375496396, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
     - target: {fileID: 5757888315292673168, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5757888315292673168, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 5921346970299447235, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921346970299447235, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5921346970299447235, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5995062124165642189, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
@@ -3766,115 +3082,20 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
-    - target: {fileID: 6185227570188836277, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6185227570188836277, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6185227570188836277, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431031301085239852, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 6431031301085239852, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 6431031301085240274, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431031301085240274, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6431031301085240274, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6546597590972153108, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6546597590972153108, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6546597590972153108, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6612619608205368500, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 6612619608205368500, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 6612619608205368502, guid: dea88764918e0ce4398f740e65c19652,
+    - target: {fileID: 6791494822932168045, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6612619608205368502, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6612619608205368502, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6674699175805702950, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6674699175805702950, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6674699175805702950, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7001955824768739462, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7001955824768739462, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7001955824768739462, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
+      propertyPath: m_Name
+      value: AmbientNoise
       objectReference: {fileID: 0}
     - target: {fileID: 7386262336760064793, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
@@ -3886,41 +3107,6 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
-    - target: {fileID: 7573440635111167216, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7573440635111167216, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7573440635111167216, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7841532170686933648, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7841532170686933648, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7841532170686933648, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7841532170686933649, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 7841532170686933649, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -3936,96 +3122,16 @@ PrefabInstance:
       propertyPath: incorrectAudioDing
       value: 
       objectReference: {fileID: 348371569}
-    - target: {fileID: 8215999264147523820, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8215999264147523820, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8215999264147523820, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8265362445148911313, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 8265362445148911313, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 8265362445148911315, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8265362445148911315, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8265362445148911315, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8498775520427410900, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8647776378265782959, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8647776378265782959, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8647776378265782959, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8843958519296248488, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 8843958519296248488, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 8843958519296248489, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8843958519296248489, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8843958519296248489, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8998826432345772472, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 8998826432345772472, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
@@ -4043,72 +3149,15 @@ PrefabInstance:
       objectReference: {fileID: 348371569}
     - target: {fileID: 9183078535537297662, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 9183078535537297662, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 9183078535537297663, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 9183078535537297663, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9183078535537297663, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9196321765902790096, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 9196321765902790096, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9196321765902790096, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9201125235803769884, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: distFromCamera
-      value: 0.65
-      objectReference: {fileID: 0}
     - target: {fileID: 9201125235803769884, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 9201125235803769886, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Drag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 9201125235803769886, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9201125235803769886, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_CollisionDetection
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2309668909414996461, guid: dea88764918e0ce4398f740e65c19652, type: 3}
-    - {fileID: 8498775520427410900, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dea88764918e0ce4398f740e65c19652, type: 3}
 --- !u!1 &1659859597
 GameObject:
