@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3708985, g: 0.3783704, b: 0.35722548, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1002,7 +1002,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 703407583}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0, z: 2.925}
+  m_LocalPosition: {x: 0.016, y: 0, z: 2.478}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1029,8 +1029,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 0.6329341
-  MaxDistance: 2.6
+  MinDistance: 0.75709045
+  MaxDistance: 2.1389954
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -1040,22 +1040,22 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.0035209656
-      value: 0.994812
-      inSlope: -2.4759948
-      outSlope: -2.4759948
+      time: 0.14173317
+      value: 0.9151001
+      inSlope: -1.0980713
+      outSlope: -1.0980713
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.10247365
+      outWeight: 0.15903714
     - serializedVersion: 3
       time: 1
-      value: 0.05708313
-      inSlope: 0
-      outSlope: 0
+      value: 0.061080933
+      inSlope: -0.36114714
+      outSlope: -0.36114714
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
+      inWeight: 0.29154783
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -1064,8 +1064,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 1
+      time: 0.42276382
+      value: 0.8565216
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1094,8 +1094,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.010562897
-      value: 0.989624
+      time: 0.056632996
+      value: 0.9936104
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1823,6 +1823,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: floorplane
       objectReference: {fileID: 0}
+    - target: {fileID: 5552634480763150256, guid: 027978d8e3f63fa4d940721e48fc21ea,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8669616329548641389, guid: 027978d8e3f63fa4d940721e48fc21ea,
         type: 3}
       propertyPath: m_RootOrder
@@ -2048,6 +2053,7 @@ GameObject:
   - component: {fileID: 1354141928}
   - component: {fileID: 1354141927}
   - component: {fileID: 1354141931}
+  - component: {fileID: 1354141932}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: Untagged
@@ -2179,6 +2185,14 @@ MonoBehaviour:
   m_EnvironmentDepthMode: 1
   m_EnvironmentDepthTemporalSmoothing: 1
   m_OcclusionPreferenceMode: 0
+--- !u!81 &1354141932
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354141925}
+  m_Enabled: 1
 --- !u!1 &1368874960
 GameObject:
   m_ObjectHideFlags: 0
@@ -2632,6 +2646,10 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
+    - target: {fileID: 1485222462, guid: dea88764918e0ce4398f740e65c19652, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1541561690, guid: dea88764918e0ce4398f740e65c19652, type: 3}
       propertyPath: audioDing
       value: 
@@ -2967,6 +2985,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Set
       objectReference: {fileID: 0}
+    - target: {fileID: 4836902417148114496, guid: dea88764918e0ce4398f740e65c19652,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4836902417148114497, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: m_RootOrder
@@ -3092,11 +3115,6 @@ PrefabInstance:
       propertyPath: destinationManagerObject
       value: 
       objectReference: {fileID: 1067277158}
-    - target: {fileID: 6791494822932168045, guid: dea88764918e0ce4398f740e65c19652,
-        type: 3}
-      propertyPath: m_Name
-      value: AmbientNoise
-      objectReference: {fileID: 0}
     - target: {fileID: 7386262336760064793, guid: dea88764918e0ce4398f740e65c19652,
         type: 3}
       propertyPath: audioDing
